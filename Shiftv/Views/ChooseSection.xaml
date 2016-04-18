@@ -1,0 +1,241 @@
+﻿<Page
+    x:Class="Shiftv.Views.ChooseSection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:Shiftv.ViewModels"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <viewModels:ChooseSectionViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.Resources>
+            <Style x:Key="EntranceStyle" TargetType="Grid">
+                <Setter Property="Transitions">
+                    <Setter.Value>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromHorizontalOffset="200"/>
+                        </TransitionCollection>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Style="{StaticResource EntranceStyle}" PointerEntered="Shows_OnTapped" PointerExited="Shows_OnExit" Tapped="TvShowsTapped">
+        <Grid.Resources>
+                
+                <!-- Theme animations like this can use the default behavior like
+             this example or you could use properties like BeginTime and 
+             Duration to tweak when and how quickly the animation occures. 
+             If you want more control over a fade animation (e.g. just partial
+             fade), you will need to use DoubleAnimation to animate the Opacity 
+             property of the element you want to fade in or out. -->
+            <Storyboard x:Name="FadeOut1">
+                <DoubleAnimation
+          Storyboard.TargetName="Name1"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeIn1">
+                <DoubleAnimation
+          Storyboard.TargetName="Name1"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeOut2">
+                <DoubleAnimation
+          Storyboard.TargetName="Name2"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeIn2">
+                <DoubleAnimation
+          Storyboard.TargetName="Name2"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeOut3">
+                <DoubleAnimation
+          Storyboard.TargetName="Name3"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeIn3">
+                <DoubleAnimation
+          Storyboard.TargetName="Name3"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeOut4">
+                <DoubleAnimation
+          Storyboard.TargetName="Name4"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeIn4">
+                <DoubleAnimation
+          Storyboard.TargetName="Name4"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeOut5">
+                <DoubleAnimation
+          Storyboard.TargetName="Name5"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+            </Storyboard>
+            <Storyboard x:Name="FadeIn5">
+                <DoubleAnimation
+          Storyboard.TargetName="Name5"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+            </Storyboard>
+
+        </Grid.Resources>
+            <Grid Background="White" Opacity="0.3" x:Name="HoverShows" Visibility="Collapsed"></Grid>
+            <Image Source="{Binding ImageShow1, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name5" Opacity="0" />
+            <Image Source="{Binding ImageShow2, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name4" Opacity="0" />
+            <Image Source="{Binding ImageShow3, UpdateSourceTrigger=PropertyChanged}"   HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name3" Opacity="0" />
+            <Image Source="{Binding ImageShow4, UpdateSourceTrigger=PropertyChanged}"   HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name2" Opacity="0" />
+            <Image Source="{Binding ImageShow5, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name1" Opacity="0.5" />
+            <Grid Background="{StaticResource ShiftvDarkGreen}"  HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 0 150">
+                <TextBlock Margin="20 10 20 18"  FontWeight="Light" FontSize="60" Text="{Binding [TvShows_Upper], Source={StaticResource Localized}}" Style="{StaticResource SeriePageTitle}"></TextBlock>
+            </Grid>
+            <Grid Width="5" Background="{StaticResource ShiftvDarkGreen}" HorizontalAlignment="Right"></Grid>
+            <ProgressRing IsActive="{Binding IsLoadingData}" Foreground="White" Height="50" Width="50" VerticalAlignment="Center" HorizontalAlignment="Center"></ProgressRing>
+        </Grid>
+        <Grid Grid.Column="1" Style="{StaticResource EntranceStyle}" PointerEntered="Movies_OnTapped" Tapped="TvMoviesTapped" PointerExited="Movies_OnExit">
+            <Grid.Resources>
+                <Storyboard x:Name="FadeOut6">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name6"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn6">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name6"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut7">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name7"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn7">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name7"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut8">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name8"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn8">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name8"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut9">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name9"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn9">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name9"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut10">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name10"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:2"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn10">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name10"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:2"
+          />
+                </Storyboard>
+
+            </Grid.Resources>
+            <Grid Background="White" Opacity="0.3" x:Name="HoverMovies" Visibility="Collapsed"></Grid>
+            <Image Source="{Binding ImageMovie1, UpdateSourceTrigger=PropertyChanged }"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name10" Opacity="0" />
+            <Image Source="{Binding ImageMovie2, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name9" Opacity="0" />
+            <Image Source="{Binding ImageMovie3, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name8" Opacity="0" />
+            <Image Source="{Binding ImageMovie4, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name7" Opacity="0" />
+            <Image Source="{Binding ImageMovie5, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Center"
+               VerticalAlignment="Center" Stretch="UniformToFill" x:Name="Name6" Opacity="0.5" />
+            <Grid Background="{StaticResource ShiftvLightGreen}"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0 150 0 0">
+                <TextBlock Margin="20 10 20 18"  FontWeight="Light" FontSize="60" Foreground="{StaticResource BackgroundColorAlmostBlack}" Text="{Binding [Cinema_Upper], Source={StaticResource Localized}}" Style="{StaticResource SeriePageTitle}"></TextBlock>
+            </Grid>
+            <Grid  Width="5" Background="{StaticResource ShiftvLightGreen}"  HorizontalAlignment="Left"></Grid>
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,15,10">
+                <Grid Width="100" Height="100">
+                    <!--<Image Visibility="{Binding LoggedUser.IsGold, Converter={StaticResource BooleanToVisibility}}" Source="ms-appx:///Assets/goldUser.png" Width="25" VerticalAlignment="Top" Margin="0 0 0 0" HorizontalAlignment="Left"></Image>
+                    <Image Visibility="{Binding LoggedUser.IsSilver, Converter={StaticResource BooleanToVisibility}}" Source="ms-appx:///Assets/silverUser.png" Width="25" VerticalAlignment="Top" Margin="0 0 0 0" HorizontalAlignment="Left"></Image>-->
+                    <Ellipse Height="90" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="{Binding UserAvatar}" AlignmentX="Center" AlignmentY="Center" />
+                        </Ellipse.Fill>
+                    </Ellipse></Grid>
+                <Image Source="ms-appx:///Assets/logonoback.png" Stretch="None" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,10,0,0"></Image>
+            </StackPanel>
+        </Grid>
+
+        <handlers:InternetConnectionHandler Grid.ColumnSpan="2" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+    </Grid>
+
+</Page>

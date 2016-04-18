@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="6560AmiguinhoDesign.Shiftv" Publisher="CN=1C7BA0C1-1B96-4C36-8408-6AC8C695A839" Version="1.4.0.0" />
+  <Properties>
+    <DisplayName>Shiftv</DisplayName>
+    <PublisherDisplayName>devBuddies</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Shiftv.App">
+      <m2:VisualElements DisplayName="Shiftv" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Shiftv" ForegroundText="light" BackgroundColor="#282828" ToastCapable="true">
+        <m2:DefaultTile Square310x310Logo="Assets\Logo\logo310.png" Wide310x150Logo="Assets\Logo\logo310150.png" Square70x70Logo="Assets\Logo\logo70.png" DefaultSize="wide310x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.jpg" BackgroundColor="#282828" />
+      </m2:VisualElements>
+      <Extensions>
+        <Extension Category="windows.protocol" EntryPoint="shiftv">
+          <Protocol Name="shiftv" />
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>

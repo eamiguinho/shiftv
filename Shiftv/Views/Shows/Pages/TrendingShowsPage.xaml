@@ -1,0 +1,77 @@
+﻿<Page
+    x:Name="PageRoot"
+    x:Class="Shiftv.Views.Shows.Pages.TrendingShowsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:home="using:Shiftv.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:appBar="using:Shiftv.Views.AppBar"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    xmlns:helpers="using:Shiftv.Helpers"
+    xmlns:pages="using:Shiftv.ViewModels.Shows.Pages"
+    
+    mc:Ignorable="d" SizeChanged="pageRoot_SizeChanged">
+    <Page.DataContext>
+        <pages:TrendingShowsPageViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Page.TopAppBar>
+        <AppBar IsOpen="{Binding IsAppBarOpen, Mode=TwoWay}">
+            <appBar:MainTopAppBar></appBar:MainTopAppBar>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="{StaticResource BackgroundColorNearBlack}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" >
+            <GridView x:Name="ListView"  
+          ItemsPanel="{StaticResource VariableSizedItemTemplate}" IsSwipeEnabled="False" IsItemClickEnabled="True" 
+          ItemContainerStyleSelector="{StaticResource VariableSizedStyleSelector}" ItemsSource="{Binding TrendingShows}" SelectionMode="None" Grid.RowSpan="2" ItemTemplate="{StaticResource TvShowGridItemTemplate}" helpers:GridViewItemClickCommand.Command="{Binding ShowClicked}">
+            </GridView>
+            <handlers:ErrorLoadingData Visibility="{Binding ErrorGettingData, Converter={StaticResource BooleanToVisibility}}"/>
+            <handlers:NoDataPage Visibility="{Binding NoDataAvailable, Converter={StaticResource BooleanToVisibility}}"/>
+        </Grid>
+        <appBar:PubControl Visibility="{Binding IsToShowAds, Converter={StaticResource BooleanToVisibility}}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0 0 0 20" x:Name="PyControl"></appBar:PubControl>
+
+        <ProgressBar Background="{StaticResource ShiftvDarkGreen}" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding IsDataLoaded, Converter={StaticResource BooleanNotToVisibility}}"></ProgressBar>
+
+        <Grid Grid.Row="0" VerticalAlignment="Top" Margin="0 20 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="39,40,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=PageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <StackPanel Opacity="0.8" Grid.Column="1" MinWidth="300" Orientation="Horizontal" Height="93"  Background="{StaticResource ShiftvDarkGreen}" Margin="0 15 0 0" HorizontalAlignment="Left">
+                <TextBlock HorizontalAlignment="Left" Style="{StaticResource SeriePageTitle}" Margin="20 5 40 10" Text="{Binding [Trending_Upper], Source={StaticResource Localized}}"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <appBar:TopAppBarToggle></appBar:TopAppBarToggle>
+        <handlers:InternetConnectionHandler VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <!--<appBar:LeftMenusOverlayControl></appBar:LeftMenusOverlayControl>-->
+        <appBar:UserDisplayControl Margin="0 0 0 0" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <appBar:RemovePubControl Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                      />
+        <appBar:RateAndReviewControl2 Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <appBar:SoundClouderPub Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>

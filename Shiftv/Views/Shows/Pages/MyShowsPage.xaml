@@ -1,0 +1,123 @@
+﻿<Page
+    x:Name="PageRoot"
+    x:Class="Shiftv.Views.Shows.Pages.MyShowsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:shows="using:Shiftv.ViewModels.Shows"
+    xmlns:appBar="using:Shiftv.Views.AppBar"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    xmlns:helpers="using:Shiftv.Helpers"
+    xmlns:pages="using:Shiftv.ViewModels.Shows.Pages"
+    mc:Ignorable="d" SizeChanged="pageRoot_SizeChanged">
+
+    <Page.DataContext>
+        <pages:MyShowsViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Page.TopAppBar>
+        <AppBar IsOpen="{Binding IsAppBarOpen, Mode=TwoWay}">
+            <appBar:MainTopAppBar></appBar:MainTopAppBar>
+        </AppBar>
+    </Page.TopAppBar>
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Grid.Column="0" >
+            <GridView x:Name="ListView" 
+          ItemsPanel="{StaticResource VariableSizedItemTemplate}" IsSwipeEnabled="False" helpers:GridViewItemClickCommand.Command="{Binding ShowClicked}" IsItemClickEnabled="True"
+          ItemContainerStyleSelector="{StaticResource VariableSizedStyleSelector}" ItemsSource="{Binding MyShows}" SelectionMode="None">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid Margin="0,0,0,0"  Visibility="{Binding IsAdd, Converter={StaticResource BooleanNotToVisibility}}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Image HorizontalAlignment="Center" Grid.Row="0"
+                                       Source="ms-appx:///Assets/background.jpg" Stretch="UniformToFill" />
+                                <ProgressRing IsActive="{Binding ImageLoaded}" Width="50" Height="50"
+                                              HorizontalAlignment="Center" VerticalAlignment="Center">
+                                </ProgressRing>
+                                <Image HorizontalAlignment="Center" Grid.Row="0"
+                                       Source="{Binding Poster, UpdateSourceTrigger=PropertyChanged}"
+                                       Stretch="UniformToFill" />
+                                <Grid Width="Auto" Height="Auto" VerticalAlignment="Top" HorizontalAlignment="Right"
+                                      Margin="10" Background="{StaticResource ShiftvDarkGreen}">
+                                    <TextBlock Text="{Binding Network}" FontSize="22" Padding="10 5 10 5"
+                                               FontFamily="Segoe UI" FontWeight="Bold" VerticalAlignment="Center"
+                                               HorizontalAlignment="Center">
+                                    </TextBlock>
+                                </Grid>
+                                <Grid VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20 0 0 40"
+                                      Background="{StaticResource BackgroundColorAlmostBlack}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0 0 0 10">
+                                        <TextBlock HorizontalAlignment="Left" Style="{StaticResource MainPageTitle}"
+                                                   Margin="20 8 20 0" Text="{Binding Title}">
+                                        </TextBlock>
+                                        <FontIcon FontSize="24"
+                                                  Visibility="{Binding IsLoved, Converter={StaticResource BooleanToVisibility}}"
+                                                  FontFamily="Segoe UI Symbol" Glyph="&#xE0A5;"
+                                                  Foreground="{StaticResource ShiftvLightRed}" Margin="15 8 20 0" />
+                                       
+                                    </StackPanel>
+                                </Grid>
+                            </Grid></Grid>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+            <handlers:ErrorLoadingData Visibility="{Binding ErrorGettingData, Converter={StaticResource BooleanToVisibility}}"/>
+            <handlers:NoDataPage Visibility="{Binding NoDataAvailable, Converter={StaticResource BooleanToVisibility}}"/>
+        </Grid>
+        <appBar:PubControl Visibility="{Binding IsToShowAds, Converter={StaticResource BooleanToVisibility}}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0 0 0 20" x:Name="PyControl"></appBar:PubControl>
+
+        <ProgressBar Background="{StaticResource ShiftvDarkGreen}" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding IsDataLoaded, Converter={StaticResource BooleanNotToVisibility}}"></ProgressBar>
+
+        <Grid Grid.Row="0" VerticalAlignment="Top" Margin="0 20 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="39,40,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=PageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <StackPanel Opacity="0.8" Grid.Column="1" MinWidth="300" Orientation="Horizontal" Background="{StaticResource ShiftvDarkGreen}" Margin="0 10 0 0" HorizontalAlignment="Left">
+                <TextBlock HorizontalAlignment="Left" Style="{StaticResource SeriePageTitle}" Margin="20 5 40 10" Text="{Binding [MyShows_Upper], Source={StaticResource Localized}}" ></TextBlock>
+            </StackPanel>
+        </Grid>
+        <appBar:TopAppBarToggle></appBar:TopAppBarToggle>
+        <appBar:UserDisplayControl Margin="0 0 0 0" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <handlers:InternetConnectionHandler VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <appBar:RemovePubControl Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                      />
+        <appBar:RateAndReviewControl2 Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <appBar:SoundClouderPub Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Page>

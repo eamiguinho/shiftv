@@ -1,0 +1,1320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en" original="Shiftv_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="Shiftv" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\OscarsNominees" translate="yes" xml:space="preserve">
+          <source>2015 Oscars Nominees</source>
+          <target state="new">2015 Oscars Nominees</target>
+        </trans-unit>
+        <trans-unit id="Resources\OscarsMovies" translate="yes" xml:space="preserve">
+          <source>2015 Oscars: Nominees</source>
+          <target state="new">2015 Oscars: Nominees</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OscarsMovies</note>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsLogInOut" translate="yes" xml:space="preserve">
+          <source>Sign in / Sign out</source>
+          <target state="new">Sign in / Sign out</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SettingsLogInOut</note>
+          </trans-unit>
+        <trans-unit id="Resources\Or" translate="yes" xml:space="preserve">
+          <source>or</source>
+          <target state="new">or</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Or</note>
+          </trans-unit>
+        <trans-unit id="Resources\GlobalSettings" translate="yes" xml:space="preserve">
+          <source>global settings</source>
+          <target state="new">global settings</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GlobalSettings</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewBye1" translate="yes" xml:space="preserve">
+          <source>My job here is done, now its time to do yours!</source>
+          <target state="new">My job here is done, now its time to do yours!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewBye1</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewBye2" translate="yes" xml:space="preserve">
+          <source>Shiftv have a lot of features and it's quite big, you will learn how to use it, using it not with a big tutorial.</source>
+          <target state="new">Shiftv have a lot of features and it's quite big, you will learn how to use it, using it not with a big tutorial.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewBye2</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewBye3" translate="yes" xml:space="preserve">
+          <source>I hope you like shiftv and becomes your app number one!</source>
+          <target state="new">I hope you like shiftv and becomes your app number one!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewBye3</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewBye4" translate="yes" xml:space="preserve">
+          <source>You will see me back, sometimes i'm randomly summoned.</source>
+          <target state="new">You will see me back, sometimes i'm randomly summoned.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewBye4</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons1" translate="yes" xml:space="preserve">
+          <source>Global app buttons and actions</source>
+          <target state="new">Global app buttons and actions</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons1</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons2" translate="yes" xml:space="preserve">
+          <source>You will see in different pages of the app buttons to get more options and interact with tv shows or movies</source>
+          <target state="new">You will see in different pages of the app buttons to get more options and interact with tv shows or movies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons2</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons3" translate="yes" xml:space="preserve">
+          <source>Indicates that have a navigation menu on top, or a options menu on bottom.</source>
+          <target state="new">Indicates that have a navigation menu on top, or a options menu on bottom.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons3</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons4" translate="yes" xml:space="preserve">
+          <source>Add TV show or movie to your watchlist.</source>
+          <target state="new">Add TV show or movie to your watchlist.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons4</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons5" translate="yes" xml:space="preserve">
+          <source>Set one episode or movie as seen.</source>
+          <target state="new">Set one episode or movie as seen.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons5</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons6" translate="yes" xml:space="preserve">
+          <source>Check in to an episode or movie, will be tagged as seen after seeing one episode or movie.</source>
+          <target state="translated">Check in to an episode or movie, will be tagged as seen at the end of the stream.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons6</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewGlobalButtons7" translate="yes" xml:space="preserve">
+          <source>Love or Hate episodes, tv shows and movies.</source>
+          <target state="new">Love or Hate episodes, tv shows and movies.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewGlobalButtons7</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewShows1" translate="yes" xml:space="preserve">
+          <source>On TV shows you have a lot of pages, most of them are lists of tv shows with different context like</source>
+          <target state="new">On TV shows you have a lot of pages, most of them are lists of tv shows with different context like</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewShows1</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewShows2" translate="yes" xml:space="preserve">
+          <source>but you have some pages related to your account, like:</source>
+          <target state="new">but you have some pages related to your account, like:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewShows2</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewShows3" translate="yes" xml:space="preserve">
+          <source>calendar with respective episodes of your watchlisted TV Shows.</source>
+          <target state="new">calendar with respective episodes of your watchlisted TV Shows.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewShows3</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewShows4" translate="yes" xml:space="preserve">
+          <source>page with all your watchlisted TV shows and episodes left to see, global statistics and random episode from your watchlist.</source>
+          <target state="new">page with all your watchlisted TV shows and episodes left to see, global statistics and random episode from your watchlist.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewShows4</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewWelcome1" translate="yes" xml:space="preserve">
+          <source>Hi my name is Shifty!</source>
+          <target state="new">Hi my name is Shifty!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewWelcome1</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewWelcome2" translate="yes" xml:space="preserve">
+          <source>I will help you to understand how shiftv works, since is your first time using it, just swipe or click next to start the tutorial.</source>
+          <target state="new">I will help you to understand how shiftv works, since is your first time using it, just swipe or click next to start the tutorial.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewWelcome2</note>
+          </trans-unit>
+        <trans-unit id="Resources\FlipViewWelcome3" translate="yes" xml:space="preserve">
+          <source>You can always quit clicking X on this page.</source>
+          <target state="new">You can always quit clicking X on this page.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FlipViewWelcome3</note>
+          </trans-unit>
+        <trans-unit id="Resources\FirstLoginAttemptTitle" translate="yes" xml:space="preserve">
+          <source>First time login error</source>
+          <target state="new">First time login error</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FirstLoginAttemptTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\FirstLoginAttemptMessage" translate="yes" xml:space="preserve">
+          <source>Shiftv needs to have connection to the servers at least the first time that you try to login on this machine, so we sorry for this inconvinence but try again later or go by now with guest login</source>
+          <target state="new">Shiftv needs to have connection to the servers at least the first time that you try to login on this machine, so we sorry for this inconvinence but try again later or go by now with guest login</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FirstLoginAttemptMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Yes</note>
+          </trans-unit>
+        <trans-unit id="Resources\ReviewStopMessage" translate="yes" xml:space="preserve">
+          <source>I already review shiftv on store and don't ask me again</source>
+          <target state="new">I already review shiftv on store and don't ask me again</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ReviewStopMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\ReviewQuestion2" translate="yes" xml:space="preserve">
+          <source>do you loved to use shiftv until now? so do not forget to make a review in the store and follow the shiftv on social networks!</source>
+          <target state="new">do you loved to use shiftv until now? so do not forget to make a review in the store and follow the shiftv on social networks!</target>
+        </trans-unit>
+        <trans-unit id="Resources\ReviewStore" translate="yes" xml:space="preserve">
+          <source>Rate and review on store</source>
+          <target state="new">Rate and review on store</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ReviewStore</note>
+          </trans-unit>
+        <trans-unit id="Resources\ReviewTwitter" translate="yes" xml:space="preserve">
+          <source>Follow shiftv on twitter</source>
+          <target state="new">Follow shiftv on twitter</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ReviewTwitter</note>
+          </trans-unit>
+        <trans-unit id="Resources\ReviewQuestion" translate="yes" xml:space="preserve">
+          <source>liked to see this movie or episode? so do not forget to make a review in the store and follow the shiftv on social networks!</source>
+          <target state="new">liked to see this movie or episode? so do not forget to make a review in the store and follow the shiftv on social networks!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ReviewQuestion</note>
+          </trans-unit>
+        <trans-unit id="Resources\ReviewFacebook" translate="yes" xml:space="preserve">
+          <source>Like shiftv facebook page</source>
+          <target state="new">Like shiftv facebook page</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ReviewFacebook</note>
+          </trans-unit>
+        <trans-unit id="Resources\No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">No</note>
+          </trans-unit>
+        <trans-unit id="Resources\MovieReleaseTitle" translate="yes" xml:space="preserve">
+          <source>Release date less than a month ago</source>
+          <target state="new">Release date less than a month ago</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MovieReleaseTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\MovieReleaseMessage" translate="yes" xml:space="preserve">
+          <source>This movie was released less than a month ago, so probably you will not get a stream or get a CAM stream with bad quality, do you want to continue?</source>
+          <target state="new">This movie was released less than a month ago, so probably you will not get a stream or get a CAM stream with bad quality, do you want to continue?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MovieReleaseMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageButton1" translate="yes" xml:space="preserve">
+          <source>remove ads</source>
+          <target state="new">remove ads</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageButton1</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageButton2" translate="yes" xml:space="preserve">
+          <source>remove ads and help shiftv get new servers *</source>
+          <target state="translated">remove ads and become a silver partner of shiftv *</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageButton2</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageButton3" translate="yes" xml:space="preserve">
+          <source>remove ads and become a main supporter of shiftv **</source>
+          <target state="translated">remove ads and become a gold partner of shiftv **</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageButton3</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageExtra1" translate="yes" xml:space="preserve">
+          <source>* helper badge on the app (to apply the badge to your account you need to be logged)</source>
+          <target state="new">* helper badge on the app (to apply the badge to your account you need to be logged)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageExtra1</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageExtra2" translate="yes" xml:space="preserve">
+          <source>** badge on the app and t-shirt (will require your email address and to apply the badge to your account you need to be logged)</source>
+          <target state="new">** badge on the app and t-shirt (will require your email address and to apply the badge to your account you need to be logged)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageExtra2</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyFirstPageTitle" translate="yes" xml:space="preserve">
+          <source>do you want to remove ads? pick one of the packs!</source>
+          <target state="translated">do you want to remove ads? pick one of the packs! (this will help shiftv to get new servers!)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyFirstPageTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPack3EmailButtonText" translate="yes" xml:space="preserve">
+          <source>finish your purchase</source>
+          <target state="new">finish your purchase</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPack3EmailButtonText</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPack3EmailError" translate="yes" xml:space="preserve">
+          <source>please insert a valid email address</source>
+          <target state="new">please insert a valid email address</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPack3EmailError</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPack3EmailMessage" translate="yes" xml:space="preserve">
+          <source>can you fill your email and we will contact you in less than 48 hours to get more info to send the t-shirt! Thanks hero!</source>
+          <target state="new">can you fill your email and we will contact you in less than 48 hours to get more info to send the t-shirt! Thanks hero!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPack3EmailMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPack3EmailMessage2" translate="yes" xml:space="preserve">
+          <source>enter your email here</source>
+          <target state="new">enter your email here</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPack3EmailMessage2</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPageAlreadyPurchased" translate="yes" xml:space="preserve">
+          <source>you already have purchased this pack, some problem? send email to: shiftv@gmail.com</source>
+          <target state="translated">you already have purchased this pack, some problem? send email to: shiftv@outlook.com</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPageAlreadyPurchased</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPageError" translate="yes" xml:space="preserve">
+          <source>sorry :( something went wrong on the purchase please, try again later</source>
+          <target state="new">sorry :( something went wrong on the purchase please, try again later</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPageError</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPageSuccessMessage1" translate="yes" xml:space="preserve">
+          <source>thanks! now you will not see ads on shiftv anymore, enjoy!</source>
+          <target state="new">thanks! now you will not see ads on shiftv anymore, enjoy!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPageSuccessMessage1</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPageSuccessMessage2" translate="yes" xml:space="preserve">
+          <source>thanks a lot, ads just dissapear, and you become a silver contributer. Congrats!</source>
+          <target state="new">thanks a lot, ads just dissapear, and you become a silver contributer. Congrats!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPageSuccessMessage2</note>
+          </trans-unit>
+        <trans-unit id="Resources\BuyPageSuccessMessage3" translate="yes" xml:space="preserve">
+          <source>thanks a lot, ads just dissapear, and you become a gold contributer. Congrats!</source>
+          <target state="new">thanks a lot, ads just dissapear, and you become a gold contributer. Congrats!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BuyPageSuccessMessage3</note>
+          </trans-unit>
+        <trans-unit id="Resources\ChangeToTvShows" translate="yes" xml:space="preserve">
+          <source>change to tv shows</source>
+          <target state="new">change to tv shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ChangeToTvShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\ChangeToCinema" translate="yes" xml:space="preserve">
+          <source>change to cinema</source>
+          <target state="new">change to cinema</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ChangeToCinema</note>
+          </trans-unit>
+        <trans-unit id="Resources\PubVerticalText" translate="yes" xml:space="preserve">
+          <source>one click per day can make the difference :)</source>
+          <target state="new">one click per day can make the difference :)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PubVerticalText</note>
+          </trans-unit>
+        <trans-unit id="Resources\PubHorizontalText" translate="yes" xml:space="preserve">
+          <source>one click per day please :)</source>
+          <target state="new">one click per day please :)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PubHorizontalText</note>
+          </trans-unit>
+        <trans-unit id="Resources\NewEpisode" translate="yes" xml:space="preserve">
+          <source>has a new episode</source>
+          <target state="new">has a new episode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NewEpisode</note>
+          </trans-unit>
+        <trans-unit id="Resources\YourTvShows" translate="yes" xml:space="preserve">
+          <source>your tv shows</source>
+          <target state="final">your tv shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">YourTvShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\Dashboard" translate="yes" xml:space="preserve">
+          <source>Dashboard</source>
+          <target state="final">Dashboard</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dashboard</note>
+          </trans-unit>
+        <trans-unit id="Resources\DashboardErrorMessageText" translate="yes" xml:space="preserve">
+          <source>you can add your favorite tv shows to your dashboard adding them to watchlist</source>
+          <target state="final">you can add your favorite tv shows to your dashboard adding them to watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DashboardErrorMessageText</note>
+          </trans-unit>
+        <trans-unit id="Resources\DashboardErrorMessageTitle" translate="yes" xml:space="preserve">
+          <source>sorry but you don't have any show watchlisted and not even an episode as seen</source>
+          <target state="final">sorry but you don't have any show watchlisted and not even an episode as seen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DashboardErrorMessageTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\EpisodesAired" translate="yes" xml:space="preserve">
+          <source>episodes aired</source>
+          <target state="final">episodes aired</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">EpisodesAired</note>
+          </trans-unit>
+        <trans-unit id="Resources\EpisodesLeftToSee" translate="yes" xml:space="preserve">
+          <source>episodes left to see</source>
+          <target state="final">episodes left to see</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">EpisodesLeftToSee</note>
+          </trans-unit>
+        <trans-unit id="Resources\LeftToSee" translate="yes" xml:space="preserve">
+          <source>left to see</source>
+          <target state="final">left to see</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LeftToSee</note>
+          </trans-unit>
+        <trans-unit id="Resources\OverallProgress" translate="yes" xml:space="preserve">
+          <source>overall progress</source>
+          <target state="final">overall progress</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OverallProgress</note>
+          </trans-unit>
+        <trans-unit id="Resources\RandomEpisode" translate="yes" xml:space="preserve">
+          <source>random episode</source>
+          <target state="final">random episode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RandomEpisode</note>
+          </trans-unit>
+        <trans-unit id="Resources\TotalSeenEpisodes" translate="yes" xml:space="preserve">
+          <source>total seen episodes</source>
+          <target state="final">total seen episodes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TotalSeenEpisodes</note>
+          </trans-unit>
+        <trans-unit id="Resources\SeenPrevious" translate="yes" xml:space="preserve">
+          <source>set this %%amp; all previous as seen</source>
+          <target state="final">set this %%amp; all previous as seen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SeenPrevious</note>
+          </trans-unit>
+        <trans-unit id="Resources\MyWatchlist" translate="yes" xml:space="preserve">
+          <source>my watchlist</source>
+          <target state="final">my watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MyWatchlist</note>
+          </trans-unit>
+        <trans-unit id="Resources\MinutesReduced" translate="yes" xml:space="preserve">
+          <source>min</source>
+          <target state="final">min</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MinutesReduced</note>
+          </trans-unit>
+        <trans-unit id="Resources\TopImdb" translate="yes" xml:space="preserve">
+          <source>Top IMDB</source>
+          <target state="final">Top IMDB</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TopImdb</note>
+          </trans-unit>
+        <trans-unit id="Resources\Animation" translate="yes" xml:space="preserve">
+          <source>Animation</source>
+          <target state="final">Animation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Animation</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoSubsSettings" translate="yes" xml:space="preserve">
+          <source>subtitles are disabled, if you want to use subtitles choose the languages on app settings panel</source>
+          <target state="final">subtitles are disabled, if you want to use subtitles choose the languages on app settings panel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoSubsSettings</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorCheckInTextRetry" translate="yes" xml:space="preserve">
+          <source>shiftv can not check in now because you are already checked in to another episode or movie, do you want to cancel the old check in and check in to this one? or you can just say NO and checkin later</source>
+          <target state="final">shiftv can not check in now because you are already checked in to another episode or movie, do you want to cancel the old check in and check in to this one? or you can just say NO and checkin later</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorCheckInTextRetry</note>
+          </trans-unit>
+        <trans-unit id="Resources\Users" translate="yes" xml:space="preserve">
+          <source>users</source>
+          <target state="final">users</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Users</note>
+          </trans-unit>
+        <trans-unit id="Resources\UsernamePasswordRequired" translate="yes" xml:space="preserve">
+          <source>username and password are required</source>
+          <target state="final">username and password are required</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">UsernamePasswordRequired</note>
+          </trans-unit>
+        <trans-unit id="Resources\Friends" translate="yes" xml:space="preserve">
+          <source>friends</source>
+          <target state="final">friends</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Friends</note>
+          </trans-unit>
+        <trans-unit id="Resources\LegalInformation" translate="yes" xml:space="preserve">
+          <source>legal information</source>
+          <target state="final">legal information</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LegalInformation</note>
+          </trans-unit>
+        <trans-unit id="Resources\MainSubtitleLanguage" translate="yes" xml:space="preserve">
+          <source>main subtitle language</source>
+          <target state="final">main subtitle language</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainSubtitleLanguage</note>
+          </trans-unit>
+        <trans-unit id="Resources\Movies" translate="yes" xml:space="preserve">
+          <source>movies</source>
+          <target state="final">movies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Movies</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoActivitiesYet" translate="yes" xml:space="preserve">
+          <source>no activities yet, try to add some friends!</source>
+          <target state="final">no activities yet, try to add some friends!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoActivitiesYet</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoLovedMovies" translate="yes" xml:space="preserve">
+          <source>is lonely here, this user doesn't love movies</source>
+          <target state="final">it's lonely here, this user doesn't have any loved movies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoLovedMovies</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoLovedShows" translate="yes" xml:space="preserve">
+          <source>is lonely here, this user doesn't love shows</source>
+          <target state="final">is lonely here,  this user doesn't have any loved shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoLovedShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\Nothing" translate="yes" xml:space="preserve">
+          <source>nothing :(</source>
+          <target state="final">nothing :(</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Nothing</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoUserActivity" translate="yes" xml:space="preserve">
+          <source>is lonely here, this user don't do anything</source>
+          <target state="final">is lonely here, this user doesn't have activities</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoUserActivity</note>
+          </trans-unit>
+        <trans-unit id="Resources\SearchPlaceHolder" translate="yes" xml:space="preserve">
+          <source>movies, shows, users</source>
+          <target state="final">movies, shows, users</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SearchPlaceHolder</note>
+          </trans-unit>
+        <trans-unit id="Resources\SecondarySubtitleLanguage" translate="yes" xml:space="preserve">
+          <source>secondary subtitle language</source>
+          <target state="final">secondary subtitle language</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SecondarySubtitleLanguage</note>
+          </trans-unit>
+        <trans-unit id="Resources\TermsAndServices" translate="yes" xml:space="preserve">
+          <source>terms and services</source>
+          <target state="final">terms and services</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TermsAndServices</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorUsernamePassword" translate="yes" xml:space="preserve">
+          <source>invalid credentials, please try again</source>
+          <target state="final">invalid credentials, please try again</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorUsernamePassword</note>
+          </trans-unit>
+        <trans-unit id="Resources\DmcaAgg" translate="yes" xml:space="preserve">
+          <source>DMCA aggrement</source>
+          <target state="final">DMCA aggrement</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DmcaAgg</note>
+          </trans-unit>
+        <trans-unit id="Resources\CheckInternetConnection" translate="yes" xml:space="preserve">
+          <source>can not login please check your connection </source>
+          <target state="final">can't login please check your connection </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">CheckInternetConnection</note>
+          </trans-unit>
+        <trans-unit id="Resources\Boring" translate="yes" xml:space="preserve">
+          <source>boring!</source>
+          <target state="final">boring!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Boring</note>
+          </trans-unit>
+        <trans-unit id="Resources\SubtitlesNotAvailable" translate="yes" xml:space="preserve">
+          <source>shiftv dont found any subtitles for this yet, sorry.</source>
+          <target state="final">shiftv coudn't find any subtitles for this yet, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SubtitlesNotAvailable</note>
+          </trans-unit>
+        <trans-unit id="Resources\SubtitlesProcessMessage" translate="yes" xml:space="preserve">
+          <source>Processing subtitles, the CC button will be enabled after finish this process</source>
+          <target state="final">Processing subtitles, the CC button will be enabled once the processing finishes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SubtitlesProcessMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoDataSubMessage" translate="yes" xml:space="preserve">
+          <source>try to use more this app and the info will appear</source>
+          <target state="final">try to use more this app and the info will appear</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoDataSubMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoDataMainMessage" translate="yes" xml:space="preserve">
+          <source>sorry but shiftv don't have anything to show to you here</source>
+          <target state="final">sorry but shiftv doesn't have anything to show here</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoDataMainMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\SearchEverything" translate="yes" xml:space="preserve">
+          <source>search for everything</source>
+          <target state="final">search for everything</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SearchEverything</note>
+          </trans-unit>
+        <trans-unit id="Resources\FriendsActivities" translate="yes" xml:space="preserve">
+          <source>Friends activities</source>
+          <target state="final">Friend's activities</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FriendsActivities</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoActivitiesMessage" translate="yes" xml:space="preserve">
+          <source>no activities yet, add some friends!</source>
+          <target state="needs-review-translation">no activities yet, add some friends!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoActivitiesMessage</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">Apaga este recurso, repetido com o numero 7</note>
+          </trans-unit>
+        <trans-unit id="Resources\NotSignedIn" translate="yes" xml:space="preserve">
+          <source>this is not for guests, please sign in</source>
+          <target state="final">this is not available for guests, please sign in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NotSignedIn</note>
+          </trans-unit>
+        <trans-unit id="Resources\UserStats" translate="yes" xml:space="preserve">
+          <source>user stats</source>
+          <target state="final">user stats</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">UserStats</note>
+          </trans-unit>
+        <trans-unit id="Resources\AirTime" translate="yes" xml:space="preserve">
+          <source>air time</source>
+          <target state="final">air time</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AirTime</note>
+          </trans-unit>
+        <trans-unit id="Resources\DownloadManager" translate="yes" xml:space="preserve">
+          <source>download manager</source>
+          <target state="final">download manager</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DownloadManager</note>
+          </trans-unit>
+        <trans-unit id="Resources\DownloadQueue" translate="yes" xml:space="preserve">
+          <source>download queue</source>
+          <target state="final">download queue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DownloadQueue</note>
+          </trans-unit>
+        <trans-unit id="Resources\LastEpisodes" translate="yes" xml:space="preserve">
+          <source>last 5 episodes</source>
+          <target state="final">last 5 episodes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LastEpisodes</note>
+          </trans-unit>
+        <trans-unit id="Resources\LatestActivities" translate="yes" xml:space="preserve">
+          <source>latest activities</source>
+          <target state="final">latest activities</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LatestActivities</note>
+          </trans-unit>
+        <trans-unit id="Resources\LoadingOfflineStream" translate="yes" xml:space="preserve">
+          <source>loading local stream</source>
+          <target state="final">loading local stream</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LoadingOfflineStream</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoEpisodesDownloaded" translate="yes" xml:space="preserve">
+          <source>no episodes downloaded yet</source>
+          <target state="final">no episodes downloaded yet</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoEpisodesDownloaded</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoFilesInQueue" translate="yes" xml:space="preserve">
+          <source>no files in the queue at the moment</source>
+          <target state="final">no files in the queue at the moment</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoFilesInQueue</note>
+          </trans-unit>
+        <trans-unit id="Resources\SelectAll" translate="yes" xml:space="preserve">
+          <source>select all</source>
+          <target state="final">select all</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SelectAll</note>
+          </trans-unit>
+        <trans-unit id="Resources\SomeLovedMovies" translate="yes" xml:space="preserve">
+          <source>some loved movies</source>
+          <target state="final">some loved movies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SomeLovedMovies</note>
+          </trans-unit>
+        <trans-unit id="Resources\SomeLovedShows" translate="yes" xml:space="preserve">
+          <source>some loved shows</source>
+          <target state="final">some loved shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SomeLovedShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\UnselectAll" translate="yes" xml:space="preserve">
+          <source>unselect all</source>
+          <target state="final">unselect all</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">UnselectAll</note>
+          </trans-unit>
+        <trans-unit id="Resources\Trailer" translate="yes" xml:space="preserve">
+          <source>trailer</source>
+          <target state="final">trailer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Trailer</note>
+          </trans-unit>
+        <trans-unit id="Resources\SeeFullMovie" translate="yes" xml:space="preserve">
+          <source>see full movie</source>
+          <target state="final">see full movie</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SeeFullMovie</note>
+          </trans-unit>
+        <trans-unit id="Resources\Released" translate="yes" xml:space="preserve">
+          <source>released</source>
+          <target state="final">released</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Released</note>
+          </trans-unit>
+        <trans-unit id="Resources\MovieDescription" translate="yes" xml:space="preserve">
+          <source>movie description</source>
+          <target state="final">movie description</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MovieDescription</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorConnectionMainMessage" translate="yes" xml:space="preserve">
+          <source>shiftv detect a problem on your connection</source>
+          <target state="final">shiftv has detected a problem with your connection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorConnectionMainMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorConnectionSubMessage" translate="yes" xml:space="preserve">
+          <source>please check your connection and try again</source>
+          <target state="final">please check your connection and try again</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorConnectionSubMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorServersMainMessage" translate="yes" xml:space="preserve">
+          <source>shiftv is having a bad time with servers</source>
+          <target state="final">shiftv is having a bad time connecting with the servers</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorServersMainMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorServersSubMessage" translate="yes" xml:space="preserve">
+          <source>hopefully will be fast, please come back ASAP</source>
+          <target state="final">you can experience some limitations, hopefully will be ok soon</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorServersSubMessage</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">Nao sei bem o que queres aqui. Temos de falar.</note>
+          </trans-unit>
+        <trans-unit id="Resources\Duration" translate="yes" xml:space="preserve">
+          <source>runtime</source>
+          <target state="final">runtime</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Duration</note>
+          </trans-unit>
+        <trans-unit id="Resources\Actors" translate="yes" xml:space="preserve">
+          <source>actors</source>
+          <target state="final">actors</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Actors</note>
+          </trans-unit>
+        <trans-unit id="Resources\MyMovies" translate="yes" xml:space="preserve">
+          <source>my movies</source>
+          <target state="final">my movies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MyMovies</note>
+          </trans-unit>
+        <trans-unit id="Resources\Yesterday" translate="yes" xml:space="preserve">
+          <source>yesterday</source>
+          <target state="final">yesterday</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Yesterday</note>
+          </trans-unit>
+        <trans-unit id="Resources\Year" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="final">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">year</note>
+          </trans-unit>
+        <trans-unit id="Resources\WelcomeMessageSub" translate="yes" xml:space="preserve">
+          <source>please login with your trakt account or create a new account free!</source>
+          <target state="final">please login with your trakt account or create a new free account!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WelcomeMessageSub</note>
+          </trans-unit>
+        <trans-unit id="Resources\WelcomeMessage" translate="yes" xml:space="preserve">
+          <source>welcome to shiftv!</source>
+          <target state="final">welcome to shiftv!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WelcomeMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\Wed" translate="yes" xml:space="preserve">
+          <source>wed</source>
+          <target state="final">wed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Wed</note>
+          </trans-unit>
+        <trans-unit id="Resources\Watchlisted" translate="yes" xml:space="preserve">
+          <source>watchlisted</source>
+          <target state="final">watchlisted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Watchlisted</note>
+          </trans-unit>
+        <trans-unit id="Resources\WaitingForApproval" translate="yes" xml:space="preserve">
+          <source>waiting for approval</source>
+          <target state="final">waiting for approval</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WaitingForApproval</note>
+          </trans-unit>
+        <trans-unit id="Resources\Username" translate="yes" xml:space="preserve">
+          <source>username</source>
+          <target state="final">username</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Username</note>
+          </trans-unit>
+        <trans-unit id="Resources\UserComments" translate="yes" xml:space="preserve">
+          <source>user comments</source>
+          <target state="final">user comments</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">UserComments</note>
+          </trans-unit>
+        <trans-unit id="Resources\Unknown" translate="yes" xml:space="preserve">
+          <source>unknown</source>
+          <target state="final">unknown</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Unknown</note>
+          </trans-unit>
+        <trans-unit id="Resources\TvShows" translate="yes" xml:space="preserve">
+          <source>tv shows</source>
+          <target state="final">tv shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TvShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\Tue" translate="yes" xml:space="preserve">
+          <source>tue</source>
+          <target state="final">tue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tue</note>
+          </trans-unit>
+        <trans-unit id="Resources\Tomorrow" translate="yes" xml:space="preserve">
+          <source>tomorrow</source>
+          <target state="final">tomorrow</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tomorrow</note>
+          </trans-unit>
+        <trans-unit id="Resources\Today" translate="yes" xml:space="preserve">
+          <source>today</source>
+          <target state="final">today</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Today</note>
+          </trans-unit>
+        <trans-unit id="Resources\Thu" translate="yes" xml:space="preserve">
+          <source>thu</source>
+          <target state="final">thu</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Thu</note>
+          </trans-unit>
+        <trans-unit id="Resources\Tba" translate="yes" xml:space="preserve">
+          <source>tba</source>
+          <target state="final">tba</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tba</note>
+          </trans-unit>
+        <trans-unit id="Resources\Sun" translate="yes" xml:space="preserve">
+          <source>sun</source>
+          <target state="final">sun</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Sun</note>
+          </trans-unit>
+        <trans-unit id="Resources\Stream" translate="yes" xml:space="preserve">
+          <source>stream</source>
+          <target state="final">stream</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">stream</note>
+          </trans-unit>
+        <trans-unit id="Resources\Status" translate="yes" xml:space="preserve">
+          <source>status</source>
+          <target state="final">status</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Status</note>
+          </trans-unit>
+        <trans-unit id="Resources\StartedWatching" translate="yes" xml:space="preserve">
+          <source>started watching</source>
+          <target state="final">started watching</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">StartedWatching</note>
+          </trans-unit>
+        <trans-unit id="Resources\SpoilerAlertSubMessage" translate="yes" xml:space="preserve">
+          <source>double tap to see</source>
+          <target state="final">double tap to read</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SpoilerAlertSubMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\SpoilerAlertMainMessage" translate="yes" xml:space="preserve">
+          <source>spoiler alert!</source>
+          <target state="final">spoiler alert!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SpoilerAlertMainMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\Sinopse" translate="yes" xml:space="preserve">
+          <source>sinopse</source>
+          <target state="final">sinopse</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Sinopse</note>
+          </trans-unit>
+        <trans-unit id="Resources\SignInUnknown" translate="yes" xml:space="preserve">
+          <source>enter as guest</source>
+          <target state="final">enter as guest</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SignInUnknown</note>
+          </trans-unit>
+        <trans-unit id="Resources\SignIn" translate="yes" xml:space="preserve">
+          <source>sign in</source>
+          <target state="final">sign in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SignIn</note>
+          </trans-unit>
+        <trans-unit id="Resources\ShowSeasons" translate="yes" xml:space="preserve">
+          <source>Show Seasons</source>
+          <target state="final">Show Seasons</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Show Seasons</note>
+          </trans-unit>
+        <trans-unit id="Resources\ShowDesc" translate="yes" xml:space="preserve">
+          <source>show description</source>
+          <target state="final">show description</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ShowDesc</note>
+          </trans-unit>
+        <trans-unit id="Resources\ShowActors" translate="yes" xml:space="preserve">
+          <source>show actors</source>
+          <target state="final">show actors</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ShowActors</note>
+          </trans-unit>
+        <trans-unit id="Resources\Show" translate="yes" xml:space="preserve">
+          <source>show</source>
+          <target state="final">show</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Show</note>
+          </trans-unit>
+        <trans-unit id="Resources\Shouted" translate="yes" xml:space="preserve">
+          <source>shouted</source>
+          <target state="final">shouted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shouted</note>
+          </trans-unit>
+        <trans-unit id="Resources\Sep" translate="yes" xml:space="preserve">
+          <source>sep</source>
+          <target state="final">sep</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">September</note>
+          </trans-unit>
+        <trans-unit id="Resources\Seen" translate="yes" xml:space="preserve">
+          <source>seen</source>
+          <target state="final">seen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seen</note>
+          </trans-unit>
+        <trans-unit id="Resources\Season" translate="yes" xml:space="preserve">
+          <source>season</source>
+          <target state="final">season</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Season</note>
+          </trans-unit>
+        <trans-unit id="Resources\Scrobbled" translate="yes" xml:space="preserve">
+          <source>scrobbled</source>
+          <target state="needs-review-translation">scrobbled</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Scrobbled</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">???</note>
+          </trans-unit>
+        <trans-unit id="Resources\Sat" translate="yes" xml:space="preserve">
+          <source>sat</source>
+          <target state="final">sat</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Sat</note>
+          </trans-unit>
+        <trans-unit id="Resources\Runtime" translate="yes" xml:space="preserve">
+          <source>runtime</source>
+          <target state="final">runtime</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Runtime</note>
+          </trans-unit>
+        <trans-unit id="Resources\Reviewed" translate="yes" xml:space="preserve">
+          <source>reviewed</source>
+          <target state="final">reviewed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Reviewed</note>
+          </trans-unit>
+        <trans-unit id="Resources\RemoveFromWatchlist" translate="yes" xml:space="preserve">
+          <source>remove from watchlist</source>
+          <target state="final">remove from watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RemoveFromWatchlist</note>
+          </trans-unit>
+        <trans-unit id="Resources\Rated" translate="yes" xml:space="preserve">
+          <source>rated</source>
+          <target state="final">rated</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Rated</note>
+          </trans-unit>
+        <trans-unit id="Resources\ProtectedProfile" translate="yes" xml:space="preserve">
+          <source>protected profile</source>
+          <target state="final">protected profile</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ProtectedProfile</note>
+          </trans-unit>
+        <trans-unit id="Resources\Password" translate="yes" xml:space="preserve">
+          <source>password</source>
+          <target state="final">password</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Password</note>
+          </trans-unit>
+        <trans-unit id="Resources\Over9000" translate="yes" xml:space="preserve">
+          <source>Over 9000!</source>
+          <target state="final">Over 9000!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Over9000</note>
+          </trans-unit>
+        <trans-unit id="Resources\OtherEpisodes" translate="yes" xml:space="preserve">
+          <source>previous episodes</source>
+          <target state="needs-review-translation">previous episodes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">other episodes</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resources\Oct" translate="yes" xml:space="preserve">
+          <source>oct</source>
+          <target state="final">oct</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">October</note>
+          </trans-unit>
+        <trans-unit id="Resources\Nov" translate="yes" xml:space="preserve">
+          <source>nov</source>
+          <target state="final">nov</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">November</note>
+          </trans-unit>
+        <trans-unit id="Resources\NotSeen" translate="yes" xml:space="preserve">
+          <source>not seen</source>
+          <target state="final">not seen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NotSeen</note>
+          </trans-unit>
+        <trans-unit id="Resources\NotificationMessageTime" translate="yes" xml:space="preserve">
+          <source>30 minutes earlier</source>
+          <target state="needs-review-translation">30 min earlier</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">30 minutes earlier</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">Abreviei minutes para min</note>
+          </trans-unit>
+        <trans-unit id="Resources\NotificationMessage" translate="yes" xml:space="preserve">
+          <source>will be notified</source>
+          <target state="translated">you will be notified</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">will be notified</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">preciso de contexto</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoIdea" translate="yes" xml:space="preserve">
+          <source>no idea</source>
+          <target state="final">no idea</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoIdea</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoCommentsErrorSubMessage" translate="yes" xml:space="preserve">
+          <source>but please don't say first :P</source>
+          <target state="final">but please don't say first :P</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoCommentsErrorSubMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoCommentsErrorMainMessage" translate="yes" xml:space="preserve">
+          <source>no comments here yet, join the community, be the first!</source>
+          <target state="final">no comments here yet, join the community, be the first!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoCommentsErrorMainMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\NoAge" translate="yes" xml:space="preserve">
+          <source>no age? who is this guy?</source>
+          <target state="final">no age? who is this guy?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NoAge</note>
+          </trans-unit>
+        <trans-unit id="Resources\NextEpisode" translate="yes" xml:space="preserve">
+          <source>next episode</source>
+          <target state="final">next episode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">next episode</note>
+          </trans-unit>
+        <trans-unit id="Resources\Neverland" translate="yes" xml:space="preserve">
+          <source>neverland</source>
+          <target state="final">neverland</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Neverland</note>
+          </trans-unit>
+        <trans-unit id="Resources\Network" translate="yes" xml:space="preserve">
+          <source>network</source>
+          <target state="final">network</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Network</note>
+          </trans-unit>
+        <trans-unit id="Resources\Movie" translate="yes" xml:space="preserve">
+          <source>movie</source>
+          <target state="final">movie</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Movie</note>
+          </trans-unit>
+        <trans-unit id="Resources\Mon" translate="yes" xml:space="preserve">
+          <source>mon</source>
+          <target state="final">mon</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mon</note>
+          </trans-unit>
+        <trans-unit id="Resources\Minutes" translate="yes" xml:space="preserve">
+          <source>minutes</source>
+          <target state="final">minutes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">minutes</note>
+          </trans-unit>
+        <trans-unit id="Resources\May" translate="yes" xml:space="preserve">
+          <source>may</source>
+          <target state="final">may</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">May</note>
+          </trans-unit>
+        <trans-unit id="Resources\Mar" translate="yes" xml:space="preserve">
+          <source>mar</source>
+          <target state="final">mar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">March</note>
+          </trans-unit>
+        <trans-unit id="Resources\Manager" translate="yes" xml:space="preserve">
+          <source>manager</source>
+          <target state="final">manager</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Manager</note>
+          </trans-unit>
+        <trans-unit id="Resources\Male" translate="yes" xml:space="preserve">
+          <source>male</source>
+          <target state="final">male</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Male</note>
+          </trans-unit>
+        <trans-unit id="Resources\Love" translate="yes" xml:space="preserve">
+          <source>love</source>
+          <target state="final">love</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Love</note>
+          </trans-unit>
+        <trans-unit id="Resources\Limited" translate="yes" xml:space="preserve">
+          <source>limited</source>
+          <target state="final">limited</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Limited</note>
+          </trans-unit>
+        <trans-unit id="Resources\LastEpisode" translate="yes" xml:space="preserve">
+          <source>last episode</source>
+          <target state="final">last episode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LastEpisode</note>
+          </trans-unit>
+        <trans-unit id="Resources\JustSeen" translate="yes" xml:space="preserve">
+          <source>just watched</source>
+          <target state="final">just watched</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">JustSeen</note>
+          </trans-unit>
+        <trans-unit id="Resources\JustNow" translate="yes" xml:space="preserve">
+          <source>just now</source>
+          <target state="final">just now</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">JustNow</note>
+          </trans-unit>
+        <trans-unit id="Resources\JustCheckedInTo" translate="yes" xml:space="preserve">
+          <source>just checked in to</source>
+          <target state="final">just checked in to</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">JustCheckedInTo</note>
+          </trans-unit>
+        <trans-unit id="Resources\Jun" translate="yes" xml:space="preserve">
+          <source>jun</source>
+          <target state="final">jun</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">June</note>
+          </trans-unit>
+        <trans-unit id="Resources\Jul" translate="yes" xml:space="preserve">
+          <source>jul</source>
+          <target state="final">jul</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jul</note>
+          </trans-unit>
+        <trans-unit id="Resources\Jan" translate="yes" xml:space="preserve">
+          <source>jan</source>
+          <target state="final">jan</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jan</note>
+          </trans-unit>
+        <trans-unit id="Resources\IsReview" translate="yes" xml:space="preserve">
+          <source>is a review?</source>
+          <target state="needs-review-translation">is a review?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">IsReview</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">preciso contexto </note>
+          </trans-unit>
+        <trans-unit id="Resources\IsFriend" translate="yes" xml:space="preserve">
+          <source>is your friend</source>
+          <target state="final">is your friend</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">IsFriend</note>
+          </trans-unit>
+        <trans-unit id="Resources\IsFollowUser" translate="yes" xml:space="preserve">
+          <source>you follow this user</source>
+          <target state="final">you are following this user</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">IsFollowUser</note>
+          </trans-unit>
+        <trans-unit id="Resources\IsFollowingYou" translate="yes" xml:space="preserve">
+          <source>is following you</source>
+          <target state="final">is following you</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">IsFollowingYou</note>
+          </trans-unit>
+        <trans-unit id="Resources\Hybrid" translate="yes" xml:space="preserve">
+          <source>Hybrid</source>
+          <target state="final">Hybrid</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Hybrid</note>
+          </trans-unit>
+        <trans-unit id="Resources\Hi" translate="yes" xml:space="preserve">
+          <source>hi</source>
+          <target state="final">hi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Hi</note>
+          </trans-unit>
+        <trans-unit id="Resources\Hate" translate="yes" xml:space="preserve">
+          <source>hate</source>
+          <target state="final">hate</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Hate</note>
+          </trans-unit>
+        <trans-unit id="Resources\Genres" translate="yes" xml:space="preserve">
+          <source>genres</source>
+          <target state="final">genres</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Genres</note>
+          </trans-unit>
+        <trans-unit id="Resources\Fri" translate="yes" xml:space="preserve">
+          <source>fri</source>
+          <target state="final">fri</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Fri</note>
+          </trans-unit>
+        <trans-unit id="Resources\Female" translate="yes" xml:space="preserve">
+          <source>female</source>
+          <target state="final">female</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">female</note>
+          </trans-unit>
+        <trans-unit id="Resources\Feb" translate="yes" xml:space="preserve">
+          <source>feb</source>
+          <target state="final">feb</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Feb</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorSetAsUnseenTitle" translate="yes" xml:space="preserve">
+          <source>error seting as unseen</source>
+          <target state="final">error setting as unseen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorSetAsUnseenTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorSetAsUnseenText" translate="yes" xml:space="preserve">
+          <source>can not set as unseen right now, please try again later, sorry.</source>
+          <target state="final">can't set as unseen right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorSetAsUnseenText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorSetAsSeenTitle" translate="yes" xml:space="preserve">
+          <source>error seting as seen</source>
+          <target state="final">error setting as seen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorSetAsSeenTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorSetAsSeenText" translate="yes" xml:space="preserve">
+          <source>can not set as seen right now, please try again later, sorry.</source>
+          <target state="final">can't set as seen right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorSetAsSeenText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorRemoveFromWatchListTitle" translate="yes" xml:space="preserve">
+          <source>error removing from watchlist</source>
+          <target state="final">error removing from watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorRemoveFromWatchListTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorRemoveFromWatchListText" translate="yes" xml:space="preserve">
+          <source>can not remove from watchlist right now, please try again later, sorry.</source>
+          <target state="final">can't remove from watchlist right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorRemoveFromWatchListText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorRatingTitle" translate="yes" xml:space="preserve">
+          <source>error trying to rate</source>
+          <target state="final">error trying to rate</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorRatingTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorRatingText" translate="yes" xml:space="preserve">
+          <source>can not rate right now, please try again later, sorry.</source>
+          <target state="final">can't rate right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorRatingText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorNavigateToShowTitle" translate="yes" xml:space="preserve">
+          <source>error getting data</source>
+          <target state="final">error getting data</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorNavigateToShowTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorNavigateToShow" translate="yes" xml:space="preserve">
+          <source>shiftv can not get data about this show now, please check your connection or try again</source>
+          <target state="final">shiftv can't get data about this show now, please check your connection or try again</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorNavigateToShow</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorCheckInTitle" translate="yes" xml:space="preserve">
+          <source>error checking in</source>
+          <target state="final">error checking in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorCheckInTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorCheckInText" translate="yes" xml:space="preserve">
+          <source>can not checkin right now, please try again later, sorry.</source>
+          <target state="final">can't checkin right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorCheckInText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorAddToWatchListTitle" translate="yes" xml:space="preserve">
+          <source>error adding to watchlist</source>
+          <target state="final">error adding to watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorAddToWatchListTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorAddToWatchListText" translate="yes" xml:space="preserve">
+          <source>can not add to your watchlist right now, please try again later, sorry.</source>
+          <target state="final">can'ot add to your watchlist right now, please try again later, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorAddToWatchListText</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorAddingCommentTitle" translate="yes" xml:space="preserve">
+          <source>error adding a comment</source>
+          <target state="final">error adding a comment</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorAddingCommentTitle</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorAddingCommentText" translate="yes" xml:space="preserve">
+          <source>can not comment right now, please try again, sorry.</source>
+          <target state="final">can't add comments right now, please try again, sorry.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorAddingCommentText</note>
+          </trans-unit>
+        <trans-unit id="Resources\Episodes" translate="yes" xml:space="preserve">
+          <source>episodes</source>
+          <target state="final">episodes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">episodes</note>
+          </trans-unit>
+        <trans-unit id="Resources\Episode" translate="yes" xml:space="preserve">
+          <source>episode</source>
+          <target state="final">episode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Episode</note>
+          </trans-unit>
+        <trans-unit id="Resources\Enjoy" translate="yes" xml:space="preserve">
+          <source>enjoy</source>
+          <target state="final">enjoy</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Enjoy</note>
+          </trans-unit>
+        <trans-unit id="Resources\Email" translate="yes" xml:space="preserve">
+          <source>email</source>
+          <target state="final">email</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email</note>
+          </trans-unit>
+        <trans-unit id="Resources\Dec" translate="yes" xml:space="preserve">
+          <source>dec</source>
+          <target state="final">dec</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">December</note>
+          </trans-unit>
+        <trans-unit id="Resources\CreateNewAccount" translate="yes" xml:space="preserve">
+          <source>create new account</source>
+          <target state="final">create new account</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">CreateNewAccount</note>
+          </trans-unit>
+        <trans-unit id="Resources\Create" translate="yes" xml:space="preserve">
+          <source>sign up</source>
+          <target state="final">sign up</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Create</note>
+          </trans-unit>
+        <trans-unit id="Resources\CrawlingNotFound" translate="yes" xml:space="preserve">
+          <source>sorry no streams for this yet, please check again soon!</source>
+          <target state="final">shiftv coudn't find any streams for this yet, please check again soon!
+</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">CrawlingNotFound</note>
+          </trans-unit>
+        <trans-unit id="Resources\CrawlingMessage" translate="yes" xml:space="preserve">
+          <source>crawling the web for a stream</source>
+          <target state="final">crawling the web for a stream</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">CrawlingMessage</note>
+          </trans-unit>
+        <trans-unit id="Resources\Country" translate="yes" xml:space="preserve">
+          <source>country</source>
+          <target state="final">country</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">country</note>
+          </trans-unit>
+        <trans-unit id="Resources\ContainsSpoil" translate="yes" xml:space="preserve">
+          <source>contains spoil?</source>
+          <target state="final">contains spoil?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ContainsSpoil</note>
+          </trans-unit>
+        <trans-unit id="Resources\CommentLoginErrorSubMessage" translate="yes" xml:space="preserve">
+          <source>you can login in settings or social area on main pages</source>
+          <target state="final">you can login in the settings page or in the social area on main pages</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">to comment need to be signed in, this message will show when user is a GUEST</note>
+          </trans-unit>
+        <trans-unit id="Resources\CommentLoginErrorMainMessage" translate="yes" xml:space="preserve">
+          <source>sign in is requirement to do a comment, please sign in!</source>
+          <target state="final">you need to be signed in to comment, please sign in!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">to comment need to be signed in, this message will show when user is a GUEST</note>
+          </trans-unit>
+        <trans-unit id="Resources\Cinema" translate="yes" xml:space="preserve">
+          <source>cinema</source>
+          <target state="final">cinema</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cinema</note>
+          </trans-unit>
+        <trans-unit id="Resources\CheckIn" translate="yes" xml:space="preserve">
+          <source>check in</source>
+          <target state="final">check in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">CheckIn</note>
+          </trans-unit>
+        <trans-unit id="Resources\ChangeStream" translate="yes" xml:space="preserve">
+          <source>change stream</source>
+          <target state="final">change stream</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ChangeStream</note>
+          </trans-unit>
+        <trans-unit id="Resources\Cancel" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="final">cancel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cancel</note>
+          </trans-unit>
+        <trans-unit id="Resources\CalendarMessage" translate="yes" xml:space="preserve">
+          <source>added to your</source>
+          <target state="final">added to your</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ADDED TO YOUR</note>
+          </trans-unit>
+        <trans-unit id="Resources\Calendar" translate="yes" xml:space="preserve">
+          <source>calendar</source>
+          <target state="final">calendar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Calendar</note>
+          </trans-unit>
+        <trans-unit id="Resources\BtnPrev" translate="yes" xml:space="preserve">
+          <source>prev</source>
+          <target state="final">prev</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Previous abbr.</note>
+          </trans-unit>
+        <trans-unit id="Resources\BtnNext" translate="yes" xml:space="preserve">
+          <source>next</source>
+          <target state="final">next</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Next</note>
+          </trans-unit>
+        <trans-unit id="Resources\AvailableOffline" translate="yes" xml:space="preserve">
+          <source>available offline</source>
+          <target state="final">available offline</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AvailableOffline</note>
+          </trans-unit>
+        <trans-unit id="Resources\Aug" translate="yes" xml:space="preserve">
+          <source>aug</source>
+          <target state="final">aug</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">August</note>
+          </trans-unit>
+        <trans-unit id="Resources\Apr" translate="yes" xml:space="preserve">
+          <source>apr</source>
+          <target state="final">apr</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">April</note>
+          </trans-unit>
+        <trans-unit id="Resources\AirDay" translate="yes" xml:space="preserve">
+          <source>air day</source>
+          <target state="final">air day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AirDay</note>
+          </trans-unit>
+        <trans-unit id="Resources\Ago" translate="yes" xml:space="preserve">
+          <source>ago</source>
+          <target state="final">ago</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Ago</note>
+          </trans-unit>
+        <trans-unit id="Resources\Ads" translate="yes" xml:space="preserve">
+          <source>ads</source>
+          <target state="final">ads</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ads</note>
+          </trans-unit>
+        <trans-unit id="Resources\AddToWatchlist" translate="yes" xml:space="preserve">
+          <source>add to watchlist</source>
+          <target state="final">add to watchlist</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AddToWatchlist</note>
+          </trans-unit>
+        <trans-unit id="Resources\AddedToCollection" translate="yes" xml:space="preserve">
+          <source>added to collection</source>
+          <target state="final">added to collection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AddedToCollection</note>
+          </trans-unit>
+        <trans-unit id="Resources\AddComment" translate="yes" xml:space="preserve">
+          <source>add comment</source>
+          <target state="final">add comment</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AddComment</note>
+          </trans-unit>
+        <trans-unit id="Resources\A" translate="yes" xml:space="preserve">
+          <source>a</source>
+          <target state="needs-review-translation">a</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">a</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">WHAT THE FUCK? lol</note>
+          </trans-unit>
+        <trans-unit id="Resources\TopTrakt" translate="yes" xml:space="preserve">
+          <source>Top Trakt</source>
+          <target state="final">Top Trakt</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Top Trakt</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorLoadingText2" translate="yes" xml:space="preserve">
+          <source>(you can click retry, but check your connection and proxies or come back later)</source>
+          <target state="final">(make sure you're connected and retry or come back later)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorLoadingText2</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">removi a parte dos proxies, demasiado tecnico n?</note>
+          </trans-unit>
+        <trans-unit id="Resources\ErrorLoadingText1" translate="yes" xml:space="preserve">
+          <source>oops, some error ocorred while trying to get data</source>
+          <target state="final">oops, some error ocurred while trying to get data</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorLoadingText1</note>
+          </trans-unit>
+        <trans-unit id="Resources\Retry" translate="yes" xml:space="preserve">
+          <source>Retry</source>
+          <target state="final">Retry</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Retry</note>
+          </trans-unit>
+        <trans-unit id="Resources\FreshShows" translate="yes" xml:space="preserve">
+          <source>New %%amp; Fresh</source>
+          <target state="final">New %%amp; Fresh</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Fresh &amp; new shows</note>
+          </trans-unit>
+        <trans-unit id="Resources\Recommend" translate="yes" xml:space="preserve">
+          <source>recommended</source>
+          <target state="final">recommended</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">recommend</note>
+          </trans-unit>
+        <trans-unit id="Resources\MyShows" translate="yes" xml:space="preserve">
+          <source>my shows</source>
+          <target state="final">my shows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MyShows</note>
+          </trans-unit>
+        <trans-unit id="Resources\Animes" translate="yes" xml:space="preserve">
+          <source>Animes</source>
+          <target state="final">Animes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">animes</note>
+          </trans-unit>
+        <trans-unit id="Resources\Trending" translate="yes" xml:space="preserve">
+          <source>trending</source>
+          <target state="final">trending</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">trending</note>
+          </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

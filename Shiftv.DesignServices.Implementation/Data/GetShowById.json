@@ -1,0 +1,2911 @@
+﻿{
+	"title": "Arrow",
+	"year": 2012,
+	"ids": {
+		"trakt": 1403,
+		"slug": "arrow",
+		"tvdb": 257655,
+		"imdb": "tt2193021",
+		"tmdb": 1412,
+		"tvrage": 30715
+	},
+	"overview": "Oliver Queen and his father are lost at sea when their luxury yacht sinks. His father doesn't survive. Oliver survives on an uncharted island for five years learning to fight, but also learning about his father's corruption and unscrupulous business dealings. He returns to civilization a changed man, determined to put things right. He disguises himself with the hood of one of his mysterious island mentors, arms himself with a bow and sets about hunting down the men and women who have corrupted his city.",
+	"first_aired": "2012-10-11T00:00:00.000Z",
+	"airs": {
+		"day": "Wednesday",
+		"time": "20:00",
+		"timezone": "America/New_York"
+	},
+	"runtime": 43,
+	"certification": "TV-PG",
+	"network": "The CW",
+	"country": "us",
+	"trailer": "http://youtube.com/watch?v=hTv13EjlLNg",
+	"homepage": null,
+	"status": "returning series",
+	"rating": 8.1023,
+	"votes": 16032,
+	"updated_at": "2015-03-06T10:52:55.000Z",
+	"language": "en",
+	"available_translations": ["en",
+	"hu",
+	"it",
+	"da",
+	"pl",
+	"pt",
+	"el",
+	"nl",
+	"sk",
+	"es",
+	"tr",
+	"fr",
+	"de",
+	"ru",
+	"zh",
+	"uk",
+	"bg"],
+	"genres": ["action",
+	"adventure",
+	"crime",
+	"drama",
+	"mystery",
+	"science-fiction"],
+	"aired_episodes": 61,
+	"images": {
+		"fanart": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/fanarts/original/bbe10773b5.jpg",
+			"medium": "https://walter.trakt.us/images/shows/000/001/403/fanarts/medium/bbe10773b5.jpg",
+			"thumb": "https://walter.trakt.us/images/shows/000/001/403/fanarts/thumb/bbe10773b5.jpg"
+		},
+		"poster": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/posters/original/e68cd618e2.jpg",
+			"medium": "https://walter.trakt.us/images/shows/000/001/403/posters/medium/e68cd618e2.jpg",
+			"thumb": "https://walter.trakt.us/images/shows/000/001/403/posters/thumb/e68cd618e2.jpg"
+		},
+		"logo": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/logos/original/42673e65fd.png"
+		},
+		"clearart": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/cleararts/original/b859003114.png"
+		},
+		"banner": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/banners/original/bcb318ed5d.jpg"
+		},
+		"thumb": {
+			"full": "https://walter.trakt.us/images/shows/000/001/403/thumbs/original/bdc790c1e5.jpg"
+		},
+		"headshot": null,
+		"avatar": null,
+		"screenshot": null
+	},
+	"seasons": [{
+		"number": 0,
+		"ids": {
+			"trakt": 4040,
+			"slug": null,
+			"tvdb": 488842,
+			"imdb": null,
+			"tmdb": 3698,
+			"tvrage": null
+		},
+		"rating": 7.75,
+		"votes": 8,
+		"episode_count": 7,
+		"overview": "Contains special episodes. So far, only one such episode 'Year One' has aired. ",
+		"images": {
+			"fanart": null,
+			"poster": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/040/posters/original/baf814757e.jpg",
+				"medium": "https://walter.trakt.us/images/seasons/000/004/040/posters/medium/baf814757e.jpg",
+				"thumb": "https://walter.trakt.us/images/seasons/000/004/040/posters/thumb/baf814757e.jpg"
+			},
+			"logo": null,
+			"clearart": null,
+			"banner": null,
+			"thumb": {
+				"full": null
+			},
+			"headshot": null,
+			"avatar": null,
+			"screenshot": null
+		},
+		"episodes": [{
+			"season": 0,
+			"number": 1,
+			"title": "Year One",
+			"ids": {
+				"trakt": 1694013,
+				"slug": null,
+				"tvdb": 4659835,
+				"imdb": "",
+				"tmdb": 64134,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "This one-hour special gives fans a chance to catch up on the incredible events that led billionaire Oliver Queen to secretly create the persona of Arrow. Five years after being lost at sea, Oliver returns to Starling City to carry out his father’s dying wish: take down the corrupt elite who have failed his city. The special follows Oliver as he delivers vigilante justice and discovers that the real threat to his city is far greater than he ever imagined. \n\nAn exclusive first look at season two is included.",
+			"first_aired": "2013-10-03T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.05556,
+			"votes": 18,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/694/013/screenshots/original/f6f8812978.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/694/013/screenshots/medium/f6f8812978.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/694/013/screenshots/thumb/f6f8812978.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 2,
+			"title": "Blood Rush: Part One",
+			"ids": {
+				"trakt": 1712330,
+				"slug": null,
+				"tvdb": 4712380,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2013-11-07T01:00:00.000Z",
+			"updated_at": "2015-03-03T01:53:27.000Z",
+			"rating": 8.36364,
+			"votes": 11,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/330/screenshots/original/1dd33e9e3a.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/330/screenshots/medium/1dd33e9e3a.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/330/screenshots/thumb/1dd33e9e3a.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 3,
+			"title": "Blood Rush: Part Two",
+			"ids": {
+				"trakt": 1712331,
+				"slug": null,
+				"tvdb": 4712382,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2013-11-14T01:00:00.000Z",
+			"updated_at": "2015-03-06T00:34:57.000Z",
+			"rating": 7.8,
+			"votes": 5,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/331/screenshots/original/12f93cae17.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/331/screenshots/medium/12f93cae17.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/331/screenshots/thumb/12f93cae17.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 4,
+			"title": "Blood Rush: Part Three",
+			"ids": {
+				"trakt": 1712332,
+				"slug": null,
+				"tvdb": 4717550,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Felicity helps Roy break into a high security medical lab.",
+			"first_aired": "2013-11-21T01:00:00.000Z",
+			"updated_at": "2015-03-06T00:35:01.000Z",
+			"rating": 8.16667,
+			"votes": 6,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/332/screenshots/original/930a9335fd.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/332/screenshots/medium/930a9335fd.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/332/screenshots/thumb/930a9335fd.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 5,
+			"title": "Blood Rush: Part Four",
+			"ids": {
+				"trakt": 1712333,
+				"slug": null,
+				"tvdb": 4725444,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2013-11-28T01:00:00.000Z",
+			"updated_at": "2015-03-06T00:35:06.000Z",
+			"rating": 8.16667,
+			"votes": 6,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/333/screenshots/original/dd63332452.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/333/screenshots/medium/dd63332452.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/333/screenshots/thumb/dd63332452.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 6,
+			"title": "Blood Rush: Part Five ",
+			"ids": {
+				"trakt": 1712334,
+				"slug": null,
+				"tvdb": 4730321,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Roy needs Felicity's help before the building goes into lock down. ",
+			"first_aired": "2013-12-05T01:00:00.000Z",
+			"updated_at": "2015-03-06T00:35:07.000Z",
+			"rating": 8.16667,
+			"votes": 6,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/334/screenshots/original/b7f222d1f7.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/334/screenshots/medium/b7f222d1f7.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/334/screenshots/thumb/b7f222d1f7.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 0,
+			"number": 7,
+			"title": "Blood Rush: Part Six",
+			"ids": {
+				"trakt": 1712335,
+				"slug": null,
+				"tvdb": 4735796,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Everything's easier when you have good friends.",
+			"first_aired": "2013-12-12T01:00:00.000Z",
+			"updated_at": "2015-03-06T00:34:55.000Z",
+			"rating": 7.75,
+			"votes": 8,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/335/screenshots/original/05f2065c06.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/335/screenshots/medium/05f2065c06.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/335/screenshots/thumb/05f2065c06.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		}]
+	},
+	{
+		"number": 1,
+		"ids": {
+			"trakt": 4041,
+			"slug": null,
+			"tvdb": 492243,
+			"imdb": null,
+			"tmdb": 3697,
+			"tvrage": null
+		},
+		"rating": 7.93701,
+		"votes": 127,
+		"episode_count": 23,
+		"overview": "Oliver Queen returns to Starling city after being deserted on a hellish island for five years. He decides to become a mask wearing vigilante to fulfil his father's wishes and rid the city of crime. In his journey to do so, he is forced to make tough decisions even as he makes new friends and even more enemies which continue question his lethal ways of controlling crime.",
+		"images": {
+			"fanart": null,
+			"poster": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/041/posters/original/c54cb34772.jpg",
+				"medium": "https://walter.trakt.us/images/seasons/000/004/041/posters/medium/c54cb34772.jpg",
+				"thumb": "https://walter.trakt.us/images/seasons/000/004/041/posters/thumb/c54cb34772.jpg"
+			},
+			"logo": null,
+			"clearart": null,
+			"banner": null,
+			"thumb": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/041/thumbs/original/b529ddd723.jpg"
+			},
+			"headshot": null,
+			"avatar": null,
+			"screenshot": null
+		},
+		"episodes": [{
+			"season": 1,
+			"number": 1,
+			"title": "Pilot",
+			"ids": {
+				"trakt": 74758,
+				"slug": null,
+				"tvdb": 4325893,
+				"imdb": "",
+				"tmdb": 64111,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "After a violent shipwreck, billionaire playboy Oliver Queen was missing and presumed dead for five years before being discovered alive on a remote island in the Pacific. Back in Starling City, Oliver slowly reconnects with those closest to him. Oliver has brought back many new skills from his time on the island and despite the watchful eye of his new bodyguard John Diggle, Oliver manages to secretly create the persona of Arrow -- a vigilante -- to right the wrongs of his family and fight the ills of society. As Arrow, Oliver will atone for the past sins of his family while he searches for the personal redemption he needs.",
+			"first_aired": "2012-10-11T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.27913,
+			"votes": 2386,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/758/screenshots/original/3976b417c7.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/758/screenshots/medium/3976b417c7.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/758/screenshots/thumb/3976b417c7.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 2,
+			"title": "Honor Thy Father",
+			"ids": {
+				"trakt": 74759,
+				"slug": null,
+				"tvdb": 4365918,
+				"imdb": "",
+				"tmdb": 64112,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver heads to the courthouse to get his death certificate repealed and is pleasantly surprised to run into Laurel, who is there prosecuting Martin Somers, a criminal with ties to the Chinese Triad. Oliver recognizes Martin’s name from his father’s book and sets his sights on taking him down. Martin orders the Triad to \"take care of\" Laurel so they send their top mercenary -- China White -- after her. Meanwhile, Moira and Walter ask Oliver to take over the company.",
+			"first_aired": "2012-10-18T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.15393,
+			"votes": 1741,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/759/screenshots/original/43a6d84d56.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/759/screenshots/medium/43a6d84d56.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/759/screenshots/thumb/43a6d84d56.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 3,
+			"title": "Lone Gunmen",
+			"ids": {
+				"trakt": 74760,
+				"slug": null,
+				"tvdb": 4365919,
+				"imdb": "",
+				"tmdb": 64113,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver is surprised when someone shoots and kills one of his targets. As his plan is to bring people to justice vs. outright killing them, Oliver doesn't appreciate the help and searches for the gunman. He soon learns that the man, Deadshot, is taking out businessmen who are scheduled to bid at an auction on an energy company and Walter is one of the bidders. Realizing he can't protect his family and stop Deadshot at the same time, Oliver enlists Detective Lance's help, but his plan has dire consequences. Meanwhile, Laurel and Tommy get caught in an awkward situation with Oliver.",
+			"first_aired": "2012-10-25T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.31079,
+			"votes": 1612,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/760/screenshots/original/5ad58d2aea.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/760/screenshots/medium/5ad58d2aea.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/760/screenshots/thumb/5ad58d2aea.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 4,
+			"title": "An Innocent Man",
+			"ids": {
+				"trakt": 74761,
+				"slug": null,
+				"tvdb": 4369897,
+				"imdb": "",
+				"tmdb": 64116,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver still hasn’t figured out how to get back in Laurel's good graces, but a late night bonding session with Thea gives him the inspiration he needs. Looking into a suspicious murder case, Oliver realizes an innocent man, Peter Declan, was framed by one of the targets on his list. As Arrow, he asks Laurel to help prove Declan's innocence. Meanwhile, Walter asks one of his employees, Felicity Smoak, to look into a $2.6 million withdrawal that Moira made without his knowledge.",
+			"first_aired": "2012-11-01T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.27403,
+			"votes": 1602,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/761/screenshots/original/2327baf209.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/761/screenshots/medium/2327baf209.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/761/screenshots/thumb/2327baf209.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 5,
+			"title": "Damaged",
+			"ids": {
+				"trakt": 74762,
+				"slug": null,
+				"tvdb": 4378737,
+				"imdb": "",
+				"tmdb": 64114,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "After Detective Lance arrests Oliver for murder, Oliver tells Moira the only lawyer he’ll allow to represent him is Laurel. Laurel takes the case which puts her at odds with her father. Oliver offers to take a polygraph in front Detective Lance but things get tense when Lance asks him if anyone else was on the island with him. Oliver flashes back to when he got his first scar, courtesy of Deathstroke.",
+			"first_aired": "2012-11-08T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.2801,
+			"votes": 1553,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/762/screenshots/original/5f67eecf32.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/762/screenshots/medium/5f67eecf32.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/762/screenshots/thumb/5f67eecf32.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 6,
+			"title": "Legacies",
+			"ids": {
+				"trakt": 74763,
+				"slug": null,
+				"tvdb": 4386872,
+				"imdb": "",
+				"tmdb": 64115,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "A gang of bank robbers, dubbed The Royal Flush Gang, hits a local bank and seriously wounds an off-duty police officer during a heist. Diggle tells Oliver he needs to deviate from his father's list and start helping the citizens of Starling City. Meanwhile, Tommy asks Thea for relationship advice, but things get awkward when she realizes he was asking about Laurel. Moira confronts Oliver about all of his recent disappearances in the middle of family functions.",
+			"first_aired": "2012-11-15T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 7.95723,
+			"votes": 1473,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/763/screenshots/original/cb44f84f0a.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/763/screenshots/medium/cb44f84f0a.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/763/screenshots/thumb/cb44f84f0a.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 7,
+			"title": "Muse of Fire",
+			"ids": {
+				"trakt": 74764,
+				"slug": null,
+				"tvdb": 4398273,
+				"imdb": "",
+				"tmdb": 64117,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver encounters a mysterious woman, Helena Bertinelli, daughter of mob boss Frank Bertinelli, who he can finally be himself with, but he soon comes to realize she’s hiding dangerous secrets of her own. Helena is on her own personal mission of vengeance and Oliver is caught in the middle. Meanwhile, Tommy is blindsided by an unfortunate turn of events and turns to Laurel for support.",
+			"first_aired": "2012-11-29T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.10107,
+			"votes": 1494,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/764/screenshots/original/663a652004.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/764/screenshots/medium/663a652004.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/764/screenshots/thumb/663a652004.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 8,
+			"title": "Vendetta",
+			"ids": {
+				"trakt": 74765,
+				"slug": null,
+				"tvdb": 4408785,
+				"imdb": "",
+				"tmdb": 64118,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "As Oliver and Helena grow closer, Oliver trains her to be his ally, complete with showing her how to use a crossbow. Diggle disapproves of Oliver sharing his secret with Helena as he’s not sure she can be trusted, but Oliver refuses to listen to his concerns. Helena’s quest for revenge proves to be too strong for Oliver to handle after she kills the head of the Triad and all hell breaks loose.",
+			"first_aired": "2012-12-06T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.01687,
+			"votes": 1423,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/765/screenshots/original/86330ec049.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/765/screenshots/medium/86330ec049.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/765/screenshots/thumb/86330ec049.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 9,
+			"title": "Year's End",
+			"ids": {
+				"trakt": 74766,
+				"slug": null,
+				"tvdb": 4415147,
+				"imdb": "",
+				"tmdb": 64119,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver discovers that after he and his father went missing, Moira and Thea stopped celebrating Christmas. Determined to make up for lost time and restore a sense of normalcy to the Queen household, Oliver decides to throw the family a Christmas party. Meanwhile, Tommy asks Laurel to spend Christmas with him but she points out that Christmas was also her sister’s Sara’s birthday and she needs to be with her father. Tommy suggests changing things up might be the best way for everyone to heal but Laurel isn’t sure her father is ready for that.",
+			"first_aired": "2012-12-13T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.15228,
+			"votes": 1425,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/766/screenshots/original/344937f980.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/766/screenshots/medium/344937f980.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/766/screenshots/thumb/344937f980.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 10,
+			"title": "Burned",
+			"ids": {
+				"trakt": 74767,
+				"slug": null,
+				"tvdb": 4421415,
+				"imdb": "",
+				"tmdb": 64120,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver’s confidence is shaken after being beaten by the Dark Archer and he takes a break from being Arrow. However, when Laurel calls Arrow for help investigating a firefighter’s suspicious death, he reluctantly agrees but his hesitance while fighting almost costs him his life. Meanwhile, Tommy throws a benefit for the firefighters and Thea tries to lift Moira out of her depressive state.",
+			"first_aired": "2013-01-17T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 7.87152,
+			"votes": 1401,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/767/screenshots/original/98807e6fbb.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/767/screenshots/medium/98807e6fbb.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/767/screenshots/thumb/98807e6fbb.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 11,
+			"title": "Trust But Verify",
+			"ids": {
+				"trakt": 74768,
+				"slug": null,
+				"tvdb": 4430407,
+				"imdb": "",
+				"tmdb": 64121,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "The next person on Arrow’s list is Diggle’s commanding officer and mentor from Afghanistan, Ted Gaynor. Oliver suspects Ted is responsible for recent armoured truck robberies, but Diggle defends Ted and takes a job at Ted’s security company to keep an eye on him. Oliver decides to make a move on Ted, which puts him at odds with Diggle. Meanwhile, Thea  suspects that Moira is having an affair with Malcolm. Tommy and Laurel have an awkward dinner with Malcolm.",
+			"first_aired": "2013-01-24T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.08511,
+			"votes": 1363,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/768/screenshots/original/e6e66ded7d.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/768/screenshots/medium/e6e66ded7d.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/768/screenshots/thumb/e6e66ded7d.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 12,
+			"title": "Vertigo",
+			"ids": {
+				"trakt": 74769,
+				"slug": null,
+				"tvdb": 4442088,
+				"imdb": "",
+				"tmdb": 64124,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Thea is in trouble with the police after she gets caught using a drug called “Vertigo.” Oliver thinks the only way to keep her out of jail is to find the dealer, a man who goes by the name of “The Count”. Oliver turns to McKenna Hall, an old flame and current Vice cop, for help. Meanwhile, Laurel steps in to defend Thea, and Felicity gives Oliver some disturbing news about Moira.",
+			"first_aired": "2013-01-31T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:32.000Z",
+			"rating": 8.18624,
+			"votes": 1337,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/769/screenshots/original/7f4aae14fd.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/769/screenshots/medium/7f4aae14fd.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/769/screenshots/thumb/7f4aae14fd.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 13,
+			"title": "Betrayal",
+			"ids": {
+				"trakt": 74770,
+				"slug": null,
+				"tvdb": 4442089,
+				"imdb": "",
+				"tmdb": 64125,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Cyrus Vanch, a nefarious criminal, is recently released from prison and intends to re-secure his position as leader of the underworld. His first step is to take down his biggest opponent in the city – Arrow. Meanwhile, Oliver shows Moira his father’s notebook and questions her about the names on the list. Thea is miserable as she starts her internship with Laurel at the legal aid office and Detective Lance makes a deadly mistake that puts Laurel in the crosshairs of Vanch.",
+			"first_aired": "2013-02-07T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:27.000Z",
+			"rating": 8.28069,
+			"votes": 1336,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/770/screenshots/original/e319c105d9.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/770/screenshots/medium/e319c105d9.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/770/screenshots/thumb/e319c105d9.jpg"
+				}
+			},
+			"user_rating": 8,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 14,
+			"title": "The Odyssey",
+			"ids": {
+				"trakt": 74771,
+				"slug": null,
+				"tvdb": 4451617,
+				"imdb": "",
+				"tmdb": 64122,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "After Oliver is shot, he turns to a surprising person for help – Felicity. Diggle is stunned when he sees Felicity walk through the front door of the lair dragging a dying Oliver behind her, and the two team up to save Oliver’s life. As Oliver hovers between life and death, he flashes back to a seminal event on the island – a daring escape attempt with his new friend Slade Wilson.",
+			"first_aired": "2013-02-14T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:28.000Z",
+			"rating": 8.23049,
+			"votes": 1371,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/771/screenshots/original/b5d2f7ea89.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/771/screenshots/medium/b5d2f7ea89.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/771/screenshots/thumb/b5d2f7ea89.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 15,
+			"title": "Dodger",
+			"ids": {
+				"trakt": 74772,
+				"slug": null,
+				"tvdb": 4457361,
+				"imdb": "",
+				"tmdb": 64123,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Felicity tells Oliver he’s all work and no play, so he asks Detective McKenna on a date. A jewel thief named Dodger hits Starling City and targets someone very close to Oliver. Meanwhile, while working with Laurel, Thea gets her purse stolen by a very fast pickpocket named Roy Harper. Moira makes a move against Malcolm.",
+			"first_aired": "2013-02-21T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:28.000Z",
+			"rating": 8.05275,
+			"votes": 1346,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/772/screenshots/original/12eb04bf57.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/772/screenshots/medium/12eb04bf57.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/772/screenshots/thumb/12eb04bf57.jpg"
+				}
+			},
+			"user_rating": 9,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 16,
+			"title": "Dead to Rights",
+			"ids": {
+				"trakt": 74773,
+				"slug": null,
+				"tvdb": 4486515,
+				"imdb": "",
+				"tmdb": 64126,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver and Diggle learn that Deadshot is still alive and his next target is Malcolm. Malcolm invites Tommy to attend a benefit honoring Malcolm for his work with Starling City but Tommy refuses to attend. Oliver encourages his friend to mend his relationship with his father while he can. Meanwhile, Oliver struggles to balance his new relationship with McKenna and his duties as Arrow.",
+			"first_aired": "2013-02-28T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:28.000Z",
+			"rating": 8.29143,
+			"votes": 1400,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/773/screenshots/original/9947059b9d.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/773/screenshots/medium/9947059b9d.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/773/screenshots/thumb/9947059b9d.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 17,
+			"title": "The Huntress Returns",
+			"ids": {
+				"trakt": 74774,
+				"slug": null,
+				"tvdb": 4486516,
+				"imdb": "",
+				"tmdb": 64127,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "With his nightclub set to open and a new romance brewing with McKenna, Oliver is as happy as he’s been since returning to Starling City. But when Oliver’s ex, The Huntress, suddenly returns to town, she threatens to destroy everything and everyone he cares about. Meanwhile, Laurel and her father struggle with the return of Dinah Lance who claims she has proof Sara is still alive. Thea gets Roy Harper a job at Oliver’s club, but he’s not too inclined to stop his life of crime. Oliver and Tommy are thrilled they were able to get Steve Aoki to play at the opening of their new nightclub, Verdant.",
+			"first_aired": "2013-03-21T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:28.000Z",
+			"rating": 8.11961,
+			"votes": 1647,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/774/screenshots/original/f302477bc3.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/774/screenshots/medium/f302477bc3.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/774/screenshots/thumb/f302477bc3.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 18,
+			"title": "Salvation",
+			"ids": {
+				"trakt": 74775,
+				"slug": null,
+				"tvdb": 4506514,
+				"imdb": "",
+				"tmdb": 64128,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "An angry resident of The Glades who calls himself “The Savior” embarks on a kidnapping and killing spree to punish those he believes have wronged the residents of his neighborhood. To make things worse, he broadcasts these murders online and claims he was inspired by Arrow’s vigilantism. Oliver is horrified by this statement and vows to stop “The Savior,” but his manhunt in intensified after Thea comes to him in tears and tells him Roy has been kidnapped. Laurel is surprised when her father starts to believe her mother’s claim that Sara is still alive. Meanwhile, Malcom tells Moira to find the person responsible for his attempted murder.",
+			"first_aired": "2013-03-28T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:28.000Z",
+			"rating": 8.23779,
+			"votes": 1699,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/775/screenshots/original/6a606f5927.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/775/screenshots/medium/6a606f5927.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/775/screenshots/thumb/6a606f5927.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 19,
+			"title": "Unfinished Business",
+			"ids": {
+				"trakt": 74776,
+				"slug": null,
+				"tvdb": 4506515,
+				"imdb": "",
+				"tmdb": 64129,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "When a young woman meets a violent death after partying at Verdant, Detective Lance and his new partner, Detective Hilton inform Oliver and Tommy that she was on the drug Vertigo. Oliver immediately pays a visit to the mental institution where The Count is locked up, but finds he is in no condition to deal drugs. However, when The Count escapes and Starling City is flooded with even more Vertigo-related violence, Oliver and Diggle make it their mission to track him down. After Detective Lance uncovers incriminating evidence against him, Tommy goes to great lengths to clear his name, and the fallout from his actions leads Tommy down a new, unexpected path. In a flashback to the island, Oliver recalls the lessons he learned from Slade and Shado.  ",
+			"first_aired": "2013-04-04T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.08571,
+			"votes": 1680,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/776/screenshots/original/5a8fecdaed.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/776/screenshots/medium/5a8fecdaed.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/776/screenshots/thumb/5a8fecdaed.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 20,
+			"title": "Home Invasion",
+			"ids": {
+				"trakt": 74777,
+				"slug": null,
+				"tvdb": 4517894,
+				"imdb": "",
+				"tmdb": 64130,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Deadshot returns to Starling City after taking down a U.S. Ambassador and six others overseas. By keeping tabs on A.R.G.U.S.’s manhunt for the assassin, Oliver, Diggle, and Felicity learn that a sting operation is underway to capture Deadshot – alive. Diggle is determined to see his brother’s killer dead, with or without Ollie’s help. Meanwhile, Laurel takes drastic steps to protect a young witness, exacerbating friction between Tommy and Oliver. Later, Roy Harper unconventionally pursues all leads to find his new hero, but runs afoul of Detective Lance. Back on the island, Oliver recalls how Shado helped him incrementally gain confidence with a bow and hit the target for the first time.",
+			"first_aired": "2013-04-25T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.25147,
+			"votes": 1702,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/777/screenshots/original/1cc6e3a5b5.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/777/screenshots/medium/1cc6e3a5b5.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/777/screenshots/thumb/1cc6e3a5b5.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 21,
+			"title": "The Undertaking",
+			"ids": {
+				"trakt": 74778,
+				"slug": null,
+				"tvdb": 4517949,
+				"imdb": "",
+				"tmdb": 64131,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Finding it difficult to mend fences with Tommy and Diggle, Oliver instead focuses on crossing another name off the list. While digging through a crooked accountant’s laptop, Felicity discovers a transaction that could help Oliver find Walter. To reconfirm the lead, Oliver gambles that Felicity can be counted on in the field for the first time. In a flashback, Malcolm reveals to Robert Queen and Frank Chen painful details surrounding his wife’s murder, and how that shaped his plans for the Glades. Meanwhile, Tommy stuns Laurel with the truth.",
+			"first_aired": "2013-05-02T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.4313,
+			"votes": 1725,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/778/screenshots/original/3d7af40c78.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/778/screenshots/medium/3d7af40c78.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/778/screenshots/thumb/3d7af40c78.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 22,
+			"title": "Darkness on the Edge of Town",
+			"ids": {
+				"trakt": 74779,
+				"slug": null,
+				"tvdb": 4517950,
+				"imdb": "",
+				"tmdb": 64132,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "With the Undertaking days away, Malcolm dons his black hood to conclude business with seismologist Dr. Brion Markov and his team. Oliver and Moira entertain a number of surprise - and mostly unwelcome - visitors. Hooded confrontations at home and the Merlyn Global Group reveal dark secrets. Meanwhile, Roy and Thea are still looking out for a hero. Laurel makes a decision after Tommy's revelation. In a flashback to the island, Oliver, Slade and Shado struggle to prevent Fyers from shooting a Ferris Air jet out of the sky.",
+			"first_aired": "2013-05-09T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:29.000Z",
+			"rating": 8.64736,
+			"votes": 1778,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/779/screenshots/original/018d425673.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/779/screenshots/medium/018d425673.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/779/screenshots/thumb/018d425673.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 1,
+			"number": 23,
+			"title": "Sacrifice",
+			"ids": {
+				"trakt": 74780,
+				"slug": null,
+				"tvdb": 4517951,
+				"imdb": "",
+				"tmdb": 64133,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver and Diggle race to stop the Dark Archer from unleashing his vengeance on The Glades. However, they run into a roadblock after Detective Lance picks up Felicity for questioning. Tommy and Oliver’s already tumultuous relationship takes a turn for the worse after Oliver makes a confession about Laurel. After hearing of the danger in The Glades, Thea races to find Roy, inadvertently putting herself directly in the line of fire for Malcolm’s devious plan. On the island, Oliver, Slade and Shado are locked in a life-or-death struggle against Fyers as his missiles lock on a full Ferris Air jetliner.",
+			"first_aired": "2013-05-16T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.87865,
+			"votes": 1953,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/780/screenshots/original/d9e9f98a8e.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/780/screenshots/medium/d9e9f98a8e.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/780/screenshots/thumb/d9e9f98a8e.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		}]
+	},
+	{
+		"number": 2,
+		"ids": {
+			"trakt": 4042,
+			"slug": null,
+			"tvdb": 523331,
+			"imdb": null,
+			"tmdb": 3699,
+			"tvrage": null
+		},
+		"rating": 8.13513,
+		"votes": 111,
+		"episode_count": 23,
+		"overview": "At the end of Season 1, Starling city suffered a huge loss and so did Oliver Queen. Learning from his mistakes, Oliver decides to change his methods even while honouring his promises to his friend. Meanwhile a new enemy from his past resurfaces to make life difficult for Oliver. ",
+		"images": {
+			"fanart": null,
+			"poster": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/042/posters/original/9dca8eb4c7.jpg",
+				"medium": "https://walter.trakt.us/images/seasons/000/004/042/posters/medium/9dca8eb4c7.jpg",
+				"thumb": "https://walter.trakt.us/images/seasons/000/004/042/posters/thumb/9dca8eb4c7.jpg"
+			},
+			"logo": null,
+			"clearart": null,
+			"banner": null,
+			"thumb": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/042/thumbs/original/c8eea3daa4.jpg"
+			},
+			"headshot": null,
+			"avatar": null,
+			"screenshot": null
+		},
+		"episodes": [{
+			"season": 2,
+			"number": 1,
+			"title": "City of Heroes",
+			"ids": {
+				"trakt": 74781,
+				"slug": null,
+				"tvdb": 4599381,
+				"imdb": "tt2702698",
+				"tmdb": 64135,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": " Diggle and Felicity travel to Lian Yu in search of Oliver who left Starling City after The Undertaking. Convinced to return home, Oliver finds that things are in worse shape than he thought – Isabel Rochev is preparing a hostile takeover of Queen Consolidated, Thea refuses to visit Moira  in jail, Roy  is trying to fill the void left by the Arrow’s absence, and Laurel is working with the District Attorney’s office to take down the vigilante. Meanwhile, flashbacks to the island show Slade, Shado  and Oliver in a desperate situation.",
+			"first_aired": "2013-10-10T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.36314,
+			"votes": 2192,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/781/screenshots/original/b28a197243.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/781/screenshots/medium/b28a197243.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/781/screenshots/thumb/b28a197243.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 2,
+			"title": "Identity",
+			"ids": {
+				"trakt": 74782,
+				"slug": null,
+				"tvdb": 4618306,
+				"imdb": "tt3077106",
+				"tmdb": 64136,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver finds out the medicine that is being sent to Glades Memorial is being hijacked by thieves. Without an influx of supplies, the hospital will close. Roy attempts to stop the thieves, but he fails and is arrested by Officer Lance. Oliver gets into a heated battle with China White and her new partner, Ben Turner, AKA the Bronze Tiger, over the supplies.  Meanwhile, Laurel makes plans to catch the Arrow, and Thea gives Roy an ultimatum.",
+			"first_aired": "2013-10-17T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.33599,
+			"votes": 2009,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/782/screenshots/original/1a053542aa.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/782/screenshots/medium/1a053542aa.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/782/screenshots/thumb/1a053542aa.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 3,
+			"title": "Broken Dolls",
+			"ids": {
+				"trakt": 74783,
+				"slug": null,
+				"tvdb": 4621221,
+				"imdb": "tt3126166",
+				"tmdb": 64137,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Lance learns a criminal named Barton Mathis, whom he put away years ago, broke out of prison during the quake and is back to torturing and murdering women. Felicity offers herself as bait so Arrow, Diggle and Lance can catch this villain, but the plan goes awry. Furious, Mathis kidnaps Laurel in retaliation and plans to murder her while Lance watches. Meanwhile, Thea and Oliver are stunned when District Attorney Adam Donner seeks the death penalty for Moira. Oliver asks Roy to help him find the Canary.\n",
+			"first_aired": "2013-10-24T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:30.000Z",
+			"rating": 8.3533,
+			"votes": 1953,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/783/screenshots/original/a1333e3b79.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/783/screenshots/medium/a1333e3b79.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/783/screenshots/thumb/a1333e3b79.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 4,
+			"title": "Crucible",
+			"ids": {
+				"trakt": 74784,
+				"slug": null,
+				"tvdb": 4626058,
+				"imdb": "tt3126168",
+				"tmdb": 64138,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver discovers a man who goes by the name “The Mayor” is bringing illegal guns in to The Glades, so Oliver sponsors a “Cash for Guns” event to help clean up the city. Unfortunately, The Mayor crashes the event with his gang and seriously injures Sin. The Canary is furious when she learns her friend is in the hospital and sets out for revenge. Meanwhile, Felicity stuns Oliver with a bit of information about the Canary, Donner asks Laurel to dinner, and Diggle reconnects with an old friend.",
+			"first_aired": "2013-10-31T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.38367,
+			"votes": 1947,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/784/screenshots/original/a535bda1be.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/784/screenshots/medium/a535bda1be.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/784/screenshots/thumb/a535bda1be.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 5,
+			"title": "League of Assassins",
+			"ids": {
+				"trakt": 74785,
+				"slug": null,
+				"tvdb": 4634985,
+				"imdb": "tt3128398",
+				"tmdb": 64139,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "While Oliver tends to the Canary’s wounds, he tries to get her to talk about where she came from but she refuses. However, after Oliver and the Canary are attacked at the Queen mansion by a trained killer from the League of Assassins, she confesses to how she’s connected with the nefarious group. Meanwhile with Moira facing multiple counts of murder and conspiracy for her part in the destruction of The Glades, the Assistant District Attorney offers her a choice – plead guilty now and avoid the death penalty or take your chances in court. Thea begs her mother to fight for her life but Moira seems resolute about taking the offer. Meanwhile, Oliver is furious with Laurel for joining the prosecution’s team on his mother’s case.",
+			"first_aired": "2013-11-07T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.31058,
+			"votes": 1890,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/785/screenshots/original/bdad58f18f.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/785/screenshots/medium/bdad58f18f.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/785/screenshots/thumb/bdad58f18f.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 6,
+			"title": "Keep Your Enemies Closer",
+			"ids": {
+				"trakt": 74786,
+				"slug": null,
+				"tvdb": 4644761,
+				"imdb": "tt3213782",
+				"tmdb": 64140,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Amanda Waller sends A.R.G.U.S. agents to kidnap Diggle. Waller informs Diggle that Lyla has gone missing after following a lead on Deadshot in Moscow. When Diggle tells the team he’s headed to Russia to rescue Lyla, Oliver and Felicity decide to join, but things get messy when Isabel shows up on the tarmac and insists on joining Oliver’s “work trip.” Meanwhile, Moira’s lawyer, Jean, tells Thea that dating Roy, a known criminal, is hurting her mother’s case.",
+			"first_aired": "2013-11-14T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.2504,
+			"votes": 1861,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/786/screenshots/original/1ef657c4c9.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/786/screenshots/medium/1ef657c4c9.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/786/screenshots/thumb/1ef657c4c9.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 7,
+			"title": "State V. Queen",
+			"ids": {
+				"trakt": 74787,
+				"slug": null,
+				"tvdb": 4645098,
+				"imdb": "tt3213864",
+				"tmdb": 64141,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver is concerned when a mysterious illness sweeps the city, infecting hundreds of people, including Diggle. Oliver discovers Vertigo in Diggle's blood and realizes The Count has broken out of prison and is once again distributing his drug. Meanwhile, Moira goes on trial for her participation in the Undertaking. ADA Adam Donner collapses in court with Vertigo symptoms so Laurel must step in and try the case against Moira. Oliver is torn between standing by his family during the trial and catching The Count. However, things change when Felicity follows a lead and walks straight into a trap set by The Count.",
+			"first_aired": "2013-11-21T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.30237,
+			"votes": 1895,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/787/screenshots/original/91e12b7f17.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/787/screenshots/medium/91e12b7f17.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/787/screenshots/thumb/91e12b7f17.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 8,
+			"title": "The Scientist",
+			"ids": {
+				"trakt": 74788,
+				"slug": null,
+				"tvdb": 4687568,
+				"imdb": "",
+				"tmdb": 968620,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "A seemingly impossible robbery at Queen Consolidated’s Applied Sciences Division brings Central City police scientist Barry Allen to town. Citing a similar case back home, Barry offers to help Oliver and team with the investigation. Oliver senses there is more to Barry than meets the eye, but he’s distracted by the similarities between this current case and something that happened on the island. Meanwhile, Felicity takes a liking to Barry, which doesn’t go unnoticed by Oliver. Sin asks Roy for help when a friend of hers goes missing. Roy is surprised when Thea not only encourages him to help, but joins the search. Unfortunately, Sin’s friend is connected to Brother Blood, and their search ultimately gets one of them seriously injured.",
+			"first_aired": "2013-12-05T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:31.000Z",
+			"rating": 8.50357,
+			"votes": 1960,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/788/screenshots/original/b5adf86fc2.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/788/screenshots/medium/b5adf86fc2.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/788/screenshots/thumb/b5adf86fc2.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 9,
+			"title": "Three Ghosts",
+			"ids": {
+				"trakt": 74789,
+				"slug": null,
+				"tvdb": 4687571,
+				"imdb": "tt3229414",
+				"tmdb": 968872,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "After a fight with Cyrus Gold AKA the Acolyte, Oliver is drugged and left for dead. Determined to cure him, Felicity makes a risky decision. The cure causes Oliver to hallucinate, and what he sees forces him to confront his past. Meanwhile, Barry continues to help Felicity, and their connection grows stronger. The Arrow asks Lance to look into Gold, but when the stakeout on Gold goes bad, someone is killed. Roy is captured and tortured by Brother Blood.",
+			"first_aired": "2013-12-12T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:32.000Z",
+			"rating": 8.58193,
+			"votes": 2026,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/789/screenshots/original/b1dfe65e60.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/789/screenshots/medium/b1dfe65e60.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/789/screenshots/thumb/b1dfe65e60.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 10,
+			"title": "Blast Radius",
+			"ids": {
+				"trakt": 74790,
+				"slug": null,
+				"tvdb": 4694375,
+				"imdb": "",
+				"tmdb": 970267,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver must tackle a new threat to the city when bombs start to go off in Starling City. Felicity discovers the person setting them off is Mark Sheffer, a man who goes by the nickname Shrapnel. Arrow discovers Shrapnel’s next target is Sebastian Blood’s “Unity Rally” and tries to talk the alderman out of hosting it, but he refuses. Arrow sets off to stop the bombing, but Shrapnel tricks him and traps him in a bomb-laced antique store where he is unable to move without setting off the device. While Felicity helps Oliver, Diggle races to the plaza to find the bomb before it goes off. Meanwhile, Roy continues to hide his new strength from Thea but, after she witnesses his super strength in action at the rally, she demands answers. Laurels suspicions about Sebastian grow stronger once she learns that he grew up with Cyrus Gold, the man who killed Lance’s partner. After Donner refuses to help her investigate, she turns to Arrow for help. ",
+			"first_aired": "2014-01-16T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:33.000Z",
+			"rating": 8.10889,
+			"votes": 1947,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/790/screenshots/original/b6cbacf7e4.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/790/screenshots/medium/b6cbacf7e4.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/790/screenshots/thumb/b6cbacf7e4.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 11,
+			"title": "Blind Spot",
+			"ids": {
+				"trakt": 74791,
+				"slug": null,
+				"tvdb": 4701156,
+				"imdb": "",
+				"tmdb": 970444,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver is conflicted after Laurel reaches out to the Arrow asking him to investigate Sebastian Blood. Oliver is unsure whether to believe her accusations against the man he has publically supported for mayor, but decides to trust Laurel. However, when the pair gets too close to the truth, Sebastian exposes Laurel’s drug addiction and has her arrested. Meanwhile, Roy reveals his new super-strength to Sin who wants to test out his abilities. Unfortunately, Roy isn’t able to contain his rage once unleashed and almost kills a man. Back on the island, Oliver is surprised when Sara reveals a secret about Laurel. ",
+			"first_aired": "2014-01-23T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:33.000Z",
+			"rating": 8.25464,
+			"votes": 1940,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/791/screenshots/original/091cbf4f47.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/791/screenshots/medium/091cbf4f47.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/791/screenshots/thumb/091cbf4f47.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 12,
+			"title": "Tremors",
+			"ids": {
+				"trakt": 74792,
+				"slug": null,
+				"tvdb": 4723660,
+				"imdb": "",
+				"tmdb": 970714,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Arrow offers to train Roy so he can learn to control his newfound super-strength. However, Roy is a rebellious student and refuses to listen unless Arrow reveals his true identity, which Oliver refuses to do. Meanwhile, the Bronze Tiger escapes from prison and steals Malcolm’s earthquake machine to sell to the highest bidder. Oliver, Diggle and Felicity attempt to stop the transfer, but Roy gets in the way, putting everyone in danger. Laurel is disbarred and spirals out of control. Moira is thrilled when Walter asks her to dinner, but his reason surprises her. Thea encourages her mother to ask Walter to reconcile.",
+			"first_aired": "2014-01-30T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:33.000Z",
+			"rating": 8.24742,
+			"votes": 1940,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/792/screenshots/original/1f7e18b246.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/792/screenshots/medium/1f7e18b246.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/792/screenshots/thumb/1f7e18b246.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 13,
+			"title": "Heir to the Demon",
+			"ids": {
+				"trakt": 74793,
+				"slug": null,
+				"tvdb": 4723661,
+				"imdb": "",
+				"tmdb": 970941,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "As Laurel continues to unravel, Oliver and Lance try to convince Sara to stay in Starling City and finally reunite with Laurel and Dinah. However, Sara’s fellow League of Assassins member, Nyssa, comes to bring Sara back to the fold, but when Sara refuses, Nyssa kidnaps Dinah. Realizing she’s putting her family in danger by staying in town, Sara considers re-joining the league.",
+			"first_aired": "2014-02-06T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:33.000Z",
+			"rating": 8.27144,
+			"votes": 1971,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/793/screenshots/original/13e6aeeb21.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/793/screenshots/medium/13e6aeeb21.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/793/screenshots/thumb/13e6aeeb21.jpg"
+				}
+			},
+			"user_rating": 8,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 14,
+			"title": "Time of Death",
+			"ids": {
+				"trakt": 74794,
+				"slug": null,
+				"tvdb": 4725652,
+				"imdb": "",
+				"tmdb": 971805,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver brings Sara into the Arrow team. Watching Oliver and Diggle spar with Sara and talk old scars, Felicity starts to feel left out. The team is investigating a villain named William Tockman, a.k.a. The Clock King, who is a brilliant thief armed with technology that can open any bank vault in Starling City. After The Clock King infiltrates the computer systems in the lair, Felicity feels pressure to prove her worth. When she gets a lead on Tockman’s whereabouts, she heads out without the team, putting her in peril. Meanwhile, Oliver throws Sara a welcome home party, but Laurel refuses to attend. After Lance makes his case for a family dinner, Laurel acquiesces, but when Oliver shows up with Sara, she loses her temper on both of them.",
+			"first_aired": "2014-02-27T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:34.000Z",
+			"rating": 8.39808,
+			"votes": 1982,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/794/screenshots/original/79dc824837.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/794/screenshots/medium/79dc824837.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/794/screenshots/thumb/79dc824837.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 15,
+			"title": "The Promise",
+			"ids": {
+				"trakt": 74795,
+				"slug": null,
+				"tvdb": 4762969,
+				"imdb": "",
+				"tmdb": 972032,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver is shocked when he learns that Slade has come to Starling City. Back on the island, as Oliver, Slade and Sara prepare to take over the freighter from Ivo, Sara pulls Oliver aside and tells him he needs to kill Ivo to prevent him from telling Slade what happened with Shado. Oliver feels immense guilt over the situation but realizes Slade’s growing rage from the Mirakuru makes him unpredictable and he could turn on his friends if he thinks Oliver is to blame. Oliver agrees to kill Ivo and the battle begins.",
+			"first_aired": "2014-03-06T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:34.000Z",
+			"rating": 8.34771,
+			"votes": 1924,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/795/screenshots/original/f0e56121c9.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/795/screenshots/medium/f0e56121c9.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/795/screenshots/thumb/f0e56121c9.jpg"
+				}
+			},
+			"user_rating": 9,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 16,
+			"title": "Suicide Squad",
+			"ids": {
+				"trakt": 74796,
+				"slug": null,
+				"tvdb": 4781052,
+				"imdb": "",
+				"tmdb": 972713,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Following Slade’s return and his promise to make good on his threat to destroy Oliver’s loved ones, Oliver focuses all his energy on preparing for battle with his former friend. Sarah tries to help but, fearing for her safety, Oliver pushes her away. Meanwhile, Diggle is recruited by Amanda Waller and A.R.G.U.S. to stop a warlord he knew from his time in Afghanistan. Always the soldier, Diggle agrees to help. However, he’s not prepared when Amanda introduces him to the rest of the team – Deadshot, Bronze Tiger and Shrapnel, all criminals he and Arrow helped put away. Lyla defends the team and explains the world is a complicated place, but Diggle isn’t sure he agrees. When the mission takes a dangerous turn, Diggle is forced to make a difficult decision.",
+			"first_aired": "2014-03-20T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:34.000Z",
+			"rating": 8.10807,
+			"votes": 1897,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/796/screenshots/original/08b2f59159.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/796/screenshots/medium/08b2f59159.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/796/screenshots/thumb/08b2f59159.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 17,
+			"title": "Birds of Prey",
+			"ids": {
+				"trakt": 74797,
+				"slug": null,
+				"tvdb": 4781054,
+				"imdb": "tt3337662",
+				"tmdb": 973062,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "When Frank Bertinelli is arrested, Oliver knows it’s only a matter of time before his daughter, Helena, AKA The Huntress, returns to town. To make matters worse, Laurel is picked to try Frank’s case, putting her right in the path of Helena. Oliver tells Sara he will handle his ex-girlfriend, but when Helena takes hostages at the courthouse, including Laurel, the Canary will stop at nothing to save her sister. When The Huntress and Canary meet, an epic battle begins. Meanwhile, Roy realizes he needs to keep Thea safe, but doesn’t like the way he is forced to go about it.",
+			"first_aired": "2014-03-27T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:34.000Z",
+			"rating": 8.13493,
+			"votes": 1875,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/797/screenshots/original/c7f1413e73.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/797/screenshots/medium/c7f1413e73.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/797/screenshots/thumb/c7f1413e73.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 18,
+			"title": "Deathstroke",
+			"ids": {
+				"trakt": 74798,
+				"slug": null,
+				"tvdb": 4800984,
+				"imdb": "tt3535114",
+				"tmdb": 973063,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Slade makes his move against Oliver and the repercussions are enormous. While Oliver scrambles to protect his family, a key player in his team starts to question Oliver’s decisions. Meanwhile, Isabel makes her move to take Queen Consolidated away from Oliver.",
+			"first_aired": "2014-04-03T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:35.000Z",
+			"rating": 8.43165,
+			"votes": 1946,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/798/screenshots/original/b0c8494bca.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/798/screenshots/medium/b0c8494bca.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/798/screenshots/thumb/b0c8494bca.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 19,
+			"title": "The Man Under the Hood",
+			"ids": {
+				"trakt": 74799,
+				"slug": null,
+				"tvdb": 4816573,
+				"imdb": "",
+				"tmdb": 974437,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver, Canary, Diggle and Felicity return to the lair and find Slade waiting for them. An epic battle breaks out and one member of Team Arrow is sent to the hospital. Thea hits her breaking point, but just as Oliver is about to reach her, Slade intervenes and Oliver is faced with a choice – his battle with Slade or his family. Meanwhile, Laurel struggles with a new secret.",
+			"first_aired": "2014-04-17T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:35.000Z",
+			"rating": 8.35195,
+			"votes": 1952,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/799/screenshots/original/0fca1fd339.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/799/screenshots/medium/0fca1fd339.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/799/screenshots/thumb/0fca1fd339.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 20,
+			"title": "Seeing Red",
+			"ids": {
+				"trakt": 74800,
+				"slug": null,
+				"tvdb": 4816574,
+				"imdb": "tt3337668",
+				"tmdb": 974438,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "The mirakuru sends Roy into an uncontrollable rage and he unleashes on the city. After Roy’s deadly fight with a police officer, Oliver realizes the mirakuru has taken over Roy completely and must figure out a way to stop him. Things get more complicated after Sara declares that Roy is too far gone and the only way to stop him is to kill him. Meanwhile, Thea believes she can breakthrough to Roy so she goes on camera at Moira’s campaign rally to lure him to Verdant. Her ploy works but after Roy attacks Thea, Team Arrow unleashes on him.",
+			"first_aired": "2014-04-24T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:35.000Z",
+			"rating": 8.65571,
+			"votes": 2039,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/800/screenshots/original/363a9f2590.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/800/screenshots/medium/363a9f2590.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/800/screenshots/thumb/363a9f2590.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 21,
+			"title": "City of Blood",
+			"ids": {
+				"trakt": 74801,
+				"slug": null,
+				"tvdb": 4822558,
+				"imdb": "",
+				"tmdb": 974439,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "After Slade threatens to take everything Oliver loves away, Oliver decides the fastest way to stop further bloodshed is to surrender to his enemy. Knowing that surrender will surely lead to Oliver's death, Diggle and Felicity go to extreme measures to keep Oliver from confronting Slade. Meanwhile, Thea considers leaving town, and Laurel resumes her crusade against Sebastian Blood. Finally, Slade unleashes his assault on Starling City.",
+			"first_aired": "2014-05-01T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:35.000Z",
+			"rating": 8.35134,
+			"votes": 1944,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/801/screenshots/original/90f75b8cef.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/801/screenshots/medium/90f75b8cef.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/801/screenshots/thumb/90f75b8cef.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 22,
+			"title": "Streets of Fire",
+			"ids": {
+				"trakt": 74802,
+				"slug": null,
+				"tvdb": 4822559,
+				"imdb": "",
+				"tmdb": 974440,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Oliver rallies his team as Slade’s soldiers attack the city. Felicity gets a call from S.T.A.R. Labs with game-changing news and Thea comes face-to-face with her father – Malcolm Merlyn.",
+			"first_aired": "2014-05-08T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:35.000Z",
+			"rating": 8.55097,
+			"votes": 1962,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/802/screenshots/original/0c619bab9c.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/802/screenshots/medium/0c619bab9c.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/802/screenshots/thumb/0c619bab9c.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 2,
+			"number": 23,
+			"title": "Unthinkable",
+			"ids": {
+				"trakt": 74803,
+				"slug": null,
+				"tvdb": 4822560,
+				"imdb": "",
+				"tmdb": 974441,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Slade moves forward with his plan to kill one more person in Oliver’s life. While Oliver has fought all year to be more than the killer he once was, when Slade kidnaps someone close to Oliver’s heart, Oliver is pushed to the edge and realizes sometimes it takes doing the unthinkable to stop the monster. Meanwhile, Diggle takes on Amanda Waller with a little help from some friends, and Thea turns to Roy in her time of need.",
+			"first_aired": "2014-05-15T00:00:00.000Z",
+			"updated_at": "2015-03-06T13:40:36.000Z",
+			"rating": 8.74928,
+			"votes": 2078,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/803/screenshots/original/24e7f23192.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/803/screenshots/medium/24e7f23192.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/803/screenshots/thumb/24e7f23192.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		}]
+	},
+	{
+		"number": 3,
+		"ids": {
+			"trakt": 4043,
+			"slug": null,
+			"tvdb": 257655,
+			"imdb": null,
+			"tmdb": 62018,
+			"tvrage": 1065582554
+		},
+		"rating": 8.35938,
+		"votes": 64,
+		"episode_count": 20,
+		"overview": "Having achieved true hero status - Oliver Queen faces new challenges with a foe who has come back from the dead. This time, he has help in the form a new hero/side kick and a lot of familiar faces. There is also a new player - Ray Palmer (future atom) - in the mix, who has a new vision for turning Starling City into Star City.",
+		"images": {
+			"fanart": null,
+			"poster": {
+				"full": "https://walter.trakt.us/images/seasons/000/004/043/posters/original/06450505a9.jpg",
+				"medium": "https://walter.trakt.us/images/seasons/000/004/043/posters/medium/06450505a9.jpg",
+				"thumb": "https://walter.trakt.us/images/seasons/000/004/043/posters/thumb/06450505a9.jpg"
+			},
+			"logo": null,
+			"clearart": null,
+			"banner": null,
+			"thumb": {
+				"full": null
+			},
+			"headshot": null,
+			"avatar": null,
+			"screenshot": null
+		},
+		"episodes": [{
+			"season": 3,
+			"number": 1,
+			"title": "The Calm",
+			"ids": {
+				"trakt": 74804,
+				"slug": null,
+				"tvdb": 4917397,
+				"imdb": "tt3532626",
+				"tmdb": 1000643,
+				"tvrage": 1065582554
+			},
+			"number_abs": null,
+			"overview": "With crime in Starling City at an all-time low, Oliver thinks he can finally balance being both the Arrow and Oliver Queen and asks Felicity out on a date. Diggle becomes a father, Lance is promoted to Captain, Laurel joins Arrow’s inner circle and Felicity gets a part-time job at a tech store to make ends meet. Oliver fights to regain his company, Queen Consolidated, but comes up against a very worthy opponent – the charming Ray Palmer.",
+			"first_aired": "2014-10-09T00:00:00.000Z",
+			"updated_at": "2015-03-06T11:58:52.000Z",
+			"rating": 8.29232,
+			"votes": 1991,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/804/screenshots/original/9a93f5d462.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/804/screenshots/medium/9a93f5d462.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/804/screenshots/thumb/9a93f5d462.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 2,
+			"title": "Sara",
+			"ids": {
+				"trakt": 74805,
+				"slug": null,
+				"tvdb": 4936768,
+				"imdb": "tt3856758",
+				"tmdb": 1001380,
+				"tvrage": 1065594604
+			},
+			"number_abs": null,
+			"overview": "Lance calls the Arrow when another archer appears in town and starts skewering businessmen. Diggle uses A.R.G.U.S. to find the archer’s identity; he is a man named Simon Lacroix, who goes by the codename Komodo. However, the team hits a rough patch with the mission and gets help from a surprising source – Laurel. Meanwhile, Oliver begins to worry that he hasn’t heard from Thea, which forces Roy to tell him the truth about why she left town. Ray Palmer pursues Felicity. In the flashback, Maseo tells Oliver that Amanda Waller has ordered his first kill. As Oliver looks down the scope of the rifle, he sees the target is his best friend, Tommy. Despite her promise to her sister, Laurel debates sharing a secret about Sara with Lance.",
+			"first_aired": "2014-10-16T00:00:00.000Z",
+			"updated_at": "2015-03-06T00:01:50.000Z",
+			"rating": 8.11802,
+			"votes": 1754,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/805/screenshots/original/fa60cb8c67.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/805/screenshots/medium/fa60cb8c67.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/805/screenshots/thumb/fa60cb8c67.jpg"
+				}
+			},
+			"user_rating": 10,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 3,
+			"title": "Corto Maltese",
+			"ids": {
+				"trakt": 74806,
+				"slug": null,
+				"tvdb": 4936769,
+				"imdb": "tt3879318",
+				"tmdb": 1005647,
+				"tvrage": 1065594605
+			},
+			"number_abs": null,
+			"overview": "Oliver decides it’s time for Thea to come back to Starling City, so he packs for Corto Maltese, where Felicity has traced Thea’s whereabouts. Lyla asks Diggle to go with Oliver because one of her field operatives, Mark Shaw, has gone dark in Corto Maltese and she’d like him to look into it. Feeling responsible for Thea’s departure, Roy joins Oliver and Diggle on their journey. Shaw double-crosses Diggle, putting numerous A.R.G.U.S. agents, including Lyla, at risk. Meanwhile, Laurel meets Ted Grant, and Felicity adjusts to her new job.",
+			"first_aired": "2014-10-23T00:00:00.000Z",
+			"updated_at": "2015-03-05T17:45:40.000Z",
+			"rating": 8.15339,
+			"votes": 1682,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/806/screenshots/original/8cfd00884d.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/806/screenshots/medium/8cfd00884d.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/806/screenshots/thumb/8cfd00884d.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 4,
+			"title": "The Magician",
+			"ids": {
+				"trakt": 74807,
+				"slug": null,
+				"tvdb": 4962678,
+				"imdb": "tt3919146",
+				"tmdb": 1005648,
+				"tvrage": 1065644668
+			},
+			"number_abs": null,
+			"overview": "A furious Nyssa confronts Oliver about Sara, then join forces against the Dark Archer, intent on bringing the killer to justice. Laurel keeps her distance from Nyssa. Oliver and Roy work on repairing their respective relationships with Thea, who has returned home. Nyssa discusses Oliver with her father.",
+			"first_aired": "2014-10-30T00:00:00.000Z",
+			"updated_at": "2015-03-05T17:45:14.000Z",
+			"rating": 8.16239,
+			"votes": 1638,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/807/screenshots/original/b0f9c36a91.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/807/screenshots/medium/b0f9c36a91.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/807/screenshots/thumb/b0f9c36a91.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 5,
+			"title": "The Secret Origin of Felicity Smoak",
+			"ids": {
+				"trakt": 74808,
+				"slug": null,
+				"tvdb": 4962679,
+				"imdb": "tt3956512",
+				"tmdb": 1005649,
+				"tvrage": 1065670765
+			},
+			"number_abs": null,
+			"overview": "When a cyber attack brings Starling City to its knees, Oliver and Felicity are pushed to their limits to contain the destruction. Life gets even more complicated for Felicity when her mother, Donna, stops by for a surprise visit. Ted questions Laurel’s motives. Thea buys an apartment with Malcolm’s 'estate' money.",
+			"first_aired": "2014-11-06T01:00:00.000Z",
+			"updated_at": "2015-03-05T17:45:16.000Z",
+			"rating": 8.34695,
+			"votes": 1689,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/074/808/screenshots/original/ddb820e657.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/074/808/screenshots/medium/ddb820e657.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/074/808/screenshots/thumb/ddb820e657.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 6,
+			"title": "Guilty",
+			"ids": {
+				"trakt": 998789,
+				"slug": null,
+				"tvdb": 5023466,
+				"imdb": "tt4006586",
+				"tmdb": 1010735,
+				"tvrage": 1065670766
+			},
+			"number_abs": null,
+			"overview": "After a body is found strung up in the Wildcat gym, Ted becomes the main suspect. Oliver and Laurel argue over Ted’s innocence. When Maseo needs Oliver to remember where an informant for China White stashed key information, he asks Tatsu to help jog Oliver’s memory. Roy shares a secret with Felicity.",
+			"first_aired": "2014-11-13T01:00:00.000Z",
+			"updated_at": "2015-03-05T17:45:19.000Z",
+			"rating": 8.06872,
+			"votes": 1557,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/998/789/screenshots/original/1919dfaaec.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/998/789/screenshots/medium/1919dfaaec.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/998/789/screenshots/thumb/1919dfaaec.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 7,
+			"title": "Draw Back Your Bow",
+			"ids": {
+				"trakt": 998804,
+				"slug": null,
+				"tvdb": 5033874,
+				"imdb": "tt4006576",
+				"tmdb": 1010736,
+				"tvrage": 1065670767
+			},
+			"number_abs": null,
+			"overview": "Oliver must stop an Arrow-obsessed serial killer, Carrie Cutter, who is convinced that The Arrow is her one true love and will stop at nothing to get his attention. Unfortunately, her way of getting his attention is to kill people. Meanwhile, Ray asks Felicity to be his date for a work dinner with important clients. Thea auditions new DJs for Verdant and meets Chase, a brash DJ with whom she immediately clashes.",
+			"first_aired": "2014-11-20T01:00:00.000Z",
+			"updated_at": "2015-03-05T21:33:42.000Z",
+			"rating": 8.03959,
+			"votes": 1541,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/998/804/screenshots/original/fd30e2c327.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/998/804/screenshots/medium/fd30e2c327.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/998/804/screenshots/thumb/fd30e2c327.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 8,
+			"title": "The Brave and the Bold (2)",
+			"ids": {
+				"trakt": 998807,
+				"slug": null,
+				"tvdb": 5042002,
+				"imdb": "tt4006578",
+				"tmdb": 1010737,
+				"tvrage": 1065710734
+			},
+			"number_abs": null,
+			"overview": "A crossover event that began on \"The Flash\" concludes with Oliver teaming with the Flash to stop a boomerang-wielding killer who plants five bombs in the city that are set to explode at the same time.",
+			"first_aired": "2014-12-04T01:00:00.000Z",
+			"updated_at": "2015-03-05T23:09:58.000Z",
+			"rating": 8.54843,
+			"votes": 1559,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/998/807/screenshots/original/89734fcc2e.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/998/807/screenshots/medium/89734fcc2e.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/998/807/screenshots/thumb/89734fcc2e.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 9,
+			"title": "The Climb",
+			"ids": {
+				"trakt": 998810,
+				"slug": null,
+				"tvdb": 5042004,
+				"imdb": "tt4006548",
+				"tmdb": 1018202,
+				"tvrage": 1065710735
+			},
+			"number_abs": null,
+			"overview": "Nyssa returns to Starling City and tells Oliver that her father, Ra’s al Ghul has given Oliver 48 hours to find Sara’s killer or the League of Assassins will start killing the citizens of Starling City. Laurel is stunned when her father delivers a very special Christmas gift – her mother, Dinah. Meanwhile, Ray tries to make amends with Felicity and Oliver sets a meeting with Ra’s al Ghul.",
+			"first_aired": "2014-12-11T01:00:00.000Z",
+			"updated_at": "2015-03-05T18:13:24.000Z",
+			"rating": 8.8258,
+			"votes": 1504,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/998/810/screenshots/original/80ce5a5e5b.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/998/810/screenshots/medium/80ce5a5e5b.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/998/810/screenshots/thumb/80ce5a5e5b.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 10,
+			"title": "Left Behind",
+			"ids": {
+				"trakt": 998817,
+				"slug": null,
+				"tvdb": 5042005,
+				"imdb": "tt4006582",
+				"tmdb": 1019251,
+				"tvrage": 1065728382
+			},
+			"number_abs": null,
+			"overview": "In the aftermath of Oliver’s fight with Ra’s al Ghul, Diggle and Arsenal continue to protect the city in the Arrow’s absence. However, after three days without hearing from Oliver, they begin to fear the worst may have happened to their friend. Felicity refuses to believe that Oliver could be dead until Merlyn pays the team a surprise visit. Thea suspects there is something more behind Oliver’s disappearance and asks Merlyn for a favor. Meanwhile, Ray tests a part of his new suit and Laurel takes up the mantle of the Black Canary.",
+			"first_aired": "2015-01-22T01:00:00.000Z",
+			"updated_at": "2015-03-05T18:13:09.000Z",
+			"rating": 8.13312,
+			"votes": 631,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/000/998/817/screenshots/original/bb84f1f8b4.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/000/998/817/screenshots/medium/bb84f1f8b4.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/000/998/817/screenshots/thumb/bb84f1f8b4.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 11,
+			"title": "Midnight City",
+			"ids": {
+				"trakt": 1446376,
+				"slug": null,
+				"tvdb": 5042007,
+				"imdb": "tt4006570",
+				"tmdb": 1030773,
+				"tvrage": 1065740451
+			},
+			"number_abs": null,
+			"overview": "Arsenal and Diggle confront Laurel about trying to step into her sister’s shoes and warn her to stop before she gets herself killed. However, when Brick kidnaps the city’s Aldermen and threatens to kill them all unless the police evacuate The Glades, it’s all suits on deck. Meanwhile, Ray steps in to help Lance and the police force fight Brick, showing Felicity a new side of her boss. Malcom tells Thea that Ra’s al Ghul is after him and his family and they must leave town immediately.",
+			"first_aired": "2015-01-29T01:00:00.000Z",
+			"updated_at": "2015-03-05T17:34:47.000Z",
+			"rating": 7.7986,
+			"votes": 571,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/446/376/screenshots/original/933e9ced6a.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/446/376/screenshots/medium/933e9ced6a.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/446/376/screenshots/thumb/933e9ced6a.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 12,
+			"title": "Uprising",
+			"ids": {
+				"trakt": 1446381,
+				"slug": null,
+				"tvdb": 5045999,
+				"imdb": "tt4006574",
+				"tmdb": 1030774,
+				"tvrage": 1065741881
+			},
+			"number_abs": null,
+			"overview": "Still operating without Oliver and desperate to stop Brick, Team Arrow is forced to consider Malcolm’s offer to help shut Brick down as Malcolm has a personal score to settle with the felon. Roy and Laurel point out that the team could use some help to save the innocents of The Glades, but Felicity is adamantly against it. They look to Diggle to make the final decision. Meanwhile, the flashbacks chronicle Malcolm’s descent from kind-hearted father and husband to cold-blooded killer after the murder of his wife.",
+			"first_aired": "2015-02-05T01:00:00.000Z",
+			"updated_at": "2015-03-05T17:34:45.000Z",
+			"rating": 8.08681,
+			"votes": 576,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/446/381/screenshots/original/ded719fca1.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/446/381/screenshots/medium/ded719fca1.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/446/381/screenshots/thumb/ded719fca1.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 13,
+			"title": "Canaries",
+			"ids": {
+				"trakt": 1712336,
+				"slug": null,
+				"tvdb": 5054712,
+				"imdb": "tt4006572",
+				"tmdb": 1037874,
+				"tvrage": 1065743867
+			},
+			"number_abs": null,
+			"overview": "Oliver is thrown by the changes within Team Arrow. He’s used to calling the shots but sees that the team has evolved in his absence and tensions quickly escalate in the lair. Oliver is furious that Laurel has been going out as the Black Canary and tells her to stop risking her life, but when Vertigo hits the streets again, Laurel goes against Oliver’s wishes and tracks down Vertigo who hits her with a full dose of the drug. Laurel’s biggest fears revolve around her sister Sara so the Vertigo causes her to hallucinate an epic fight between Canary and Black Canary. Meanwhile, Chase surprises Thea, and Roy warns Thea to stay away from Malcolm.",
+			"first_aired": "2015-02-12T01:00:00.000Z",
+			"updated_at": "2015-03-05T17:44:59.000Z",
+			"rating": 8.03351,
+			"votes": 567,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/336/screenshots/original/d29a2fa0f2.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/336/screenshots/medium/d29a2fa0f2.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/336/screenshots/thumb/d29a2fa0f2.jpg"
+				}
+			},
+			"user_rating": 8,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 14,
+			"title": "The Return",
+			"ids": {
+				"trakt": 1712337,
+				"slug": null,
+				"tvdb": 5069023,
+				"imdb": "tt4006600",
+				"tmdb": 1037875,
+				"tvrage": 1065743868
+			},
+			"number_abs": null,
+			"overview": "Malcolm puts Oliver and Thea in a dangerous situation that lands them on Lian Yu with Oliver’s former enemy, Deathstroke. A flashback reveals when Oliver and Maseo returned to Starling City to retrieve the Omega bio weapon, and despite being under strict orders from Amanda Waller not to reveal himself to anyone, Oliver looks in on his family, Laurel and Tommy.",
+			"first_aired": "2015-02-19T01:00:00.000Z",
+			"updated_at": "2015-03-06T13:56:12.000Z",
+			"rating": 8.04804,
+			"votes": 562,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/337/screenshots/original/f31730d6c0.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/337/screenshots/medium/f31730d6c0.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/337/screenshots/thumb/f31730d6c0.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 15,
+			"title": "Nanda Parbat",
+			"ids": {
+				"trakt": 1712338,
+				"slug": null,
+				"tvdb": 5087485,
+				"imdb": "tt4006588",
+				"tmdb": 1037876,
+				"tvrage": 1065743869
+			},
+			"number_abs": null,
+			"overview": "Malcolm is captured by Ra’s al Ghul and taken to Nanda Parbat. Because of his love for Thea, Oliver considers saving Merlyn. Ray is obsessed with finishing his Atom suit so he can save the city but Felicity fears he is heading down the same path as Oliver and tries to pull him out of the lab.",
+			"first_aired": "2015-02-26T01:00:00.000Z",
+			"updated_at": "2015-03-06T14:05:08.000Z",
+			"rating": 8.43985,
+			"votes": 532,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/712/338/screenshots/original/6b1a4e28ce.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/712/338/screenshots/medium/6b1a4e28ce.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/712/338/screenshots/thumb/6b1a4e28ce.jpg"
+				}
+			},
+			"user_rating": 9,
+			"watched": true
+		},
+		{
+			"season": 3,
+			"number": 16,
+			"title": "The Offer",
+			"ids": {
+				"trakt": 1714050,
+				"slug": null,
+				"tvdb": 5104332,
+				"imdb": "tt4006594",
+				"tmdb": 1037877,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": "Still weighed down by his last meeting with Ra's al Ghul, Oliver returns home to find a new villain and his crew has started terrorizing Starling City - Michael Amar AKA Murmur a man whose mouth has been sewn shut. Meanwhile, Laurel and Nyssa bond over their issues with their fathers and Nyssa makes Laurel an offer. Thea is forced to come to terms with her father after Oliver brings Malcom to the loft to recover, and Lance shuts out both Laurel and the Arrow.",
+			"first_aired": "2015-03-19T00:00:00.000Z",
+			"updated_at": "2015-03-05T08:47:38.000Z",
+			"rating": 8.8421,
+			"votes": 19,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": "https://walter.trakt.us/images/episodes/001/714/050/screenshots/original/cc7ec6479a.jpg",
+					"medium": "https://walter.trakt.us/images/episodes/001/714/050/screenshots/medium/cc7ec6479a.jpg",
+					"thumb": "https://walter.trakt.us/images/episodes/001/714/050/screenshots/thumb/cc7ec6479a.jpg"
+				}
+			},
+			"user_rating": null,
+			"watched": false
+		},
+		{
+			"season": 3,
+			"number": 17,
+			"title": "Suicidal Tendencies",
+			"ids": {
+				"trakt": 1714051,
+				"slug": null,
+				"tvdb": 5104333,
+				"imdb": "tt4006606",
+				"tmdb": 1039996,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2015-03-26T00:00:00.000Z",
+			"updated_at": "2015-03-04T22:55:56.000Z",
+			"rating": 9.0,
+			"votes": 7,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": null,
+					"medium": null,
+					"thumb": null
+				}
+			},
+			"user_rating": null,
+			"watched": false
+		},
+		{
+			"season": 3,
+			"number": 18,
+			"title": "Public Enemy",
+			"ids": {
+				"trakt": 1761828,
+				"slug": null,
+				"tvdb": 5133471,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2015-04-02T00:00:00.000Z",
+			"updated_at": "2015-02-26T08:57:19.000Z",
+			"rating": 8.5,
+			"votes": 4,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": null,
+					"medium": null,
+					"thumb": null
+				}
+			},
+			"user_rating": null,
+			"watched": false
+		},
+		{
+			"season": 3,
+			"number": 19,
+			"title": "Broken Arrow",
+			"ids": {
+				"trakt": 1761831,
+				"slug": null,
+				"tvdb": 5133472,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": "2015-04-09T00:00:00.000Z",
+			"updated_at": "2015-03-04T22:54:45.000Z",
+			"rating": 10.0,
+			"votes": 4,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": null,
+					"medium": null,
+					"thumb": null
+				}
+			},
+			"user_rating": null,
+			"watched": false
+		},
+		{
+			"season": 3,
+			"number": 20,
+			"title": "The Fallen",
+			"ids": {
+				"trakt": 1780644,
+				"slug": null,
+				"tvdb": 5149023,
+				"imdb": null,
+				"tmdb": null,
+				"tvrage": null
+			},
+			"number_abs": null,
+			"overview": null,
+			"first_aired": null,
+			"updated_at": "2015-03-05T08:47:39.000Z",
+			"rating": 0.0,
+			"votes": 0,
+			"available_translations": [],
+			"images": {
+				"fanart": null,
+				"poster": null,
+				"logo": null,
+				"clearart": null,
+				"banner": null,
+				"thumb": null,
+				"headshot": null,
+				"avatar": null,
+				"screenshot": {
+					"full": null,
+					"medium": null,
+					"thumb": null
+				}
+			},
+			"user_rating": null,
+			"watched": false
+		}]
+	}],
+	"user_rating": 10
+}

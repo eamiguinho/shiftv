@@ -1,0 +1,228 @@
+﻿<Page
+    x:Name="PageRoot"
+    x:Class="Shiftv.Views.Shows.Episodes.EpisodesList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:episodes1="using:Shiftv.ViewModels.Shows.Episodes"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    xmlns:controls="using:Callisto.Controls"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <episodes1:ListEpisodesViewModel />
+    </Page.DataContext>
+    
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Hub LayoutUpdated="Hub_LayoutUpdated" >
+            <Hub.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="{StaticResource ShiftvDarkGreen}" Width="80" Height="70">
+                        <Button Margin="15,-1,10,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=PageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Center"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+            </Hub.Header>
+
+            <HubSection Width="1000" Margin="0,0,80,0">
+                <HubSection.Background>
+                    <ImageBrush Opacity="0.6" Stretch="UniformToFill" ImageSource="{Binding Show.Image.Fanart.Full}" />
+                </HubSection.Background>
+                <DataTemplate>
+                    <Grid Margin="0 0 80 0" VerticalAlignment="Bottom">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0"></StackPanel>
+                        <Grid Margin="{Binding MarginTopHeight}" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <StackPanel Orientation="Horizontal" Margin="5">
+                                    <TextBlock Text="{Binding Show.Title}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="1" Background="{StaticResource ShiftvDarkGreen}" Margin="0 10 0 0">
+                                <TextBlock HorizontalAlignment="Left" Style="{StaticResource SeriePageTitle}" Margin="20 5 20 10" Text="{Binding SeasonTitle}" ></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0 10 0 0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                <Image Source="ms-appx:///Assets/logonoback.png" Stretch="None" HorizontalAlignment="Center"></Image>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection  IsHeaderInteractive="False" Padding="20 0 0 80">
+                <DataTemplate>
+                    <Grid>
+                        <ProgressRing Name="splashProgressRing" IsActive="{Binding IsLoadingEpisodes}" Width="80" Height="80" HorizontalAlignment="Center" Margin="100 300 0 0" VerticalAlignment="Center" Foreground="White"></ProgressRing>
+
+                        <GridView Loaded="ItemGridView_OnLoaded"
+            x:Name="itemGridView"  ItemContainerStyle="{StaticResource EpisodeGridViewItemStyle}"
+            ItemsSource="{Binding Episodes}" 
+            SelectionMode="Multiple" SelectionChanged="ItemGridView_OnSelectionChanged"
+            IsSwipeEnabled="True" ItemClick="ItemGridView_OnItemClick"
+                                  IsItemClickEnabled="True">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid HorizontalAlignment="Left" Width="320" Height="270" Margin="0,0,20,0" >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="190" ></RowDefinition>
+                                            <RowDefinition Height="*" ></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <Image Width="315" Margin="2 0 0 0" Height="185" HorizontalAlignment="Left" Grid.Row="0" Source="{Binding Image.Screenshot.Medium}" Stretch="UniformToFill" />
+                                        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="{Binding IsSelected, Converter={StaticResource BooleanToVisibility}}" Grid.Row="0" Source="ms-appx:///Assets/check3.png" Width="48" Height="48" Stretch="UniformToFill" />
+                                        <Grid  Visibility="{Binding IsRated, Converter={StaticResource BooleanToVisibility}}" Grid.Row="0" Width="Auto" Height="Auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="20 0 0 0" Background="#AA29a29f">
+                                            <StackPanel Orientation="Horizontal" Margin="2 0 10 5">
+                                                <FontIcon FontSize="22" VerticalAlignment="Center"
+                                              Visibility="{Binding IsRated, Converter={StaticResource BooleanToVisibility}}"
+                                              Glyph="&#xE0B4;" Foreground="{StaticResource ShiftvYellow}"
+                                              Margin="8 0 0 0" />
+                                                <TextBlock FontSize="25" VerticalAlignment="Center"  FontFamily="Segoe UI" FontWeight="Bold" 
+                                               Visibility="{Binding IsRated, Converter={StaticResource BooleanToVisibility}}"
+                                               Style="{StaticResource SeriePageHeaders}"
+                                               Text="{Binding RatedValue}" Margin="8 3 0 0" />
+                                            </StackPanel>
+
+                                        </Grid>
+                                        <Grid Grid.Row="0" Width="Auto" Height="Auto" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 0 0 0" Background="#AA29a29f">
+                                            <StackPanel Orientation="Horizontal">
+                                                <FontIcon FontSize="22" Style="{StaticResource WatchlistIcon}" Visibility="{Binding IsInWatchlist, Converter={StaticResource BooleanToVisibility}}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10 0 0 0"
+                                                          Foreground="{StaticResource ShiftvLightGreen}" />
+                                            
+                                                <FontIcon FontSize="22" Style="{StaticResource SeenIcon}" Visibility="{Binding Watched, Converter={StaticResource BooleanToVisibility}}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10 0 0 0"
+                                                          Foreground="{StaticResource ShiftvLightGreen}" />
+                                                <TextBlock Text="{Binding NumberFull}" FontSize="22" Padding="10 5 10 5" FontFamily="Segoe UI" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                            </StackPanel>
+                                         
+                                        </Grid>
+                                        <TextBlock Grid.Row="1" Margin="0,5,0,10" Text="{Binding Title}" Style="{StaticResource EpisodeTitle}" />
+                                        <ProgressRing Grid.Row="1" Margin="0 20 10 5" IsActive="{Binding IsLoadingStats}" HorizontalAlignment="Left" Visibility="{Binding IsLoadingStats, Converter={StaticResource BooleanToVisibility}}" Foreground="White" Width="15" Height="15"></ProgressRing>
+                                        <StackPanel Grid.Row="1" Margin="0 20 10 5" Orientation="Horizontal" Visibility="{Binding IsLoadingStats, Converter={StaticResource BooleanNotToVisibility}}" HorizontalAlignment="Left"  >
+                                            <FontIcon FontSize="18" FontFamily="Segoe UI Symbol" Glyph="&#xE0B4;" Foreground="{StaticResource ShiftvYellow}" Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            <TextBlock  FontSize="18" Text="{Binding Rating}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock  Text="{Binding Votes}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5 0 10 -3" FontSize="12"></TextBlock>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                        <handlers:ErrorLoadingData Visibility="{Binding ErrorGettingData, Converter={StaticResource BooleanToVisibility}}"/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+        <Border Visibility="{Binding IsRatingVisible, Converter={StaticResource BooleanToVisibility}}" Tapped="TappedMainGrid" Background="{StaticResource BackgroundColorAlmostBlack}" Opacity="0.4"/>
+        <Grid Background="{StaticResource BackgroundColorAlmostBlack}" Visibility="{Binding IsRatingVisible, Converter={StaticResource BooleanToVisibility}}" Grid.Row="0" VerticalAlignment="Center"  HorizontalAlignment="Center" >
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <controls:Rating FontSize="45"  Grid.Row="1" Margin="0 5" SelectionMode="Continuous" ValueChanged="Rating_OnValueChanged" Value="{Binding RatingValue}"  ItemCount="10" Background="Transparent" Foreground="Gold" HorizontalAlignment="Left" VerticalAlignment="Center" >
+
+                </controls:Rating>
+                <TextBlock Grid.Row="0" FontSize="20" Margin="0 0 0 0" Style="{StaticResource TitleTextBlockStyle}" Text="your rating" VerticalAlignment="Bottom"></TextBlock>
+
+            </Grid>
+        </Grid>
+        <handlers:InternetConnectionHandler VerticalAlignment="Top" HorizontalAlignment="Center">
+
+        </handlers:InternetConnectionHandler>
+        <Button x:Name="AppBarButton" Click="ClickOpenAppBar" Width="70" Height="45" Margin="10 0 100 -5" Padding="0 10 0 0" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="{StaticResource ShiftvDarkGreen}">
+            <Image Source="ms-appx:///Assets/threedots.png" Width="40"></Image>
+        </Button>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar x:Name="BottomAppBar"  Background="{StaticResource BackgroundColorAppBar}" BorderBrush="{x:Null}" IsSticky="{Binding IsAppBarOpen}" IsOpen="{Binding IsAppBarOpen}">
+            <AppBarButton Label="{Binding [SelectAll], Source={StaticResource Localized}}"  Click="ButtonBase_OnClick" >
+                <AppBarButton.Icon >
+                    <SymbolIcon Symbol="SelectAll"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton Label="{Binding [UnselectAll], Source={StaticResource Localized}}"  Click="ButtonBase2_OnClick" >
+                <AppBarButton.Icon >
+                    <SymbolIcon Symbol="SelectAll"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <CommandBar.SecondaryCommands>
+                <!--<AppBarButton Label="{Binding [Love], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetLove}" Visibility="{Binding CanLove, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource LoveIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>-->
+                <AppBarButton Label="{Binding [RateEpisode], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding OpenRating}" Visibility="{Binding IsOnlyOneSelected, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE0B4;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <!--<AppBarButton Label="{Binding [Hate], Source={StaticResource Localized}}" Command="{Binding SetHate}" IsEnabled="{Binding CanUseAppBarButtons}" Visibility="{Binding CanHate, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource HateIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>-->
+                <AppBarButton Label="{Binding [Seen], Source={StaticResource Localized}}" Command="{Binding SetAllAsSeen}" IsEnabled="{Binding CanUseAppBarButtons}" Visibility="{Binding IsAllUnseen, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource SeenIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="{Binding [SeenPrevious], Source={StaticResource Localized}}" Command="{Binding SetAllAsSeenAndPrevious}" IsEnabled="{Binding CanUseAppBarButtons}" Visibility="{Binding IsAllUnseen, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource SeenIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Label="{Binding [NotSeen], Source={StaticResource Localized}}" Command="{Binding SetAllAsUnseen}" IsEnabled="{Binding CanUseAppBarButtons}" Visibility="{Binding IsAllSeen, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource SeenIcon}" RenderTransformOrigin="0.5,0.55">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleY="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Command="{Binding AddAllToWatchList}" IsEnabled="{Binding CanUseAppBarButtons}" Label="{Binding [AddWatchlist], Source={StaticResource Localized}}" Visibility="{Binding CanAddWatchlist, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon  >
+                        <FontIcon Style="{StaticResource WatchlistIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Command="{Binding RemoveAllFromWatchList}" IsEnabled="{Binding CanUseAppBarButtons}" Label="{Binding [RemoveFromWatchlist], Source={StaticResource Localized}}" Visibility="{Binding CanRemoveWatchlist, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource WatchlistIcon}" RenderTransformOrigin="0.5,0.5">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleX="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

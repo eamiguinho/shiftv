@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{950C1BD5-AB62-4E6F-830C-D5345ACFD2E3}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shiftv</RootNamespace>
+    <AssemblyName>Shiftv</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Shiftv_StoreKey.pfx</PackageCertificateKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+    <PackageCertificateThumbprint>A9E36A2B96B2E982738C035E7237DFB0E62E5EE7</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <AppxPackageDir>C:\Users\emsadebug\Desktop\shiftv build\</AppxPackageDir>
+    <NuGetPackageImportStamp>e3d665a0</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Page Include="Common\CustomStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Common\Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Controls\CustomControlsList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="ExtendedSplash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\VirtualizedVariableSizedWrapGridControl\VirtualizedVariableSizedWrapGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Settings\ShiftvSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\AppBar\MoviesMainTopAppBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AppBar\PubControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\PubControlVertical.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\RateAndReviewControl2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AppBar\RateAndReviewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\RemovePubControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\SoundClouderPub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\TopAppBarToggle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\UserDisplayControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Disqus\Disqus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Handlers\ErrorLoadingData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Handlers\NoDataPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Handlers\ErrorLoadingDataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Handlers\InternetConnectionHandler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HelpPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\MoviePage2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\AnimationMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\MyWatchlistedMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\ChristmasMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\OscarsMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\TopImdbMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Shows\Pages\DashboardPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Pages\FreshShowsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Shows\Pages\TopImdbShowsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Shows\Pages\TopShowsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\FreshMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\MyMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\TopMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\RecommendedMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Player\MoviePlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Network\NetworkActivitiesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppBar\MainTopAppBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Pages\Calendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChooseSection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Episodes\EpisodesList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Player\FastEpisodeViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Shows\Player\EpisodeViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Pages\AnimePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Movies\Pages\TrendingMovies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Network\UserProfileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OfflineContent\OfflineContentManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Pages\RecommendedShowsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Shows\Pages\TrendingShowsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\SeriePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Settings\TermsAndServices.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\LegalInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\DMCA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Settings\ShiftvSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shows\Pages\MyShowsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\MainItemContainerStyleSelector.cs" />
+    <Compile Include="Common\ViewModelBase.cs" />
+    <Compile Include="Controls\Tilt.cs" />
+    <Compile Include="DataModel\ActorDataModel.cs" />
+    <Compile Include="DataModel\CalendarDataModel.cs" />
+    <Compile Include="DataModel\CastDataModel.cs" />
+    <Compile Include="DataModel\Class1.cs" />
+    <Compile Include="DataModel\EpisodeViewerDataModel.cs" />
+    <Compile Include="DataModel\MiniMovieDataModel.cs" />
+    <Compile Include="DataModel\MiniShowDataModel.cs" />
+    <Compile Include="DataModel\SeasonDataModel.cs" />
+    <Compile Include="DataModel\MovieDataModel.cs" />
+    <Compile Include="DataModel\ShowDataMiniModel.cs" />
+    <Compile Include="DataModel\ShowDataModel.cs" />
+    <Compile Include="DataModel\ShowProgressDataModel.cs" />
+    <Compile Include="DataModel\StatisticsDataModel.cs" />
+    <Compile Include="DataModel\TileType.cs" />
+    <Compile Include="ExtendedSplash.xaml.cs">
+      <DependentUpon>ExtendedSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VirtualizedVariableSizedWrapGridControl\VirtualizedVariableSizedWrapGrid.cs" />
+    <Compile Include="Helpers\Class1.cs" />
+    <Compile Include="Helpers\GridViewItemClickCommand.cs" />
+    <Compile Include="Helpers\IncrementalLoadingBase.cs" />
+    <Compile Include="PlatformServices\DataBackupService.cs" />
+    <Compile Include="PlatformServices\DownloadService.cs" />
+    <Compile Include="Helpers\ImageHelper.cs" />
+    <Compile Include="Helpers\ShiftvHelpers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="DataModel\EpisodeDataModel.cs" />
+    <Compile Include="DataModel\ActivityDataModel.cs" />
+    <Compile Include="Settings\ShiftvSettings.xaml.cs">
+      <DependentUpon>ShiftvSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AppBar\MoviesMainTopAppBarViewModel.cs" />
+    <Compile Include="ViewModels\AppBar\MainTopAppBarViewModel.cs" />
+    <Compile Include="DataModel\UserDataModel.cs" />
+    <Compile Include="ViewModels\AppBar\RemovePubViewModel.cs" />
+    <Compile Include="ViewModels\AppBar\SearchDisplayControlViewModel.cs" />
+    <Compile Include="ViewModels\AppBar\UserDisplayControlViewModel.cs" />
+    <Compile Include="ViewModels\HelperViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\ChristmasMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\MovieGridViewBase.cs" />
+    <Compile Include="ViewModels\Movies\Pages\AnimationMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\MyWatchlistedMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\OscarsMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\TopImdbMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\CalendarViewModel.cs" />
+    <Compile Include="ViewModels\ChooseSectionViewModel.cs" />
+    <Compile Include="DataModel\CommentsDataModel.cs" />
+    <Compile Include="ViewModels\Disqus\DisqusViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\DashboardViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\TopImdbShowsPageViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Player\EpisodeViewerViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Player\FastEpisodeViewerViewModel.cs" />
+    <Compile Include="DataModel\LinkInfoDataModel.cs" />
+    <Compile Include="ViewModels\Shows\Episodes\ListEpisodesViewModel.cs" />
+    <Compile Include="ViewModels\Handlers\InternetConnectionHandlerViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\AnimeViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\FreshShowsPageViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\TopShowsPageViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\TrendingShowsPageViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\FreshMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\RecommendedMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\MyMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\TopMoviesViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Player\MoviePlayerViewModel.cs" />
+    <Compile Include="ViewModels\Movies\Pages\TrendingMoviesViewModel.cs" />
+    <Compile Include="DataModel\DownloadEpisodeStatus.cs" />
+    <Compile Include="ViewModels\Network\NetworkActivitiesViewModel.cs" />
+    <Compile Include="ViewModels\Network\UserProfileViewModel.cs" />
+    <Compile Include="ViewModels\Settings\ShiftvSettingsViewModel.cs" />
+    <Compile Include="DataModel\SubtitleLanguageDataModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\TvShowGridViewBase.cs" />
+    <Compile Include="Views\AppBar\MoviesMainTopAppBar.xaml.cs">
+      <DependentUpon>MoviesMainTopAppBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\PubControl.xaml.cs">
+      <DependentUpon>PubControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\PubControlVertical.xaml.cs">
+      <DependentUpon>PubControlVertical.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\RateAndReviewControl2.xaml.cs">
+      <DependentUpon>RateAndReviewControl2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\RateAndReviewControl.xaml.cs">
+      <DependentUpon>RateAndReviewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\RemovePubControl.xaml.cs">
+      <DependentUpon>RemovePubControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\SoundClouderPub.xaml.cs">
+      <DependentUpon>SoundClouderPub.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\TopAppBarToggle.xaml.cs">
+      <DependentUpon>TopAppBarToggle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppBar\UserDisplayControl.xaml.cs">
+      <DependentUpon>UserDisplayControl.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Disqus\Disqus.xaml.cs">
+      <DependentUpon>Disqus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Handlers\ErrorLoadingData.xaml.cs">
+      <DependentUpon>ErrorLoadingData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Handlers\NoDataPage.xaml.cs">
+      <DependentUpon>NoDataPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Handlers\ErrorLoadingDataPage.xaml.cs">
+      <DependentUpon>ErrorLoadingDataPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Handlers\InternetConnectionHandler.xaml.cs">
+      <DependentUpon>InternetConnectionHandler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HelpPage.xaml.cs">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\MoviePage2.xaml.cs">
+      <DependentUpon>MoviePage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\AnimationMovies.xaml.cs">
+      <DependentUpon>AnimationMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\MyWatchlistedMovies.xaml.cs">
+      <DependentUpon>MyWatchlistedMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\ChristmasMovies.xaml.cs">
+      <DependentUpon>ChristmasMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\OscarsMovies.xaml.cs">
+      <DependentUpon>OscarsMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\TopImdbMovies.xaml.cs">
+      <DependentUpon>TopImdbMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\DashboardPage.xaml.cs">
+      <DependentUpon>DashboardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\FreshShowsPage.xaml.cs">
+      <DependentUpon>FreshShowsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\TopImdbShowsPage.xaml.cs">
+      <DependentUpon>TopImdbShowsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\TopShowsPage.xaml.cs">
+      <DependentUpon>TopShowsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\FreshMovies.xaml.cs">
+      <DependentUpon>FreshMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\MyMovies.xaml.cs">
+      <DependentUpon>MyMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\TopMovies.xaml.cs">
+      <DependentUpon>TopMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\RecommendedMovies.xaml.cs">
+      <DependentUpon>RecommendedMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Player\MoviePlayer.xaml.cs">
+      <DependentUpon>MoviePlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Network\NetworkActivitiesView.xaml.cs">
+      <DependentUpon>NetworkActivitiesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\OfflineContent\OfflineContentManagerViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\RecommendedShowsViewModel.cs" />
+    <Compile Include="ViewModels\Movies\MovieViewModel.cs" />
+    <Compile Include="ViewModels\Shows\SerieViewModel.cs" />
+    <Compile Include="ViewModels\Shows\Pages\MyShowsViewModel.cs" />
+    <Compile Include="Views\AppBar\MainTopAppBar.xaml.cs">
+      <DependentUpon>MainTopAppBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\Calendar.xaml.cs">
+      <DependentUpon>Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChooseSection.xaml.cs">
+      <DependentUpon>ChooseSection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Episodes\EpisodesList.xaml.cs">
+      <DependentUpon>EpisodesList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Player\FastEpisodeViewer.xaml.cs">
+      <DependentUpon>FastEpisodeViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Player\EpisodeViewer.xaml.cs">
+      <DependentUpon>EpisodeViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\AnimePage.xaml.cs">
+      <DependentUpon>AnimePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movies\Pages\TrendingMovies.xaml.cs">
+      <DependentUpon>TrendingMovies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Network\UserProfileView.xaml.cs">
+      <DependentUpon>UserProfileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OfflineContent\OfflineContentManager.xaml.cs">
+      <DependentUpon>OfflineContentManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\RecommendedShowsPage.xaml.cs">
+      <DependentUpon>RecommendedShowsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\TrendingShowsPage.xaml.cs">
+      <DependentUpon>TrendingShowsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\SeriePage.xaml.cs">
+      <DependentUpon>SeriePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\TermsAndServices.xaml.cs">
+      <DependentUpon>TermsAndServices.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\LegalInformation.xaml.cs">
+      <DependentUpon>LegalInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\DMCA.xaml.cs">
+      <DependentUpon>DMCA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\ShiftvSettings.xaml.cs">
+      <DependentUpon>ShiftvSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shows\Pages\MyShowsPage.xaml.cs">
+      <DependentUpon>MyShowsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\VariableSizedStyleSelector.cs" />
+    <Compile Include="Windows8Services.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\noimagefull.png" />
+    <Content Include="Assets\noimagemedium.png" />
+    <Content Include="Assets\noimagethumb.png" />
+    <None Include="Common\ReadMe.txt" />
+    <None Include="packages.config" />
+    <None Include="Shiftv_StoreKey.pfx" />
+    <None Include="Shiftv_TemporaryKey.pfx" />
+    <PRIResource Include="strings\en-US\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\advBackground.png" />
+    <Content Include="Assets\avatar-large.jpg" />
+    <Content Include="Assets\backgroundAdv.jpg" />
+    <Content Include="Assets\goldUser.png" />
+    <Content Include="Assets\Shiftty\Captain.png" />
+    <Content Include="Assets\Shiftty\Hero.png" />
+    <Content Include="Assets\imdb.png" />
+    <Content Include="Assets\anime.png" />
+    <Content Include="Assets\background.jpg" />
+    <Content Include="Assets\calendar.png" />
+    <Content Include="Assets\check.png" />
+    <Content Include="Assets\check3.png" />
+    <Content Include="Assets\hate.png" />
+    <Content Include="Assets\listIcon.png" />
+    <Content Include="Assets\live.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\logoForAppBar.png" />
+    <Content Include="Assets\logonoback.png" />
+    <Content Include="Assets\logotest.png" />
+    <Content Include="Assets\Logo\logo150.png" />
+    <Content Include="Assets\Logo\logo30.png" />
+    <Content Include="Assets\Logo\logo310.scale-100.png" />
+    <Content Include="Assets\Logo\logo310150.scale-100.png" />
+    <Content Include="Assets\Logo\logo50.png" />
+    <Content Include="Assets\Logo\logo70.scale-100.png" />
+    <Content Include="Assets\love.png" />
+    <Content Include="Assets\next15.png" />
+    <Content Include="Assets\noob.png" />
+    <Content Include="Assets\previous11.png" />
+    <Content Include="Assets\Shiftty\Congratz.png" />
+    <Content Include="Assets\Shiftty\Menus.png" />
+    <Content Include="Assets\Shiftty\Money.png" />
+    <Content Include="Assets\Shiftty\Review.png" />
+    <Content Include="Assets\Shiftty\Sad.png" />
+    <Content Include="Assets\Shiftty\Tablet.png" />
+    <Content Include="Assets\silverUser.png" />
+    <Content Include="Assets\Slider\1.jpg" />
+    <Content Include="Assets\Slider\2.jpg" />
+    <Content Include="Assets\Slider\3.jpg" />
+    <Content Include="Assets\Slider\4.jpg" />
+    <Content Include="Assets\Slider\5.jpg" />
+    <Content Include="Assets\Slider\calendar.png" />
+    <Content Include="Assets\Slider\m1.jpg" />
+    <Content Include="Assets\Slider\m2.jpg" />
+    <Content Include="Assets\Slider\m3.jpg" />
+    <Content Include="Assets\Slider\m4.jpg" />
+    <Content Include="Assets\Slider\m5.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\social.png" />
+    <Content Include="Assets\SoundClouder\soundclouder.png" />
+    <Content Include="Assets\SoundClouder\soundclouder1.png" />
+    <Content Include="Assets\SoundClouder\soundclouder2.png" />
+    <Content Include="Assets\SoundClouder\soundclouder3.png" />
+    <Content Include="Assets\SplashScreen.scale-100.jpg" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\threedots.png" />
+    <Content Include="Assets\trending.png" />
+    <Content Include="Assets\watched.png" />
+    <Content Include="Assets\watchlist.png" />
+    <Content Include="Assets\Shiftty\Welcome.png" />
+    <Content Include="BugSense\BugSense - SDK License Agreement.txt" />
+    <Content Include="defaultAdSettings2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="defaultAdSettings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shiftv.Contracts\Shiftv.Contracts.csproj">
+      <Project>{B82AFF12-01E3-4409-9B18-32B3CF430EA9}</Project>
+      <Name>Shiftv.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shiftv.Core.Models\Shiftv.Core.Models.csproj">
+      <Project>{9E9F66BA-C7E3-4D37-879B-581EDF85000F}</Project>
+      <Name>Shiftv.Core.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shiftv.Global\Shiftv.Global.csproj">
+      <Project>{F3AE0D8B-800D-43AB-9C0C-5BAC5C8AAC5D}</Project>
+      <Name>Shiftv.Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shiftv.Infrastucture.Trakt.Implementation\Shiftv.Infrastucture.Trakt.Implementation.csproj">
+      <Project>{0F038038-1994-420C-B71D-79784395629B}</Project>
+      <Name>Shiftv.Infrastucture.Trakt.Implementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shiftv.Services.Implementation\Shiftv.Services.Implementation.csproj">
+      <Project>{553FD6CF-9E4A-43EF-AA26-6359BB37A9F7}</Project>
+      <Name>Shiftv.Services.Implementation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AdDuplex.Controls">
+      <HintPath>..\packages\AdDuplexWindows.8.0.5\lib\winrt45\AdDuplex.Controls.winmd</HintPath>
+    </Reference>
+    <Reference Include="AdDuplex.WinRT">
+      <HintPath>..\packages\AdDuplexWindows.8.0.5\lib\winrt45\AdDuplex.WinRT.winmd</HintPath>
+    </Reference>
+    <Reference Include="AdRotator">
+      <HintPath>..\packages\AdRotator.2.1.1\lib\netcore451\AdRotator.dll</HintPath>
+    </Reference>
+    <Reference Include="AdRotator.Core">
+      <HintPath>..\packages\AdRotator.2.1.1\lib\netcore451\AdRotator.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AsyncMvvmMessenger">
+      <HintPath>..\packages\AsyncMvvmMessenger.0.1.0.0\lib\portable-net4+wp8+win8+wpa81+MonoAndroid+MonoTouch\AsyncMvvmMessenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Autofac.3.5.2\lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="BugSense-W8, Version=3.6.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BugSense.W8.3.6.6.0\lib\netcore45\BugSense-W8.dll</HintPath>
+    </Reference>
+    <Reference Include="Callisto">
+      <HintPath>..\packages\Callisto.1.4.0\lib\netcore451\Callisto.dll</HintPath>
+    </Reference>
+    <Reference Include="De.TorstenMandelkow.MetroChart">
+      <HintPath>..\packages\ModernChart.1.0.0\lib\netcore45\De.TorstenMandelkow.MetroChart.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.0.2.32240, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.0.2.32242, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.0.2.32241, Culture=neutral, PublicKeyToken=7a953f43091b5a17, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Portable.MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="HotChai.Serialization">
+      <HintPath>..\packages\HotChai.Serialization.1.2.0\lib\portable-net45+sl50+wp80+win+MonoAndroid10+MonoTouch10\HotChai.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=1.1.0.1899, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.1.1.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.Windows, Version=1.1.0.1906, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsApps.1.1.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.PersistenceChannel, Version=1.1.0.1903, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PersistenceChannel.1.1.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.6.3\lib\portable-net45+wp8+win8+wpa\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.OData.5.6.3\lib\portable-net45+wp8+win8+wpa\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=4.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WindowsAzure.Storage.4.3.0\lib\win8\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="MyToolkit, Version=2.3.28.0, Culture=neutral, PublicKeyToken=3e349a1360994d26, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MyToolkit.2.3.28.0\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MyToolkit.Extended, Version=2.3.28.0, Culture=neutral, PublicKeyToken=3e349a1360994d26, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MyToolkit.Extended.2.3.28.0\lib\portable-wpa81+win8\MyToolkit.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>..\packages\sharpcompress.0.10.3\lib\netcore45\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector, Version=2.7.2.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SimpleInjector.2.7.2\lib\portable-net4+sl4+wp8+win8+wpa81\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Diagnostics, Version=2.7.2.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SimpleInjector.2.7.2\lib\portable-net4+sl4+wp8+win8+wpa81\SimpleInjector.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="SOMAW81, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SOMAW81_Package.1.1.9\lib\netcore45\SOMAW81.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Spatial.5.6.3\lib\portable-net45+wp8+win8+wpa\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRTXamlToolkit, Version=1.6.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights, Version=1.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Xamarin.Insights.1.9.1.107\lib\windows8\Xamarin.Insights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0" />
+    <SDKReference Include="Microsoft.PlayerFramework.Xaml.CaptionSettings.Win81, Version=3.0.0.1">
+      <Name>Microsoft Player Framework Caption Settings Plugin</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.PlayerFramework.Xaml.WebVTT.Settings.Win81, Version=3.0.0.1">
+      <Name>Microsoft Player Framework WebVTT Caption Settings Plugin</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.PlayerFramework.Xaml.WebVTT.Win81, Version=3.0.0.1">
+      <Name>Microsoft Player Framework WebVTT Plugin</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.PlayerFramework.Xaml.Win81, Version=3.0.0.1">
+      <Name>Microsoft Player Framework</Name>
+    </SDKReference>
+    <SDKReference Include="MSAdvertisingXaml, Version=8.1">
+      <Name>Microsoft Advertising SDK for Windows 8.1 %28Xaml%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dlls\" />
+    <Folder Include="strings\pt-PT\" />
+    <Folder Include="ViewModels\Calendar\" />
+    <Folder Include="ViewModels\MainPages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MultilingualResources\Shiftv.en.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <PropertyGroup Label="MultilingualAppToolkit">
+      <MultilingualAppToolkitVersion>3.0</MultilingualAppToolkitVersion>
+      <MakePriLog>$(Temp)\$(MSBuildProjectName)_Multilingual.prilog.xml</MakePriLog>
+      <AppxGenerateProjectPriFileAdditionalMakepriExeParameters>/IndexLog "$(MakePriLog)"</AppxGenerateProjectPriFileAdditionalMakepriExeParameters>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

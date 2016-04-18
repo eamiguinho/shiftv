@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI", "ShiftvAPI\ShiftvAPI.csproj", "{96142493-4170-4A30-902D-B2307AFAC6C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5A2232B7-57C3-48FE-813B-48E2134483B1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{ABBF40F5-659B-4E42-9A40-25D5C9E2786D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ShiftvAPI-WAWS-dev.json = PublishScripts\Configurations\ShiftvAPI-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI.Contracts", "ShiftvAPI.Data\ShiftvAPI.Contracts.csproj", "{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Global", "1. Global", "{09770FB6-756B-4F4B-83C8-33396103DA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{70427D1D-EBD9-49E7-A3BB-4B7A4A44EAC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI.Services.Implementation", "ShiftvAPI.Services.Implementation\ShiftvAPI.Services.Implementation.csproj", "{E9743368-7E0E-4190-A209-30D552015893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastucture", "3. Infrastucture", "{9D54934A-9A36-4B8F-B7AC-E5CD08BEA075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI.Infrastucture.Implementation", "ShiftvAPI.Infrastucture.Implementation\ShiftvAPI.Infrastucture.Implementation.csproj", "{E739993B-DD5A-4E2A-9BD0-F1EF627796EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI.Infrastucture.Trakt.Implementation", "ShiftvAPI.Infrastucture.Trakt.Implementation\ShiftvAPI.Infrastucture.Trakt.Implementation.csproj", "{7824DBC5-D21E-4052-96B3-D5D13A77608C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. API", "4. API", "{2BBDE1DC-BCE2-4E02-A258-7DCD4AF4E63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftvAPI.Infrastucture.Tests", "ShiftvAPI.Infrastucture.Tests\ShiftvAPI.Infrastucture.Tests.csproj", "{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://quizzlegame.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ShiftvAPI.Data\\ShiftvAPI.Contracts.csproj
+		SccProjectTopLevelParentUniqueName1 = ShiftvAPI.sln
+		SccProjectName1 = ShiftvAPI.Data
+		SccLocalPath1 = ShiftvAPI.Data
+		SccProjectUniqueName2 = ShiftvAPI.Infrastucture.Implementation\\ShiftvAPI.Infrastucture.Implementation.csproj
+		SccProjectTopLevelParentUniqueName2 = ShiftvAPI.sln
+		SccProjectName2 = ShiftvAPI.Infrastucture.Implementation
+		SccLocalPath2 = ShiftvAPI.Infrastucture.Implementation
+		SccProjectUniqueName3 = ShiftvAPI.Infrastucture.Tests\\ShiftvAPI.Infrastucture.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = ShiftvAPI.sln
+		SccProjectName3 = ShiftvAPI.Infrastucture.Tests
+		SccLocalPath3 = ShiftvAPI.Infrastucture.Tests
+		SccProjectUniqueName4 = ShiftvAPI.Infrastucture.Trakt.Implementation\\ShiftvAPI.Infrastucture.Trakt.Implementation.csproj
+		SccProjectTopLevelParentUniqueName4 = ShiftvAPI.sln
+		SccProjectName4 = ShiftvAPI.Infrastucture.Trakt.Implementation
+		SccLocalPath4 = ShiftvAPI.Infrastucture.Trakt.Implementation
+		SccProjectUniqueName5 = ShiftvAPI.Services.Implementation\\ShiftvAPI.Services.Implementation.csproj
+		SccProjectTopLevelParentUniqueName5 = ShiftvAPI.sln
+		SccProjectName5 = ShiftvAPI.Services.Implementation
+		SccLocalPath5 = ShiftvAPI.Services.Implementation
+		SccProjectUniqueName6 = ShiftvAPI\\ShiftvAPI.csproj
+		SccProjectTopLevelParentUniqueName6 = ShiftvAPI.sln
+		SccProjectName6 = ShiftvAPI
+		SccLocalPath6 = ShiftvAPI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96142493-4170-4A30-902D-B2307AFAC6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96142493-4170-4A30-902D-B2307AFAC6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96142493-4170-4A30-902D-B2307AFAC6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96142493-4170-4A30-902D-B2307AFAC6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9743368-7E0E-4190-A209-30D552015893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9743368-7E0E-4190-A209-30D552015893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9743368-7E0E-4190-A209-30D552015893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9743368-7E0E-4190-A209-30D552015893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E739993B-DD5A-4E2A-9BD0-F1EF627796EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E739993B-DD5A-4E2A-9BD0-F1EF627796EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E739993B-DD5A-4E2A-9BD0-F1EF627796EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E739993B-DD5A-4E2A-9BD0-F1EF627796EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7824DBC5-D21E-4052-96B3-D5D13A77608C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7824DBC5-D21E-4052-96B3-D5D13A77608C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7824DBC5-D21E-4052-96B3-D5D13A77608C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7824DBC5-D21E-4052-96B3-D5D13A77608C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96142493-4170-4A30-902D-B2307AFAC6C2} = {2BBDE1DC-BCE2-4E02-A258-7DCD4AF4E63C}
+		{5A2232B7-57C3-48FE-813B-48E2134483B1} = {2BBDE1DC-BCE2-4E02-A258-7DCD4AF4E63C}
+		{ABBF40F5-659B-4E42-9A40-25D5C9E2786D} = {5A2232B7-57C3-48FE-813B-48E2134483B1}
+		{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D} = {09770FB6-756B-4F4B-83C8-33396103DA18}
+		{E9743368-7E0E-4190-A209-30D552015893} = {70427D1D-EBD9-49E7-A3BB-4B7A4A44EAC2}
+		{E739993B-DD5A-4E2A-9BD0-F1EF627796EF} = {9D54934A-9A36-4B8F-B7AC-E5CD08BEA075}
+		{7824DBC5-D21E-4052-96B3-D5D13A77608C} = {9D54934A-9A36-4B8F-B7AC-E5CD08BEA075}
+		{4E141AD7-C5EB-4128-8A51-29F2F1D9EE77} = {9D54934A-9A36-4B8F-B7AC-E5CD08BEA075}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shiftv.Helpers">
+
+    <Style TargetType="local:VirtualizedVariableSizedWrapGrid">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:VirtualizedVariableSizedWrapGrid">
+                    <ScrollViewer x:Name="Scroll" ZoomMode="Disabled" HorizontalScrollMode="Auto" VerticalScrollMode="Disabled" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+                        <Grid x:Name="LayoutArea" />
+                    </ScrollViewer>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

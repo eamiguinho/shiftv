@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CultureDescriptors CultureName="en-US">
+    <AdDuplex AppId="118607" Probability="100"/>
+    <Smaato AppId="923883994" SecondaryId="65852437" Probability="0"/>
+    <PubCenter AppId="b34e02cf-8d15-4cca-b9f9-72e106256042" SecondaryId="187164" Probability="0"/>
+  </CultureDescriptors>
+  <CultureDescriptors CultureName="en-GB">
+    <AdDuplex AppId="118607" Probability="100"/>
+    <Smaato AppId="923883994" SecondaryId="65852437" Probability="0"/>
+    <PubCenter AppId="b34e02cf-8d15-4cca-b9f9-72e106256042" SecondaryId="187164" Probability="0"/>
+  </CultureDescriptors>
+  <CultureDescriptors CultureName="">
+    <AdDuplex AppId="118607" Probability="100"/>
+    <Smaato AppId="923883994" SecondaryId="65852437" Probability="0"/>
+    <PubCenter AppId="b34e02cf-8d15-4cca-b9f9-72e106256042" SecondaryId="194321" Probability="0"/>
+  </CultureDescriptors>
+</AdSettings>

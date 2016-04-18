@@ -1,0 +1,186 @@
+﻿<Page
+    x:Class="Shiftv.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:home="using:Shiftv.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <home:LoginViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid  Background="{StaticResource BackgroundColorAlmostBlack}">
+        <Grid.Resources>
+            <Storyboard x:Name="LoginGridFadeOut">
+                <DoubleAnimation
+                      Storyboard.TargetName="LoginGrid"
+                      Storyboard.TargetProperty="Opacity"
+                      From="1" To="0.0" Duration="0:0:1"
+                      />
+            </Storyboard>
+            <Storyboard x:Name="UsernameGridFadeIn">
+                <DoubleAnimation
+                      Storyboard.TargetName="UsernameGrid"
+                      Storyboard.TargetProperty="Opacity"
+                      From="0.0" To="1" Duration="0:0:1"
+                      />
+            </Storyboard> 
+            
+            <Storyboard x:Name="SyncGridFadeIn">
+                <DoubleAnimation
+                      Storyboard.TargetName="SyncGrid"
+                      Storyboard.TargetProperty="Opacity"
+                      From="0.0" To="1" Duration="0:0:1"
+                      />
+            </Storyboard>
+            <Style x:Key="EntranceStyle" TargetType="Grid">
+                <Setter Property="Transitions">
+                    <Setter.Value>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromHorizontalOffset="200"/>
+                        </TransitionCollection>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+        <Grid Style="{StaticResource EntranceStyle}">
+            <Grid.Resources>
+                <Storyboard x:Name="FadeOut1">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name1"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn1">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name1"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut2">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name2"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn2">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name2"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut3">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name3"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn3">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name3"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut4">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name4"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn4">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name4"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeOut5">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name5"
+          Storyboard.TargetProperty="Opacity"
+          From="0.5" To="0.0" Duration="0:0:3"
+          />
+                </Storyboard>
+                <Storyboard x:Name="FadeIn5">
+                    <DoubleAnimation
+          Storyboard.TargetName="Name5"
+          Storyboard.TargetProperty="Opacity"
+          From="0.0" To="0.5" Duration="0:0:3"
+          />
+                </Storyboard>
+            </Grid.Resources>
+            <Image Source="{Binding Image1}" Stretch="UniformToFill" x:Name="Name5" Opacity="0" />
+            <Image Source="{Binding Image2}" Stretch="UniformToFill" x:Name="Name4" Opacity="0" />
+            <Image Source="{Binding Image3}" Stretch="UniformToFill" x:Name="Name3" Opacity="0" />
+            <Image Source="{Binding Image4}" Stretch="UniformToFill" x:Name="Name2" Opacity="0" />
+            <Image Source="{Binding Image5}" Stretch="UniformToFill" x:Name="Name1" Opacity="0.5" />
+            <Grid x:Name="UsernameGrid" Background="{StaticResource ShiftvDarkGreen}" Opacity="0"  HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Margin="20 10 20 18"  FontWeight="Light" FontSize="60" Text="{Binding Welcome}" Style="{StaticResource SeriePageTitle}" SizeChanged="TextBlock_SizeChanged"></TextBlock>
+            </Grid>
+            <Grid x:Name="SyncGrid" Background="{StaticResource ShiftvDarkGreen}" Opacity="0"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 220 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <ProgressRing  Grid.Column="0"  Height="35" Width="35" Margin="10 0 10 0" IsActive="True" Foreground="White"></ProgressRing>
+                <TextBlock Grid.Column="1" Margin="10 10 20 10"  FontWeight="Light" FontSize="24" Text="Syncing your data, this will only happen the first time you login please wait a minute" Style="{StaticResource SeriePageTitle}"></TextBlock>
+            </Grid>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="650" x:Name="LoginGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{Binding [WelcomeMessage_Upper], Source={StaticResource Localized}}" Style="{StaticResource SeriePageTitle}" FontWeight="Bold" FontSize="40" ></TextBlock>
+                <Grid  Grid.Row="1" Background="{StaticResource ShiftvDarkGreen}" Margin="0 10 0 10" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock  Text="{Binding [WelcomeMessageSub], Source={StaticResource Localized}}" HorizontalAlignment="Center" Style="{StaticResource SeriePageTitle}" FontWeight="Light" FontSize="28" Margin="15 5 20 10" VerticalAlignment="Center" />
+                </Grid>
+                  <Grid Grid.Row="2" x:Name="LoginFieldsGrid"  >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid  Grid.Column="0" Margin="0 10 0 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button  FontWeight="Light" FontSize="22" Margin="0 0 0 0" Height="55"  Content="{Binding [SignIn], Source={StaticResource Localized}}" BorderThickness="0" Background="#dfdfdf" Foreground="{StaticResource ShiftvDarkGreen}" Visibility="{Binding IsLoading, Converter={StaticResource BooleanNotToVisibility}}" FontFamily="Segoe UI"  HorizontalAlignment="Center" Command="{Binding EnterWithLogin}"></Button>
+                        <ProgressRing  VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Grid.RowSpan="3" Height="25" Width="25" Margin="0 0 10 0" IsActive="True" Foreground="White" Visibility="{Binding IsLoading, Converter={StaticResource BooleanToVisibility}}"></ProgressRing>
+                    </Grid>
+                    <StackPanel Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Button  FontWeight="Light" FontSize="22" Margin="0 40 0 0" Height="55"  Content="{Binding [SignInUnknown], Source={StaticResource Localized}}" BorderThickness="0" Background="#dfdfdf" Foreground="{StaticResource ShiftvDarkGreen}" FontFamily="Segoe UI"  HorizontalAlignment="Center" Command="{Binding EnterWithoutLogin}"></Button>
+                        <Grid Margin="0 0 -30 0" Background="{StaticResource ShiftvLightRed}"  HorizontalAlignment="Right">
+                            <Grid.RenderTransform>
+                                <RotateTransform Angle="-25"></RotateTransform>
+                            </Grid.RenderTransform>
+                            <TextBlock Margin="5 5" Style="{StaticResource MainPageTitle}"  Foreground="White" FontSize="18" TextWrapping="Wrap" TextAlignment="Center" Text="{Binding [Limited_Upper], Source={StaticResource Localized}}"></TextBlock>
+
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <Image Source="../Assets/logonoback.png" Stretch="None" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,15,10"></Image>
+        </Grid>
+        <handlers:InternetConnectionHandler VerticalAlignment="Top" HorizontalAlignment="Center">
+
+        </handlers:InternetConnectionHandler>
+    </Grid>
+</Page>

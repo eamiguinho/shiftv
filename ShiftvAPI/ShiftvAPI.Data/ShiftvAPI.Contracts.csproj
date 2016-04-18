@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA91F56B-6ABC-4F79-A5C2-EA148A5AB84D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShiftvAPI.Contracts</RootNamespace>
+    <AssemblyName>ShiftvAPI.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ShiftvAPI.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShiftvAPI\Bin\ShiftvAPI.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Converters\ShowMiniConverter.cs" />
+    <Compile Include="Data\PostObjects\UploadRating.cs" />
+    <Compile Include="Data\PostObjects\UploadWatched.cs" />
+    <Compile Include="Data\ShowProgress.cs" />
+    <Compile Include="Infrastucture\Shiftv\ICalendarShiftvDataService.cs" />
+    <Compile Include="Services\Calendar\ICalendarService.cs" />
+    <Compile Include="Data\ShowCalendar.cs" />
+    <Compile Include="Data\Account.cs" />
+    <Compile Include="Data\Calendar.cs" />
+    <Compile Include="Data\PostObjects\CommentRequestJsonDto.cs" />
+    <Compile Include="Data\PostObjects\EpisodeRequestJson.cs" />
+    <Compile Include="Data\PostObjects\MovieRequestWatchedJson.cs" />
+    <Compile Include="Data\PostObjects\RateRequestJsonDto.cs" />
+    <Compile Include="Data\PostObjects\SetAsSeenJson.cs" />
+    <Compile Include="Data\PostObjects\ShowRequestJson.cs" />
+    <Compile Include="Data\RatingSync.cs" />
+    <Compile Include="Data\RequestType.cs" />
+    <Compile Include="Data\SharingText.cs" />
+    <Compile Include="Data\Connections.cs" />
+    <Compile Include="Data\Sync\Class1.cs" />
+    <Compile Include="Data\TokenRequest.cs" />
+    <Compile Include="Data\TraktList.cs" />
+    <Compile Include="Data\Movie.cs" />
+    <Compile Include="Data\Episode.cs" />
+    <Compile Include="Data\Show.cs" />
+    <Compile Include="Data\Season.cs" />
+    <Compile Include="Data\Comment.cs" />
+    <Compile Include="Data\People.cs" />
+    <Compile Include="Data\UserRating.cs" />
+    <Compile Include="Data\UserSettings.cs" />
+    <Compile Include="Data\Watched.cs" />
+    <Compile Include="Helpers\Ioc.cs" />
+    <Compile Include="Helpers\StandardResults.cs" />
+    <Compile Include="Helpers\DataResult.cs" />
+    <Compile Include="Infrastucture\Shiftv\ISyncShiftvDataService.cs" />
+    <Compile Include="Infrastucture\Shiftv\IListShiftvDataService.cs" />
+    <Compile Include="Infrastucture\Shiftv\ILoginShiftvDataService.cs" />
+    <Compile Include="Infrastucture\Shiftv\IMovieShiftvDataService.cs" />
+    <Compile Include="Infrastucture\Shiftv\IShowShiftvDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Login\ILoginTraktDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Login\ILoginTraktQueryService.cs" />
+    <Compile Include="Infrastucture\Trakt\Movies\IMovieTraktDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Movies\IMovieTraktQueryService.cs" />
+    <Compile Include="Infrastucture\Trakt\Lists\IListTraktDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Lists\IListTraktQueryService.cs" />
+    <Compile Include="Infrastucture\Trakt\Shows\IShowTraktDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Shows\IShowTraktQueryService.cs" />
+    <Compile Include="Infrastucture\Trakt\Sync\ISyncTraktDataService.cs" />
+    <Compile Include="Infrastucture\Trakt\Sync\ISyncTraktQueryService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Login\ILoginService.cs" />
+    <Compile Include="Services\Movies\IMovieService.cs" />
+    <Compile Include="Services\Shows\IShowService.cs" />
+    <Compile Include="Services\Lists\IListService.cs" />
+    <Compile Include="Services\Sync\ISyncService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

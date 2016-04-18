@@ -1,0 +1,54 @@
+﻿<SettingsFlyout
+    x:Class="Shiftv.Views.Settings.DMCA"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shiftv.Views.Settings"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="ms-appx:///Assets/SmallLogo.png"
+    Title="DMCA"
+    Width="450"
+    RequestedTheme="Dark"
+    d:DesignWidth="346" Background="{StaticResource BackgroundColorAlmostBlack}">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="{Binding [DmcaAgg_Upper], Source={StaticResource Localized}}" />
+
+            <!-- Section 1 body -->
+                <TextBlock xml:space="preserve" Style="{StaticResource BodyTextBlockStyle}"  TextWrapping="Wrap">
+                    <TextBlock.Text >
+    Shiftv takes matters of Intellectual Property very seriously and is committed to meeting the needs of content owners while helping them manage publication of their content online. It should be noted that Shiftv is a simple search engine of videos available at a wide variety of third party websites.
+Any videos shown on third party websites are the responsibility of those sites and not Shiftv. We have no knowledge of whether content shown on third party websites is or is not authorized by the content owner as that is a matter between the host site and the content owner. Shiftv does not host any content on its servers or network. Shiftv is a pro-DMCA website and as such Content Owners can use the DMCA protocol to request removal of links to videos that they believe infringe their copyright.
+
+Content owners must understand that by having a link removed from Shiftv they will not be removing the actual source video from the 3rd party site. Content owners must contact the video hosting site themselves to request removal.
+
+In accordance with the Digital Millennium Copyright Act of 1998 (the text of which may be found on the U.S. Copyright Office website at http://lcweb.loc.gov/copyright/), Shiftv will respond expeditiously to claims of copyright infringement that are reported to Shiftv's designated copyright agent identified below.
+
+If you are a copyright owner, or are authorized to act on behalf of an owner of the copyright or of any exclusive right under the copyright, and believe that your work has been copied in a way that constitutes copyright infringement, please report your notice of infringement to Shiftv by providing Shiftv's designated copyright agent listed below with the following information:
+
+A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;
+Identification of the copyright work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at the Website;
+Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit Shiftv to locate the material; this must be in the form of a direct URL to the page on which the infringing content is linked. This detail is necessary as each video can have multiple links and to protect relationships with our partners we wish to avoid deleting authorized links in error.
+Information reasonably sufficient to permit Shiftv to contact the complaining party, including a name, address, telephone number and, if available, an email address at which the complaining party may be contacted;
+A statement that the complaining party has a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent or the law;
+A statement that the information in the notification is accurate and, under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+All claims of copyright infringement on or regarding this Website should be emailed to Shiftv designated agent at: dmca[at]shiftv.com
+                    </TextBlock.Text>
+                </TextBlock>
+          
+
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

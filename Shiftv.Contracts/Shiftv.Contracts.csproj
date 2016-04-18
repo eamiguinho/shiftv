@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B82AFF12-01E3-4409-9B18-32B3CF430EA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shiftv.Contracts</RootNamespace>
+    <AssemblyName>Shiftv.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>0f2bffb5</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DataServices\Activities\IActivityTraktDataService.cs" />
+    <Compile Include="DataServices\Activities\IActivityTraktQueryService.cs" />
+    <Compile Include="DataServices\Calendars\ICalendarTraktDataService.cs" />
+    <Compile Include="DataServices\Calendars\ICalendarTraktQueryService.cs" />
+    <Compile Include="DataServices\Categories\ICategoryTraktDataService.cs" />
+    <Compile Include="DataServices\Categories\ICategoryTraktQueryService.cs" />
+    <Compile Include="DataServices\Comments\ICommentTraktDataService.cs" />
+    <Compile Include="DataServices\Comments\ICommentTraktQueryService.cs" />
+    <Compile Include="DataServices\Crawler\ICrawlerShiftvDataService.cs" />
+    <Compile Include="DataServices\Crawler\ICrawlerShiftvQueryService.cs" />
+    <Compile Include="DataServices\Episodes\IEpisodeTraktDataService.cs" />
+    <Compile Include="DataServices\Episodes\IEpisodeTraktQueryService.cs" />
+    <Compile Include="DataServices\Login\ILoginTraktDataService.cs" />
+    <Compile Include="DataServices\Login\ILoginTraktQueryService.cs" />
+    <Compile Include="DataServices\Movies\IMovieTraktDataService.cs" />
+    <Compile Include="DataServices\Movies\IMovieTraktQueryService.cs" />
+    <Compile Include="DataServices\Networks\INetworkTraktDataService.cs" />
+    <Compile Include="DataServices\Networks\INetworkTraktQueryService.cs" />
+    <Compile Include="DataServices\Seasons\ISeasonTraktDataService.cs" />
+    <Compile Include="DataServices\Seasons\ISeasonTraktQueryService.cs" />
+    <Compile Include="DataServices\Shows\IShowTraktDataService.cs" />
+    <Compile Include="DataServices\Shows\IShowTraktQueryService.cs" />
+    <Compile Include="DataServices\Stats\IStatisticsTraktDataService.cs" />
+    <Compile Include="DataServices\Stats\IStatisticsTraktQueryService.cs" />
+    <Compile Include="DataServices\Sync\ISyncTraktDataService.cs" />
+    <Compile Include="DataServices\Sync\ISyncTraktQueryService.cs" />
+    <Compile Include="DataServices\TraktDataService.cs" />
+    <Compile Include="DataServices\Users\IUserTraktDataService.cs" />
+    <Compile Include="DataServices\Users\IUserTraktQueryService.cs" />
+    <Compile Include="Data\Activity\ActivityDto.cs" />
+    <Compile Include="Data\Activity\ActivityElapsedDto.cs" />
+    <Compile Include="Data\Activity\ActivityItemDto.cs" />
+    <Compile Include="Data\Activity\ActivityTimestampsDto.cs" />
+    <Compile Include="Data\Activity\ActivityWhenDto.cs" />
+    <Compile Include="Data\Calendars\CalendarDto.cs" />
+    <Compile Include="Data\Calendars\CalendarDataDto.cs" />
+    <Compile Include="Data\Categories\CategoryDto.cs" />
+    <Compile Include="Data\Comments\CommentDto.cs" />
+    <Compile Include="Data\Crawler\CinemaLiveDto.cs" />
+    <Compile Include="Data\Crawler\NameMapDto.cs" />
+    <Compile Include="Data\Factories\ActivityDtoFactory.cs" />
+    <Compile Include="Data\Factories\ActivityElapsedDtoFactory.cs" />
+    <Compile Include="Data\Factories\ActivityItemDtoFactory.cs" />
+    <Compile Include="Data\Factories\ActivityTimestampsDtoFactory.cs" />
+    <Compile Include="Data\Factories\ActivityWhenDtoFactory.cs" />
+    <Compile Include="Data\Factories\AirsDtoFactory.cs" />
+    <Compile Include="Data\Factories\CalendarDataDtoFactory.cs" />
+    <Compile Include="Data\Factories\CalendarDtoFactory.cs" />
+    <Compile Include="Data\Factories\CheckInResultDtoFactory.cs" />
+    <Compile Include="Data\Factories\CommentDtoFactory.cs" />
+    <Compile Include="Data\Factories\DistributionDtoFactory.cs" />
+    <Compile Include="Data\Factories\EpisodesProgressDtoFactory.cs" />
+    <Compile Include="Data\Factories\FactoriesHelper.cs" />
+    <Compile Include="Data\Factories\IdsDtoFactory.cs" />
+    <Compile Include="Data\Factories\LinkInfoDtoFactory.cs" />
+    <Compile Include="Data\Factories\MediaStreamDtoFactory.cs" />
+    <Compile Include="Data\Factories\MiniMovieDtoFactory.cs" />
+    <Compile Include="Data\Factories\NameMapDtoFactory.cs" />
+    <Compile Include="Data\Factories\NetworkApproveDenyResultDtoFactory.cs" />
+    <Compile Include="Data\Factories\NetworkFollowResultDtoFactory.cs" />
+    <Compile Include="Data\Factories\SeasonProgressDtoFactory.cs" />
+    <Compile Include="Data\Factories\SetAsSeenResultJsonDtoFactory.cs" />
+    <Compile Include="Data\Factories\ShiftvUserStatsDtoFactory.cs" />
+    <Compile Include="Data\Factories\ShowProgressDtoFactory.cs" />
+    <Compile Include="Data\Factories\ShowProgressStatsDtoFactory.cs" />
+    <Compile Include="Data\Factories\SubtitlesInfoDtoFactory.cs" />
+    <Compile Include="Data\Factories\UserTokenDtoFactory.cs" />
+    <Compile Include="Data\Images\ImageDto.cs" />
+    <Compile Include="Data\JsonTrakt\AddEpisodeToWatchListRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\AddToWatchListRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\CheckInEpisodeRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\CommentEpisodeRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\CommentRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\CreateUserRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\CreateUserResponseJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\EditCommentRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\LoginRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\LoginResponseJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\NetworkApproveDenyRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\NetworkFollowRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\RateEpisodeRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\RateRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\SetEpisodeAsSeenEpiInfoRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\SetEpisodeAsSeenRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\SetMovieInfoRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\SetMovieRequestJsonDto.cs" />
+    <Compile Include="Data\JsonTrakt\SetSeasonAsSeenRequestJsonDto.cs" />
+    <Compile Include="Data\Movies\MovieDto.cs" />
+    <Compile Include="Data\Peoples\ActorDto.cs" />
+    <Compile Include="Data\Peoples\DirectorDto.cs" />
+    <Compile Include="Data\Peoples\PeopleDto.cs" />
+    <Compile Include="Data\Peoples\PeopleImage.cs" />
+    <Compile Include="Data\Peoples\ProducerDto.cs" />
+    <Compile Include="Data\Peoples\WriterDto.cs" />
+    <Compile Include="Data\Results\CheckInResultDto.cs" />
+    <Compile Include="Data\Results\GenericPostResultDto.cs" />
+    <Compile Include="Data\Factories\GenericPostResultDtoFactory.cs" />
+    <Compile Include="Data\Media\LinkInfoDto.cs" />
+    <Compile Include="Data\Media\MediaStreamDto.cs" />
+    <Compile Include="Data\Results\NetworkApproveDenyResultDto.cs" />
+    <Compile Include="Data\Results\NetworkFollowResultDto.cs" />
+    <Compile Include="Data\Results\RateResultDto.cs" />
+    <Compile Include="Data\Factories\RateResultDtoFactory.cs" />
+    <Compile Include="Data\Results\LoginUserResult.cs" />
+    <Compile Include="Data\Factories\AccountDtoFactory.cs" />
+    <Compile Include="Data\Factories\ActorDtoFactory.cs" />
+    <Compile Include="Data\Factories\EpisodeDtoFactory.cs" />
+    <Compile Include="Data\Factories\GeneralStatsDtoFactory.cs" />
+    <Compile Include="Data\Factories\ImageDtoFactory.cs" />
+    <Compile Include="Data\Factories\MovieDtoFactory.cs" />
+    <Compile Include="Data\Factories\PeopleDtoFactory.cs" />
+    <Compile Include="Data\Factories\PeopleImageDtoFactory.cs" />
+    <Compile Include="Data\Factories\RatingDtoFactory.cs" />
+    <Compile Include="Data\Factories\SeasonDtoFactory.cs" />
+    <Compile Include="Data\Factories\ShowDtoFactory.cs" />
+    <Compile Include="Data\Media\SubtitlesInfoDto.cs" />
+    <Compile Include="Data\Results\SetAsSeenResultJsonDto.cs" />
+    <Compile Include="Data\Shows\EpisodesProgressDto.cs" />
+    <Compile Include="Data\Shows\ImdbRatingDto.cs" />
+    <Compile Include="Data\Shows\ProgressStatsDto.cs" />
+    <Compile Include="Data\Shows\SeasonProgressDto.cs" />
+    <Compile Include="Data\Shows\ShowProgressDto.cs" />
+    <Compile Include="Data\Stats\StatsCheckinsDto.cs" />
+    <Compile Include="Data\Factories\StatsCheckinsDtoFactory.cs" />
+    <Compile Include="Data\Stats\StatsCollectionDto.cs" />
+    <Compile Include="Data\Factories\StatsCollectionDtoFactory.cs" />
+    <Compile Include="Data\Stats\StatsCommentsDto.cs" />
+    <Compile Include="Data\Factories\StatsCommentsDtoFactory.cs" />
+    <Compile Include="Data\Stats\StatsDto.cs" />
+    <Compile Include="Data\Factories\StatsDtoFactory.cs" />
+    <Compile Include="Data\Stats\StatsListsDto.cs" />
+    <Compile Include="Data\Factories\StatsListsDtoFactory.cs" />
+    <Compile Include="Data\Stats\StatsScrobblesDto.cs" />
+    <Compile Include="Data\Factories\StatsScrobblesDtoFactory.cs" />
+    <Compile Include="Data\Users\UserTokenDto.cs" />
+    <Compile Include="Data\Users\UserProfileStatsDto.cs" />
+    <Compile Include="Data\Users\UserProfileStatsEpisodesDto.cs" />
+    <Compile Include="Data\Users\UserProfileStatsMoviesDto.cs" />
+    <Compile Include="Data\Users\UserProfileStatsShowsDto.cs" />
+    <Compile Include="Data\Users\UserProfileWatchedDto.cs" />
+    <Compile Include="Data\Users\UserProfileWatchingDto.cs" />
+    <Compile Include="Domain\Activity\IActivity.cs" />
+    <Compile Include="Domain\Activity\IActivityElapsed.cs" />
+    <Compile Include="Domain\Activity\IActivityItem.cs" />
+    <Compile Include="Domain\Activity\IActivityTimestamps.cs" />
+    <Compile Include="Domain\Activity\IActivityWhen.cs" />
+    <Compile Include="Domain\Comments\IComment.cs" />
+    <Compile Include="Domain\Results\ISetAsSeenResult.cs" />
+    <Compile Include="Domain\Users\IAccount.cs" />
+    <Compile Include="Domain\Users\IShiftvUserStats.cs" />
+    <Compile Include="Domain\Users\IUser.cs" />
+    <Compile Include="Domain\Crawler\INameMap.cs" />
+    <Compile Include="Domain\Images\IAvatar.cs" />
+    <Compile Include="Domain\Images\IBanner.cs" />
+    <Compile Include="Domain\Images\IClearart.cs" />
+    <Compile Include="Domain\Images\IFanart.cs" />
+    <Compile Include="Domain\Images\IGlobalImageData.cs" />
+    <Compile Include="Domain\Images\IHeadshot.cs" />
+    <Compile Include="Domain\Images\ILogo.cs" />
+    <Compile Include="Domain\Images\IPoster.cs" />
+    <Compile Include="Domain\Images\IScreenshot.cs" />
+    <Compile Include="Domain\Images\IThumb.cs" />
+    <Compile Include="Domain\Movies\IIds.cs" />
+    <Compile Include="Domain\Movies\IMiniMovie.cs" />
+    <Compile Include="Domain\Peoples\IArt.cs" />
+    <Compile Include="Domain\Peoples\ICamera.cs" />
+    <Compile Include="Domain\Peoples\ICast.cs" />
+    <Compile Include="Domain\Peoples\ICostumeMakeUp.cs" />
+    <Compile Include="Domain\Peoples\ICrew.cs" />
+    <Compile Include="Domain\Peoples\IDirecting.cs" />
+    <Compile Include="Domain\Peoples\IPerson.cs" />
+    <Compile Include="Domain\Peoples\IProduction.cs" />
+    <Compile Include="Domain\Peoples\ISound.cs" />
+    <Compile Include="Domain\Peoples\ITeam.cs" />
+    <Compile Include="Domain\Peoples\IWriting.cs" />
+    <Compile Include="Domain\Results\CreateUserResult.cs" />
+    <Compile Include="Domain\Results\GetCalendarResult.cs" />
+    <Compile Include="Domain\Results\GetShowResult.cs" />
+    <Compile Include="Data\Shows\EpisodeDto.cs" />
+    <Compile Include="Data\Shows\SeasonDto.cs" />
+    <Compile Include="Data\Shows\ShowDto.cs" />
+    <Compile Include="Data\Stats\GeneralStatsDto.cs" />
+    <Compile Include="Data\Stats\RatingDto.cs" />
+    <Compile Include="Data\Users\AccountDetailsDto.cs" />
+    <Compile Include="Data\Users\UserProfileDto.cs" />
+    <Compile Include="Data\Users\UserSharingTextDto.cs" />
+    <Compile Include="Domain\Calendars\ICalendar.cs" />
+    <Compile Include="Domain\Calendars\ICalendarData.cs" />
+    <Compile Include="Domain\Images\IImages.cs" />
+    <Compile Include="Domain\Movies\IDirector.cs" />
+    <Compile Include="Domain\Movies\IMovie.cs" />
+    <Compile Include="Domain\Movies\IProducer.cs" />
+    <Compile Include="Domain\Movies\IWriter.cs" />
+    <Compile Include="Domain\Peoples\IActor.cs" />
+    <Compile Include="Domain\Peoples\IPeople.cs" />
+    <Compile Include="Domain\Peoples\IPeopleImage.cs" />
+    <Compile Include="Data\Results\CreateUserResultDto.cs" />
+    <Compile Include="Data\Results\GetCalendarResultDto.cs" />
+    <Compile Include="Data\Results\GetShowResultDto.cs" />
+    <Compile Include="Data\Users\LoginUserResultDto.cs" />
+    <Compile Include="Domain\Comments\ICommentResult.cs" />
+    <Compile Include="Domain\Results\ICheckinResult.cs" />
+    <Compile Include="Domain\Results\IGenericPostResult.cs" />
+    <Compile Include="Domain\Results\INetworkApproveDenyResult.cs" />
+    <Compile Include="Domain\Results\INetworkFollowResult.cs" />
+    <Compile Include="Domain\Results\IRateResult.cs" />
+    <Compile Include="Domain\Results\RequestResults.cs" />
+    <Compile Include="Domain\Results\ResultBase.cs" />
+    <Compile Include="Domain\Shows\IAirs.cs" />
+    <Compile Include="Domain\Shows\IEpisode.cs" />
+    <Compile Include="Domain\Shows\IEpisodesProgress.cs" />
+    <Compile Include="Domain\Shows\ILinkInfo.cs" />
+    <Compile Include="Domain\Shows\IMediaStream.cs" />
+    <Compile Include="Domain\Shows\IMiniShow.cs" />
+    <Compile Include="Domain\Shows\ISeason.cs" />
+    <Compile Include="Domain\Shows\ISeasonProgress.cs" />
+    <Compile Include="Domain\Shows\IShow.cs" />
+    <Compile Include="Domain\Categories\ICategory.cs" />
+    <Compile Include="Domain\Shows\IShowProgressStats.cs" />
+    <Compile Include="Domain\Shows\ISubtitlesInfo.cs" />
+    <Compile Include="Domain\Shows\ISubtitlesLanguage.cs" />
+    <Compile Include="Domain\Shows\StreamQuality.cs" />
+    <Compile Include="Domain\Stats\IStatistics.cs" />
+    <Compile Include="Domain\Stats\IStatsCheckins.cs" />
+    <Compile Include="Domain\Stats\IStatsCollection.cs" />
+    <Compile Include="Domain\Stats\IStatsComments.cs" />
+    <Compile Include="Domain\Stats\IStatsLists.cs" />
+    <Compile Include="Domain\Stats\IStatsScrobbles.cs" />
+    <Compile Include="Domain\Stats\IDistribution.cs" />
+    <Compile Include="Domain\Stats\IGeneralStats.cs" />
+    <Compile Include="Domain\Stats\IRating.cs" />
+    <Compile Include="Domain\Users\IUserSettings.cs" />
+    <Compile Include="PlatformSpecificServices\IDataBackupService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Accounts\IUserService.cs" />
+    <Compile Include="Services\Activities\IActivityService.cs" />
+    <Compile Include="Services\Calendars\ICalendarService.cs" />
+    <Compile Include="Services\Categories\ICategoryService.cs" />
+    <Compile Include="Services\Comments\ICommentService.cs" />
+    <Compile Include="Services\CoreServices.cs" />
+    <Compile Include="Services\Crawler\IAnimeRealmCrawler.cs" />
+    <Compile Include="Services\Crawler\ICrawlerHelper.cs" />
+    <Compile Include="Services\Crawler\ICrawlerService.cs" />
+    <Compile Include="Services\Crawler\IMoviesHdCoCrawler.cs" />
+    <Compile Include="Services\Crawler\IOnlineMoviesProCrawler.cs" />
+    <Compile Include="Services\Crawler\IStreamTvCrawler.cs" />
+    <Compile Include="Services\Episodes\IEpisodeService.cs" />
+    <Compile Include="Services\Movies\IMovieService.cs" />
+    <Compile Include="Services\Networks\INetworkService.cs" />
+    <Compile Include="Services\PlatformServices\IDownloadService.cs" />
+    <Compile Include="Services\Seasons\ISeasonService.cs" />
+    <Compile Include="Domain\Shows\IShowProgress.cs" />
+    <Compile Include="Services\Shows\IShowService.cs" />
+    <Compile Include="Services\Stats\IStatisticsService.cs" />
+    <Compile Include="Services\Sync\ISyncService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wp8+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wp8+wpa81\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SimpleInjector">
+      <HintPath>..\packages\SimpleInjector.2.7.2\lib\portable-net4+sl4+wp8+win8+wpa81\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Diagnostics">
+      <HintPath>..\packages\SimpleInjector.2.7.2\lib\portable-net4+sl4+wp8+win8+wpa81\SimpleInjector.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shiftv.Global\Shiftv.Global.csproj">
+      <Project>{F3AE0D8B-800D-43AB-9C0C-5BAC5C8AAC5D}</Project>
+      <Name>Shiftv.Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

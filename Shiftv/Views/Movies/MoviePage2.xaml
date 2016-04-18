@@ -1,0 +1,472 @@
+﻿<Page
+    x:Name="PageRoot"
+    x:Class="Shiftv.Views.Movies.MoviePage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:movies="using:Shiftv.ViewModels.Movies"
+    xmlns:playerFramework="using:Microsoft.PlayerFramework"
+    xmlns:handlers="using:Shiftv.Views.Handlers"
+    xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:appBar="using:Shiftv.Views.AppBar"
+    xmlns:controls="using:Callisto.Controls"
+    mc:Ignorable="d" 
+    >
+    <Page.DataContext>
+        <movies:MovieViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Common/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <CollectionViewSource x:Name="cvs4" />
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="MainGrid">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <SemanticZoom  x:Name="Zoom">
+            <SemanticZoom.ZoomedInView>
+                <Hub x:Name="ShowHub" LayoutUpdated="Hub_LayoutUpdated" Loaded="FrameworkElement_OnLoaded" >
+                    <Hub.Header>
+                        <!-- Back button and page title -->
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Background="{StaticResource ShiftvDarkGreen}" Width="80" Height="70">
+                                <Button Margin="15,-1,10,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=PageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Center"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" HorizontalAlignment="Left"/>
+                            </Grid>
+                        </Grid>
+                    </Hub.Header>
+
+                    <HubSection Width="1020" Margin="0,0,80,0">
+                        <HubSection.Background>
+                            <ImageBrush Opacity="0.6" Stretch="UniformToFill" ImageSource="{Binding Movie.Image.Fanart.Full}" />
+                        </HubSection.Background>
+                        <DataTemplate>
+                            <Grid Margin="0 0 80 0" VerticalAlignment="Bottom">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <StackPanel Grid.Row="0"></StackPanel>
+                                <Grid Margin="{Binding MarginTopHeight}" >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <StackPanel Orientation="Horizontal" Margin="5">
+                                            <FontIcon FontSize="32" FontFamily="Segoe UI Symbol" Glyph="&#xE0B4;" Foreground="{StaticResource ShiftvYellow}" Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            <TextBlock Text="{Binding Movie.Rating}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock Text="{Binding Movie.Votes}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5 0 10 3" FontSize="22"></TextBlock>
+                                            <Image Source="ms-appx:///Assets/imdb.png" Width="32" Margin="15 0 10 0"  Height="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            <TextBlock Text="{Binding Movie.ImdbRating}" Style="{StaticResource SeriePageHeaders}" FontWeight="Normal" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <Image Source="ms-appx:///Assets/live.png" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15 0 10 0"></Image>
+                                            <TextBlock Text="{Binding Movie.Released}" Style="{StaticResource SeriePageHeaders}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                        </StackPanel>
+                                    </Grid>
+                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Background="{StaticResource ShiftvDarkGreen}" Margin="0 10 0 0">
+                                        <StackPanel>
+                                            <TextBlock HorizontalAlignment="Left"
+                                                       Style="{StaticResource SeriePageTitle}" Margin="20 5 10 10"
+                                                       Text="{Binding Movie.Title}" MaxWidth="600" TextTrimming="None"
+                                                       TextWrapping="Wrap">
+                                            </TextBlock>
+                                        </StackPanel>
+                                        <FontIcon FontSize="45" Visibility="{Binding Movie.IsRated, Converter={StaticResource BooleanToVisibility}}" Style="{StaticResource StarIcon}"  Margin="35 0 5 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        <TextBlock FontSize="45" Visibility="{Binding Movie.IsRated, Converter={StaticResource BooleanToVisibility}}" Text="{Binding Movie.RatedValue}" Style="{StaticResource SeriePageTitle}" Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        <FontIcon FontSize="40" Visibility="{Binding IsInWatchList, Converter={StaticResource BooleanToVisibility}}" FontFamily="Segoe UI Symbol" Glyph="&#x1f55d;" Foreground="{StaticResource ShiftvLightGreen}" Margin="15 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        <FontIcon FontSize="40" Visibility="{Binding Watched, Converter={StaticResource BooleanToVisibility}}" FontFamily="Segoe UI Symbol" Style="{StaticResource SeenIcon}" Foreground="White " Margin="15 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                                        <TextBlock FontSize="45" Text=" " Style="{StaticResource SeriePageTitle}" Margin="0 0 25 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <Grid Grid.Row="2" Margin="0 10 0 0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <Image Source="ms-appx:///Assets/logonoback.png" Stretch="None" HorizontalAlignment="Center"></Image>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection Width="230" VerticalAlignment="Top" Header="{Binding [Ads], Source={StaticResource Localized}}" IsHeaderInteractive="False" Padding="20 -50 0 80"  Visibility="{Binding IsToShowAds, Converter={StaticResource BooleanToVisibility}}">
+                        <DataTemplate>
+                            <appBar:PubControlVertical/>
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection Width="520"  Header="{Binding [Trailer], Source={StaticResource Localized}}" IsHeaderInteractive="False" Padding="20 -50 0 80" Margin="120 0 0 0">
+                        <DataTemplate>
+                            <Grid x:Name="playerGrid" Loaded="PlayerGrid_OnLoaded">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Canvas x:Name="playerCanvas" Loaded="PlayerCanvas_OnLoaded" Width="500" Height="300" SizeChanged="playerCanvas_SizeChanged" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                    <Canvas.RenderTransform>
+                                        <TranslateTransform x:Name="CanvasMover"/>
+                                    </Canvas.RenderTransform>
+                                    <playerFramework:MediaPlayer MediaOpened="TrailerPlayer_OnMediaOpened" Width="500" Height="300" AutoPlay="False" x:Name="TrailerPlayer" Source="{Binding Trailer}" Loaded="TrailerPlayer_OnLoaded" IsFullScreenVisible="True" IsFullScreenChanged="player_IsFullScreenChanged"/>
+                                </Canvas>
+                                <TextBlock Margin="20 5 20 10" Grid.Row="1" Text="{Binding Movie.TagLine}" Style="{StaticResource MoviePageTagline}" TextWrapping="WrapWholeWords" TextAlignment="Justify" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+                                <Grid Grid.Row="2" Margin="0 40 0 0" Background="{StaticResource ShiftvDarkGreen}" x:Name="PreviousButton"  Height="80" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <interactivity:Interaction.Behaviors>
+                                        <core:EventTriggerBehavior EventName="Tapped">
+                                            <core:InvokeCommandAction Command="{Binding PlayMovieClicked}"/>
+                                        </core:EventTriggerBehavior>
+                                    </interactivity:Interaction.Behaviors>
+                                    <StackPanel Orientation="Horizontal" Margin="15">
+                                        <Path Data="F1M1188.2,1715.23L1169.93,1728.57 1151.66,1741.9 1151.66,1715.23 1151.66,1688.57 1169.93,1701.9 1188.2,1715.23z" Stretch="Uniform" Fill="#FFFFFFFF" Width="45" Height="45" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5"/>
+                                        <TextBlock FontWeight="Light" Margin="20 -5 10 0" FontSize="45" Foreground="White" Style="{StaticResource EpisodeTitle}" Text="{Binding [SeeFullMovie_Upper], Source={StaticResource Localized}}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+
+                    <HubSection Width="1000" Header="{Binding [MovieDescription], Source={StaticResource Localized}}" Margin="150 0 0 0" Padding="0 -50 0 80">
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Image MaxHeight="700" Source="{Binding Movie.Image.Poster.Full}" Stretch="UniformToFill" Grid.Row="0" Grid.Column="0" Margin="-2,0,2,0"></Image>
+                                </Grid>
+                                <ScrollViewer HorizontalScrollMode="Disabled" Grid.Column="1" Margin="30 0 0 0" VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+                                    <Grid Margin="0 0 5 0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="0" Style="{StaticResource ShowDescriptionSinopse}" Margin="0,0,0,10"
+                                    Text="{Binding [Sinopse_Upper_DoubleDots], Source={StaticResource Localized}}"  />
+                                        <TextBlock Grid.Row="1" Style="{StaticResource BodyTextBlockStyle }" TextWrapping="WrapWholeWords"
+                                 VerticalAlignment="Bottom" TextAlignment="Justify" HorizontalAlignment="Left"   Text="{Binding Movie.Sinopse}"/>
+
+
+                                        <StackPanel Margin="0 15 0 0" Grid.Row="2" Orientation="Horizontal">
+                                            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource ShowDescriptionSubtitles}" Margin="0,0,0,0"
+                                   Text="{Binding [Duration_Upper_DoubleDots], Source={StaticResource Localized}}"/>
+                                            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource SubheaderTextBlockStyle}" Margin="10,0,0,0"
+                                   Text="{Binding Movie.Runtime}" Padding="0 0 0 5"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="0 15 0 0" Grid.Row="3" Orientation="Horizontal">
+                                            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource ShowDescriptionSubtitles}" Margin="0,0,0,0"
+                                 Text="{Binding [Released_Upper_DoubleDots], Source={StaticResource Localized}}"/>
+                                            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource SubheaderTextBlockStyle}" Margin="10,0,0,0"
+                                   Text="{Binding Movie.Released}" Padding="0 0 0 5"/>
+                                        </StackPanel>
+                                        <StackPanel Margin="0 15 0 0" Grid.Row="4" Orientation="Horizontal">
+                                            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource ShowDescriptionSubtitles}" Margin="0,0,0,0"
+                                   Text="{Binding [Genres_Upper_DoubleDots], Source={StaticResource Localized}}" />
+                                            <TextBlock MaxWidth="300" VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource SubheaderTextBlockStyle}" Margin="10,0,0,0"
+                                   Text="{Binding Movie.Genres}" Padding="0 0 0 5" TextWrapping="WrapWholeWords"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </ScrollViewer>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+
+                    <HubSection Header="{Binding [Actors], Source={StaticResource Localized}}" Width="500"  Margin="150 0 0 0" Padding="0 -50 0 80">
+                        <DataTemplate>
+                            <Grid>
+                                <ProgressRing Margin="0 20 0 0" IsActive="{Binding IsLoadingActors}" Visibility="{Binding IsLoadingActors, Converter={StaticResource BooleanToVisibility}}" Foreground="White" Width="40" Height="40" VerticalAlignment="Top"></ProgressRing>
+
+
+                                <!-- width of 400 -->
+                                <ListView Width="480" IsSwipeEnabled="False" ItemsSource="{Binding Actors}" SelectionMode="None" ItemContainerStyle="{StaticResource EpisodeListViewItemStyle}">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Height="180" Margin="0 10 0 10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                                                    <ColumnDefinition Width="0.7*"></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid Grid.Column="0">
+                                                    <Image Source="{Binding Image.Medium}" Stretch="UniformToFill"></Image>
+                                                </Grid>
+                                                <Grid Grid.Column="1" Margin="25 0 0 0">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto"></RowDefinition>
+                                                        <RowDefinition Height="Auto"></RowDefinition>
+                                                        <RowDefinition Height="Auto"></RowDefinition>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid Grid.Row="0" Margin="0,0,0,0" >
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Grid Grid.Column="0">
+                                                            <TextBlock Text="{Binding Name}" TextWrapping="Wrap" Style="{StaticResource SerieEpisodeTitle}"></TextBlock>
+                                                        </Grid>
+
+                                                    </Grid>
+                                                    <StackPanel Margin="0 10 0 0" Grid.Row="1" Orientation="Horizontal">
+                                                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource ShowDescriptionSubtitles}" Margin="0,0,0,0"
+                                   Text="{Binding Character}"/>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+
+                                </ListView>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+
+
+
+                    <HubSection  Margin="150 0 0 0" Header="{Binding [UserComments], Source={StaticResource Localized}}" Padding="0 -50 0 80">
+                        <DataTemplate>
+                            <Grid Grid.Column="2" Margin="0 0 40 40" Width="500"  x:Name="comments">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="180"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Margin="0 25 0 0" Visibility="{Binding IsUserLogged, Converter={StaticResource BooleanNotToVisibility}}" HorizontalAlignment="Center" VerticalAlignment="Top">
+                                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Style="{StaticResource RedSadSmileImage}"></Image>
+                                        <TextBlock Style="{StaticResource ErrorMainMessage}"  Text="{Binding [CommentLoginErrorMainMessage], Source={StaticResource Localized}}" HorizontalAlignment="Center"></TextBlock>
+                                        <TextBlock Style="{StaticResource ErrorSubMessage}"   Text="{Binding [CommentLoginErrorSubMessage_Bracket], Source={StaticResource Localized}}" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Width="500" Grid.Row="0" Margin="0 0 0 0" Visibility="{Binding IsUserLogged, Converter={StaticResource BooleanToVisibility}}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,15,10">
+                                            <Grid  Height="50" Width="50">
+                                                <Image Visibility="{Binding CurrentUserAccount.User.IsGold, Converter={StaticResource BooleanToVisibility}}" Source="ms-appx:///Assets/goldUser.png" Width="15" VerticalAlignment="Top" Margin="0 0 0 0" HorizontalAlignment="Left"></Image>
+                                                <Image Visibility="{Binding CurrentUserAccount.User.IsSilver, Converter={StaticResource BooleanToVisibility}}" Source="ms-appx:///Assets/silverUser.png" Width="15" VerticalAlignment="Top" Margin="0 0 0 0" HorizontalAlignment="Left"></Image>
+
+                                                <Ellipse Height="40" Width="40" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                    <Ellipse.Fill>
+                                                        <ImageBrush ImageSource="{Binding CurrentUserAccount.Avatar}"
+                                                                                    AlignmentX="Center"
+                                                                                    AlignmentY="Center" />
+                                                    </Ellipse.Fill>
+                                                </Ellipse>
+
+                                            </Grid>
+                                            <StackPanel Orientation="Vertical">
+                                                <TextBlock Text="{Binding CurrentUserAccount.Username}" Foreground="{StaticResource ShiftvDarkGreen}" Margin="20 0 0 0" FontSize="30" Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"></TextBlock>
+
+                                            </StackPanel>
+                                            <ProgressRing  Margin="20 0 0 0" IsActive="{Binding IsTryingToComment}" Visibility="{Binding IsTryingToComment, Converter={StaticResource BooleanToVisibility}}" Foreground="White" Width="25" Height="25" VerticalAlignment="Center"></ProgressRing>
+
+                                        </StackPanel>
+                                    </Grid>
+                                    <StackPanel Height="80"  Grid.Row="1" Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                            <TextBlock Foreground="{Binding NumLettersColorBrush}" Text="{Binding NumLetters}" x:Name="TotalWords" FontSize="16"  Style="{StaticResource BodyTextBlockStyle}"></TextBlock>
+                                            <TextBlock Foreground="{Binding NumLettersColorBrush}" Margin="7 0 0 0" Text="words" x:Name="TotalWordsText"  FontSize="16" Style="{StaticResource BodyTextBlockStyle}"></TextBlock>
+                                        </StackPanel>
+                                        <TextBox x:Name="CommentTextBox"  Height="60"  IsEnabled="{Binding IsTryingToComment,Converter={StaticResource NegateBoolean}}" TextWrapping="Wrap" IsSpellCheckEnabled="True" AcceptsReturn="True"  Text="{Binding NewComment, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                                        </TextBox>
+                                    </StackPanel>
+                                    <Grid Grid.Row="2">
+                                        <StackPanel Orientation="Horizontal">
+                                            <CheckBox IsEnabled="{Binding IsTryingToComment,Converter={StaticResource NegateBoolean}}" IsChecked="{Binding IsSpoiler, Mode=TwoWay}" Content="{Binding [ContainsSpoil], Source={StaticResource Localized}}"></CheckBox>
+                                            <CheckBox IsEnabled="{Binding IsTryingToComment,Converter={StaticResource NegateBoolean}}" Margin="20 0 0 0" IsChecked="{Binding IsReview, Mode=TwoWay}" Content="{Binding [IsReview], Source={StaticResource Localized}}"></CheckBox>
+                                        </StackPanel>
+                                        <Button IsEnabled="{Binding IsCommentButtonEnabled}" Content="{Binding [AddComment], Source={StaticResource Localized}}" Command="{Binding AddComment}" HorizontalAlignment="Right" VerticalAlignment="Stretch" ></Button>
+                                    </Grid>
+                                </Grid>
+                                <Grid Grid.Row="1" Margin="0 20 0 0" Visibility="{Binding NoCommentsAvailable, Converter={StaticResource BooleanToVisibility}}" HorizontalAlignment="Center" VerticalAlignment="Top">
+                                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Style="{StaticResource RedSadSmileImage}"></Image>
+                                        <TextBlock Style="{StaticResource ErrorMainMessage}" Text="{Binding [NoCommentsErrorMainMessage], Source={StaticResource Localized}}"></TextBlock>
+                                        <TextBlock Style="{StaticResource ErrorSubMessage}" Text="{Binding [NoCommentsErrorSubMessage_Bracket], Source={StaticResource Localized}}" ></TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                                <ProgressRing Margin="0 20 0 0" Grid.Row="1" IsActive="{Binding IsLoadingComments}" Visibility="{Binding IsLoadingComments, Converter={StaticResource BooleanToVisibility}}" Foreground="White" Width="40" Height="40" VerticalAlignment="Top"></ProgressRing>
+                                <ListView IsSwipeEnabled="False" Margin="0 20 0 0"  Grid.Row="1" ItemsSource="{Binding Comments}" SelectionMode="None" ItemContainerStyle="{StaticResource EpisodeListViewItemStyle}">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Width="500" Margin="0 10 0 20">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition ></RowDefinition>
+                                                    <RowDefinition ></RowDefinition>
+                                                </Grid.RowDefinitions>
+                                                <Grid Grid.Column="0">
+                                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,15,10">
+                                                        <Grid  Height="70" Width="70">
+                                                            <Image Visibility="{Binding User.IsGold,Converter={StaticResource BooleanToVisibility}}" Margin="0 0 0 0" Source="ms-appx:///Assets/goldUser.png" Width="20" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                                            <Image Visibility="{Binding User.IsSilver, Converter={StaticResource BooleanToVisibility}}" Margin="0 0 0 0" Source="ms-appx:///Assets/silverUser.png" Width="20" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+
+                                                            <Ellipse Height="60" Width="60" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                                <Ellipse.Fill>
+                                                                    <ImageBrush ImageSource="{Binding User.Avatar}"
+                                                                                    AlignmentX="Center"
+                                                                                    AlignmentY="Center" />
+                                                                </Ellipse.Fill>
+                                                            </Ellipse>
+
+                                                        </Grid>
+                                                        <StackPanel Orientation="Vertical">
+                                                            <TextBlock Text="{Binding User.Username}" Foreground="{StaticResource ShiftvDarkGreen}" Margin="20 0 0 0" FontSize="30" Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"></TextBlock>
+                                                            <TextBlock Text="{Binding CommentDate}" Margin="19 3 0 0" FontSize="14" Style="{StaticResource BodyTextBlockStyle}"  VerticalAlignment="Center"></TextBlock>
+
+                                                        </StackPanel>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <TextBlock Grid.Row="1" Margin="80 0 50 0" Text="{Binding Comment}" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                                                <StackPanel   Grid.Row="1" MinHeight="50" Visibility="{Binding IsSpoiler, Converter={StaticResource BooleanToVisibility}}" Background="{StaticResource BackgroundColorNearBlack}" DoubleTapped="UIElement_OnDoubleTapped">
+                                                    <TextBlock Text="{Binding [SpoilerAlertMainMessage_Upper], Source={StaticResource Localized}}" Style="{StaticResource SpoilerAlert}" ></TextBlock>
+                                                    <TextBlock Style="{StaticResource SpoilerAlertSub}" Text="{Binding [SpoilerAlertSubMessage_Bracket], Source={StaticResource Localized}}" ></TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+                </Hub>
+            </SemanticZoom.ZoomedInView>
+            <SemanticZoom.ZoomedOutView>
+                <GridView ItemsSource="{Binding Source={StaticResource cvs4}}" SelectionMode="None" Grid.Row="1" Margin="80,80,0,0">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="{StaticResource ShiftvDarkGreen}" Width="200" Height="200">
+                                <TextBlock Text="{Binding}" HorizontalAlignment="Center"  VerticalAlignment="Center" FontFamily="Segoe UI" FontWeight="Bold" FontSize="16"/>
+                            </Border>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </SemanticZoom.ZoomedOutView>
+        </SemanticZoom>
+        <Border Visibility="{Binding IsRatingVisible, Converter={StaticResource BooleanToVisibility}}" Tapped="TappedMainGrid" Background="{StaticResource BackgroundColorAlmostBlack}" Opacity="0.4"/>
+        <Grid Background="{StaticResource BackgroundColorAlmostBlack}" Visibility="{Binding IsRatingVisible, Converter={StaticResource BooleanToVisibility}}" Grid.Row="0" VerticalAlignment="Center"  HorizontalAlignment="Center" >
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <controls:Rating FontSize="45"  Grid.Row="1" Margin="0 5" SelectionMode="Continuous" ValueChanged="Rating_OnValueChanged" Value="{Binding RatingValue}"  ItemCount="10" Background="Transparent" Foreground="Gold" HorizontalAlignment="Left" VerticalAlignment="Center" >
+
+                </controls:Rating>
+                <TextBlock Grid.Row="0" FontSize="20" Margin="0 0 0 0" Style="{StaticResource TitleTextBlockStyle}" Text="your rating" VerticalAlignment="Bottom"></TextBlock>
+
+            </Grid>
+        </Grid>
+        <handlers:InternetConnectionHandler VerticalAlignment="Top" HorizontalAlignment="Center">
+
+        </handlers:InternetConnectionHandler>
+        <Button x:Name="AppBarButton" Click="ClickOpenAppBar" Width="70" Height="45" Margin="10 0 100 -5" Padding="0 10 0 0" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="{StaticResource ShiftvDarkGreen}">
+            <Image Source="ms-appx:///Assets/threedots.png" Width="40"></Image>
+        </Button>
+        <appBar:RemovePubControl Margin="0 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                      />
+    </Grid>
+    <Page.BottomAppBar >
+        <CommandBar IsOpen="{Binding IsAppBarOpen}" x:Name="BottomAppBar"  Background="{StaticResource BackgroundColorAppBar}" BorderBrush="{x:Null}">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="{Binding [RateMovie], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding OpenRating}" >
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE0B4;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="{Binding [Seen], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetAsSeen}" Visibility="{Binding Watched, Converter={StaticResource BooleanNotToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource SeenIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Label="{Binding [NotSeen], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetAsUnseen}" Visibility="{Binding Watched, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon  Style="{StaticResource SeenIcon}" RenderTransformOrigin="0.5,0.55">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleY="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Command="{Binding AddToWatchList}"  IsEnabled="{Binding CanUseAppBarButtons}" Label="{Binding [AddToWatchlist], Source={StaticResource Localized}}" Visibility="{Binding IsInWatchList, Converter={StaticResource BooleanNotToVisibility}}">
+                    <AppBarButton.Icon  >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#x1f55d;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Command="{Binding RemoveFromWatchList}"  IsEnabled="{Binding CanUseAppBarButtons}" Label="{Binding [RemoveFromWatchlist], Source={StaticResource Localized}}" Visibility="{Binding IsInWatchList, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#x1f55d;" RenderTransformOrigin="0.5,0.5">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleX="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+    <!--<Page.BottomAppBar >
+        <CommandBar x:Name="BottomAppBar"  Background="{StaticResource BackgroundColorAppBar}" BorderBrush="{x:Null}">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="love" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetLove}" Visibility="{Binding CanLove, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE0A5;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="hate" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetHate}" Visibility="{Binding CanHate, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE007;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="{Binding [Seen], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetAsSeen}" Visibility="{Binding Watched, Converter={StaticResource BooleanNotToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon Style="{StaticResource SeenIcon}"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Label="{Binding [NotSeen], Source={StaticResource Localized}}" IsEnabled="{Binding CanUseAppBarButtons}" Command="{Binding SetAsUnseen}" Visibility="{Binding Watched, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon  Style="{StaticResource SeenIcon}" RenderTransformOrigin="0.5,0.55">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleY="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Command="{Binding AddToWatchList}" IsEnabled="{Binding CanUseAppBarButtons}" Label="add watchlist" Visibility="{Binding IsInWatchList, Converter={StaticResource BooleanNotToVisibility}}">
+                    <AppBarButton.Icon  >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#x1f55d;"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+
+                <AppBarButton Command="{Binding RemoveFromWatchList}" IsEnabled="{Binding CanUseAppBarButtons}" Label="del watchlist" Visibility="{Binding IsInWatchList, Converter={StaticResource BooleanToVisibility}}">
+                    <AppBarButton.Icon >
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#x1f55d;" RenderTransformOrigin="0.5,0.5">
+                            <FontIcon.RenderTransform>
+                                <ScaleTransform ScaleX="-1" />
+                            </FontIcon.RenderTransform>
+                        </FontIcon>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>-->
+</Page>

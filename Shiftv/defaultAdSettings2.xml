@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CultureDescriptors CultureName="">
+    <PubCenter AppId="d25517cb-12d4-4699-8bdc-52040c712cab" SecondaryId="10043136" Probability="0"/>
+    <AdDuplex AppId="118607" Probability="100"/>
+    <Smaato AppId="0" SecondaryId="0" Probability="0"/>
+	</CultureDescriptors>
+</AdSettings>

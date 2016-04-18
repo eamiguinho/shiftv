@@ -1,0 +1,1190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Trending" xml:space="preserve">
+    <value>trending</value>
+    <comment>trending</comment>
+  </data>
+  <data name="Animes" xml:space="preserve">
+    <value>Animes</value>
+    <comment>animes</comment>
+  </data>
+  <data name="MyShows" xml:space="preserve">
+    <value>my shows</value>
+    <comment>MyShows</comment>
+  </data>
+  <data name="Recommend" xml:space="preserve">
+    <value>recommended</value>
+    <comment>recommend</comment>
+  </data>
+  <data name="FreshShows" xml:space="preserve">
+    <value>New &amp; Fresh</value>
+    <comment>Fresh &amp; new shows</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="ErrorLoadingText1" xml:space="preserve">
+    <value>oops, some error ocorred while trying to get data</value>
+    <comment>ErrorLoadingText1</comment>
+  </data>
+  <data name="ErrorLoadingText2" xml:space="preserve">
+    <value>(you can click retry, but check your connection and proxies or come back later)</value>
+    <comment>ErrorLoadingText2</comment>
+  </data>
+  <data name="TopTrakt" xml:space="preserve">
+    <value>Top Trakt</value>
+    <comment>Top Trakt</comment>
+  </data>
+  <data name="A" xml:space="preserve">
+    <value>a</value>
+    <comment>a</comment>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>add comment</value>
+    <comment>AddComment</comment>
+  </data>
+  <data name="AddedToCollection" xml:space="preserve">
+    <value>added to collection</value>
+    <comment>AddedToCollection</comment>
+  </data>
+  <data name="AddToWatchlist" xml:space="preserve">
+    <value>add to watchlist</value>
+    <comment>AddToWatchlist</comment>
+  </data>
+  <data name="Ads" xml:space="preserve">
+    <value>ads</value>
+    <comment>ads</comment>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>ago</value>
+    <comment>Ago</comment>
+  </data>
+  <data name="AirDay" xml:space="preserve">
+    <value>air day</value>
+    <comment>AirDay</comment>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>apr</value>
+    <comment>April</comment>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>aug</value>
+    <comment>August</comment>
+  </data>
+  <data name="AvailableOffline" xml:space="preserve">
+    <value>available offline</value>
+    <comment>AvailableOffline</comment>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>next</value>
+    <comment>Next</comment>
+  </data>
+  <data name="BtnPrev" xml:space="preserve">
+    <value>prev</value>
+    <comment>Previous abbr.</comment>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>calendar</value>
+    <comment>Calendar</comment>
+  </data>
+  <data name="CalendarMessage" xml:space="preserve">
+    <value>added to your</value>
+    <comment>ADDED TO YOUR</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="ChangeStream" xml:space="preserve">
+    <value>change stream</value>
+    <comment>ChangeStream</comment>
+  </data>
+  <data name="CheckIn" xml:space="preserve">
+    <value>check in</value>
+    <comment>CheckIn</comment>
+  </data>
+  <data name="Cinema" xml:space="preserve">
+    <value>cinema</value>
+    <comment>Cinema</comment>
+  </data>
+  <data name="CommentLoginErrorMainMessage" xml:space="preserve">
+    <value>sign in is requirement to do a comment, please sign in!</value>
+    <comment>to comment need to be signed in, this message will show when user is a GUEST</comment>
+  </data>
+  <data name="CommentLoginErrorSubMessage" xml:space="preserve">
+    <value>you can login in settings or social area on main pages</value>
+    <comment>to comment need to be signed in, this message will show when user is a GUEST</comment>
+  </data>
+  <data name="ContainsSpoil" xml:space="preserve">
+    <value>contains spoil?</value>
+    <comment>ContainsSpoil</comment>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>country</value>
+    <comment>country</comment>
+  </data>
+  <data name="CrawlingMessage" xml:space="preserve">
+    <value>searching in the internet for streams, this can take a minute, please support us: </value>
+    <comment>CrawlingMessage</comment>
+  </data>
+  <data name="CrawlingNotFound" xml:space="preserve">
+    <value>sorry no streams for this yet, please check again soon!</value>
+    <comment>CrawlingNotFound</comment>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>sign up</value>
+    <comment>Create</comment>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>create new account</value>
+    <comment>CreateNewAccount</comment>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>dec</value>
+    <comment>December</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>email</value>
+    <comment>Email</comment>
+  </data>
+  <data name="Enjoy" xml:space="preserve">
+    <value>enjoy</value>
+    <comment>Enjoy</comment>
+  </data>
+  <data name="Episode" xml:space="preserve">
+    <value>episode</value>
+    <comment>Episode</comment>
+  </data>
+  <data name="Episodes" xml:space="preserve">
+    <value>episodes</value>
+    <comment>episodes</comment>
+  </data>
+  <data name="ErrorAddingCommentText" xml:space="preserve">
+    <value>can not comment right now, please try again, sorry.</value>
+    <comment>ErrorAddingCommentText</comment>
+  </data>
+  <data name="ErrorAddingCommentTitle" xml:space="preserve">
+    <value>error adding a comment</value>
+    <comment>ErrorAddingCommentTitle</comment>
+  </data>
+  <data name="ErrorAddToWatchListText" xml:space="preserve">
+    <value>can not add to your watchlist right now, please try again later, sorry.</value>
+    <comment>ErrorAddToWatchListText</comment>
+  </data>
+  <data name="ErrorAddToWatchListTitle" xml:space="preserve">
+    <value>error adding to watchlist</value>
+    <comment>ErrorAddToWatchListTitle</comment>
+  </data>
+  <data name="ErrorCheckInText" xml:space="preserve">
+    <value>can not checkin right now, please try again later, sorry.</value>
+    <comment>ErrorCheckInText</comment>
+  </data>
+  <data name="ErrorCheckInTitle" xml:space="preserve">
+    <value>error checking in</value>
+    <comment>ErrorCheckInTitle</comment>
+  </data>
+  <data name="ErrorNavigateToShow" xml:space="preserve">
+    <value>shiftv can not get data about this show now, please check your connection or try again</value>
+    <comment>ErrorNavigateToShow</comment>
+  </data>
+  <data name="ErrorNavigateToShowTitle" xml:space="preserve">
+    <value>error getting data</value>
+    <comment>ErrorNavigateToShowTitle</comment>
+  </data>
+  <data name="ErrorRatingText" xml:space="preserve">
+    <value>can not rate right now, please try again later, sorry.</value>
+    <comment>ErrorRatingText</comment>
+  </data>
+  <data name="ErrorRatingTitle" xml:space="preserve">
+    <value>error trying to rate</value>
+    <comment>ErrorRatingTitle</comment>
+  </data>
+  <data name="ErrorRemoveFromWatchListText" xml:space="preserve">
+    <value>can not remove from watchlist right now, please try again later, sorry.</value>
+    <comment>ErrorRemoveFromWatchListText</comment>
+  </data>
+  <data name="ErrorRemoveFromWatchListTitle" xml:space="preserve">
+    <value>error removing from watchlist</value>
+    <comment>ErrorRemoveFromWatchListTitle</comment>
+  </data>
+  <data name="ErrorSetAsSeenText" xml:space="preserve">
+    <value>can not set as seen right now, please try again later, sorry.</value>
+    <comment>ErrorSetAsSeenText</comment>
+  </data>
+  <data name="ErrorSetAsSeenTitle" xml:space="preserve">
+    <value>error seting as seen</value>
+    <comment>ErrorSetAsSeenTitle</comment>
+  </data>
+  <data name="ErrorSetAsUnseenText" xml:space="preserve">
+    <value>can not set as unseen right now, please try again later, sorry.</value>
+    <comment>ErrorSetAsUnseenText</comment>
+  </data>
+  <data name="ErrorSetAsUnseenTitle" xml:space="preserve">
+    <value>error seting as unseen</value>
+    <comment>ErrorSetAsUnseenTitle</comment>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>feb</value>
+    <comment>Feb</comment>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>female</value>
+    <comment>female</comment>
+  </data>
+  <data name="Fri" xml:space="preserve">
+    <value>fri</value>
+    <comment>Fri</comment>
+  </data>
+  <data name="Genres" xml:space="preserve">
+    <value>genres</value>
+    <comment>Genres</comment>
+  </data>
+  <data name="Hate" xml:space="preserve">
+    <value>hate</value>
+    <comment>Hate</comment>
+  </data>
+  <data name="Hi" xml:space="preserve">
+    <value>hi</value>
+    <comment>Hi</comment>
+  </data>
+  <data name="Hybrid" xml:space="preserve">
+    <value>Hybrid</value>
+    <comment>Hybrid</comment>
+  </data>
+  <data name="IsFollowingYou" xml:space="preserve">
+    <value>is following you</value>
+    <comment>IsFollowingYou</comment>
+  </data>
+  <data name="IsFollowUser" xml:space="preserve">
+    <value>you follow this user</value>
+    <comment>IsFollowUser</comment>
+  </data>
+  <data name="IsFriend" xml:space="preserve">
+    <value>is your friend</value>
+    <comment>IsFriend</comment>
+  </data>
+  <data name="IsReview" xml:space="preserve">
+    <value>is a review?</value>
+    <comment>IsReview</comment>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>jan</value>
+    <comment>Jan</comment>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>jul</value>
+    <comment>Jul</comment>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>jun</value>
+    <comment>June</comment>
+  </data>
+  <data name="JustCheckedInTo" xml:space="preserve">
+    <value>just checked in to</value>
+    <comment>JustCheckedInTo</comment>
+  </data>
+  <data name="JustNow" xml:space="preserve">
+    <value>just now</value>
+    <comment>JustNow</comment>
+  </data>
+  <data name="JustSeen" xml:space="preserve">
+    <value>just watched</value>
+    <comment>JustSeen</comment>
+  </data>
+  <data name="LastEpisode" xml:space="preserve">
+    <value>last episode</value>
+    <comment>LastEpisode</comment>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>limited</value>
+    <comment>Limited</comment>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>love</value>
+    <comment>Love</comment>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>male</value>
+    <comment>Male</comment>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>manager</value>
+    <comment>Manager</comment>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>mar</value>
+    <comment>March</comment>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>may</value>
+    <comment>May</comment>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+    <comment>minutes</comment>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>mon</value>
+    <comment>Mon</comment>
+  </data>
+  <data name="Movie" xml:space="preserve">
+    <value>movie</value>
+    <comment>Movie</comment>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>network</value>
+    <comment>Network</comment>
+  </data>
+  <data name="Neverland" xml:space="preserve">
+    <value>neverland</value>
+    <comment>Neverland</comment>
+  </data>
+  <data name="NextEpisode" xml:space="preserve">
+    <value>next episode</value>
+    <comment>next episode</comment>
+  </data>
+  <data name="NoAge" xml:space="preserve">
+    <value>no age? who is this guy?</value>
+    <comment>NoAge</comment>
+  </data>
+  <data name="NoCommentsErrorMainMessage" xml:space="preserve">
+    <value>no comments here yet, join the community, be the first!</value>
+    <comment>NoCommentsErrorMainMessage</comment>
+  </data>
+  <data name="NoCommentsErrorSubMessage" xml:space="preserve">
+    <value>but please don't say first :P</value>
+    <comment>NoCommentsErrorSubMessage</comment>
+  </data>
+  <data name="NoIdea" xml:space="preserve">
+    <value>no idea</value>
+    <comment>NoIdea</comment>
+  </data>
+  <data name="NotificationMessage" xml:space="preserve">
+    <value>will be notified</value>
+    <comment>will be notified</comment>
+  </data>
+  <data name="NotificationMessageTime" xml:space="preserve">
+    <value>30 minutes earlier</value>
+    <comment>30 minutes earlier</comment>
+  </data>
+  <data name="NotSeen" xml:space="preserve">
+    <value>not seen</value>
+    <comment>NotSeen</comment>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>nov</value>
+    <comment>November</comment>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>oct</value>
+    <comment>October</comment>
+  </data>
+  <data name="OtherEpisodes" xml:space="preserve">
+    <value>previous episodes</value>
+    <comment>other episodes</comment>
+  </data>
+  <data name="Over9000" xml:space="preserve">
+    <value>Over 9000!</value>
+    <comment>Over9000</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>password</value>
+    <comment>Password</comment>
+  </data>
+  <data name="ProtectedProfile" xml:space="preserve">
+    <value>protected profile</value>
+    <comment>ProtectedProfile</comment>
+  </data>
+  <data name="Rated" xml:space="preserve">
+    <value>rated</value>
+    <comment>Rated</comment>
+  </data>
+  <data name="RemoveFromWatchlist" xml:space="preserve">
+    <value>remove from watchlist</value>
+    <comment>RemoveFromWatchlist</comment>
+  </data>
+  <data name="Reviewed" xml:space="preserve">
+    <value>reviewed</value>
+    <comment>Reviewed</comment>
+  </data>
+  <data name="Runtime" xml:space="preserve">
+    <value>runtime</value>
+    <comment>Runtime</comment>
+  </data>
+  <data name="Sat" xml:space="preserve">
+    <value>sat</value>
+    <comment>Sat</comment>
+  </data>
+  <data name="Scrobbled" xml:space="preserve">
+    <value>scrobbled</value>
+    <comment>Scrobbled</comment>
+  </data>
+  <data name="Season" xml:space="preserve">
+    <value>season</value>
+    <comment>Season</comment>
+  </data>
+  <data name="Seen" xml:space="preserve">
+    <value>seen</value>
+    <comment>Seen</comment>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>sep</value>
+    <comment>September</comment>
+  </data>
+  <data name="Shouted" xml:space="preserve">
+    <value>shouted</value>
+    <comment>Shouted</comment>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>show</value>
+    <comment>Show</comment>
+  </data>
+  <data name="ShowActors" xml:space="preserve">
+    <value>show actors</value>
+    <comment>ShowActors</comment>
+  </data>
+  <data name="ShowDesc" xml:space="preserve">
+    <value>show description</value>
+    <comment>ShowDesc</comment>
+  </data>
+  <data name="ShowSeasons" xml:space="preserve">
+    <value>Show Seasons</value>
+    <comment>Show Seasons</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>sign in</value>
+    <comment>SignIn</comment>
+  </data>
+  <data name="SignInUnknown" xml:space="preserve">
+    <value>enter as guest</value>
+    <comment>SignInUnknown</comment>
+  </data>
+  <data name="Sinopse" xml:space="preserve">
+    <value>sinopse</value>
+    <comment>Sinopse</comment>
+  </data>
+  <data name="SpoilerAlertMainMessage" xml:space="preserve">
+    <value>spoiler alert!</value>
+    <comment>SpoilerAlertMainMessage</comment>
+  </data>
+  <data name="SpoilerAlertSubMessage" xml:space="preserve">
+    <value>double tap to see</value>
+    <comment>SpoilerAlertSubMessage</comment>
+  </data>
+  <data name="StartedWatching" xml:space="preserve">
+    <value>started watching</value>
+    <comment>StartedWatching</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="Stream" xml:space="preserve">
+    <value>stream</value>
+    <comment>stream</comment>
+  </data>
+  <data name="Sun" xml:space="preserve">
+    <value>sun</value>
+    <comment>Sun</comment>
+  </data>
+  <data name="Tba" xml:space="preserve">
+    <value>tba</value>
+    <comment>Tba</comment>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>thu</value>
+    <comment>Thu</comment>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>today</value>
+    <comment>Today</comment>
+  </data>
+  <data name="Tomorrow" xml:space="preserve">
+    <value>tomorrow</value>
+    <comment>Tomorrow</comment>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>tue</value>
+    <comment>Tue</comment>
+  </data>
+  <data name="TvShows" xml:space="preserve">
+    <value>tv shows</value>
+    <comment>TvShows</comment>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>unknown</value>
+    <comment>Unknown</comment>
+  </data>
+  <data name="UserComments" xml:space="preserve">
+    <value>user comments</value>
+    <comment>UserComments</comment>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>username</value>
+    <comment>Username</comment>
+  </data>
+  <data name="WaitingForApproval" xml:space="preserve">
+    <value>waiting for approval</value>
+    <comment>WaitingForApproval</comment>
+  </data>
+  <data name="Watchlisted" xml:space="preserve">
+    <value>watchlisted</value>
+    <comment>Watchlisted</comment>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>wed</value>
+    <comment>Wed</comment>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>welcome to shiftv!</value>
+    <comment>WelcomeMessage</comment>
+  </data>
+  <data name="WelcomeMessageSub" xml:space="preserve">
+    <value>please login with your trakt account or create a new account free!</value>
+    <comment>WelcomeMessageSub</comment>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>year</value>
+    <comment>year</comment>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>yesterday</value>
+    <comment>Yesterday</comment>
+  </data>
+  <data name="MyMovies" xml:space="preserve">
+    <value>my movies</value>
+    <comment>MyMovies</comment>
+  </data>
+  <data name="Actors" xml:space="preserve">
+    <value>actors</value>
+    <comment>Actors</comment>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>runtime</value>
+    <comment>Duration</comment>
+  </data>
+  <data name="ErrorConnectionMainMessage" xml:space="preserve">
+    <value>shiftv detect a problem on your connection</value>
+    <comment>ErrorConnectionMainMessage</comment>
+  </data>
+  <data name="ErrorConnectionSubMessage" xml:space="preserve">
+    <value>please check your connection and try again</value>
+    <comment>ErrorConnectionSubMessage</comment>
+  </data>
+  <data name="ErrorServersMainMessage" xml:space="preserve">
+    <value>shiftv is having a bad time with servers</value>
+    <comment>ErrorServersMainMessage</comment>
+  </data>
+  <data name="ErrorServersSubMessage" xml:space="preserve">
+    <value>hopefully will be fast, please come back ASAP</value>
+    <comment>ErrorServersSubMessage</comment>
+  </data>
+  <data name="MovieDescription" xml:space="preserve">
+    <value>movie description</value>
+    <comment>MovieDescription</comment>
+  </data>
+  <data name="Released" xml:space="preserve">
+    <value>released</value>
+    <comment>Released</comment>
+  </data>
+  <data name="SeeFullMovie" xml:space="preserve">
+    <value>see full movie</value>
+    <comment>SeeFullMovie</comment>
+  </data>
+  <data name="Trailer" xml:space="preserve">
+    <value>trailer</value>
+    <comment>Trailer</comment>
+  </data>
+  <data name="AirTime" xml:space="preserve">
+    <value>air time</value>
+    <comment>AirTime</comment>
+  </data>
+  <data name="DownloadManager" xml:space="preserve">
+    <value>download manager</value>
+    <comment>DownloadManager</comment>
+  </data>
+  <data name="DownloadQueue" xml:space="preserve">
+    <value>download queue</value>
+    <comment>DownloadQueue</comment>
+  </data>
+  <data name="LastEpisodes" xml:space="preserve">
+    <value>last 5 episodes</value>
+    <comment>LastEpisodes</comment>
+  </data>
+  <data name="LatestActivities" xml:space="preserve">
+    <value>latest activities</value>
+    <comment>LatestActivities</comment>
+  </data>
+  <data name="LoadingOfflineStream" xml:space="preserve">
+    <value>loading local stream</value>
+    <comment>LoadingOfflineStream</comment>
+  </data>
+  <data name="NoEpisodesDownloaded" xml:space="preserve">
+    <value>no episodes downloaded yet</value>
+    <comment>NoEpisodesDownloaded</comment>
+  </data>
+  <data name="NoFilesInQueue" xml:space="preserve">
+    <value>no files in the queue at the moment</value>
+    <comment>NoFilesInQueue</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>select all</value>
+    <comment>SelectAll</comment>
+  </data>
+  <data name="SomeLovedMovies" xml:space="preserve">
+    <value>some loved movies</value>
+    <comment>SomeLovedMovies</comment>
+  </data>
+  <data name="SomeLovedShows" xml:space="preserve">
+    <value>some loved shows</value>
+    <comment>SomeLovedShows</comment>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>unselect all</value>
+    <comment>UnselectAll</comment>
+  </data>
+  <data name="UserStats" xml:space="preserve">
+    <value>user stats</value>
+    <comment>UserStats</comment>
+  </data>
+  <data name="FriendsActivities" xml:space="preserve">
+    <value>Friends activities</value>
+    <comment>FriendsActivities</comment>
+  </data>
+  <data name="NoActivitiesMessage" xml:space="preserve">
+    <value>no activities yet, add some friends!</value>
+    <comment>NoActivitiesMessage</comment>
+  </data>
+  <data name="NotSignedIn" xml:space="preserve">
+    <value>this is not for guests, please sign in</value>
+    <comment>NotSignedIn</comment>
+  </data>
+  <data name="SearchEverything" xml:space="preserve">
+    <value>search for everything</value>
+    <comment>SearchEverything</comment>
+  </data>
+  <data name="NoDataMainMessage" xml:space="preserve">
+    <value>sorry but shiftv don't have anything to show to you here</value>
+    <comment>NoDataMainMessage</comment>
+  </data>
+  <data name="NoDataSubMessage" xml:space="preserve">
+    <value>try to use more this app and the info will appear</value>
+    <comment>NoDataSubMessage</comment>
+  </data>
+  <data name="SubtitlesProcessMessage" xml:space="preserve">
+    <value>Processing subtitles, the CC button will be enabled after finish this process</value>
+    <comment>SubtitlesProcessMessage</comment>
+  </data>
+  <data name="SubtitlesNotAvailable" xml:space="preserve">
+    <value>shiftv dont found any subtitles for this yet, sorry.</value>
+    <comment>SubtitlesNotAvailable</comment>
+  </data>
+  <data name="Boring" xml:space="preserve">
+    <value>boring!</value>
+    <comment>Boring</comment>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>can not login please check your connection </value>
+    <comment>CheckInternetConnection</comment>
+  </data>
+  <data name="DmcaAgg" xml:space="preserve">
+    <value>DMCA aggrement</value>
+    <comment>DmcaAgg</comment>
+  </data>
+  <data name="ErrorUsernamePassword" xml:space="preserve">
+    <value>invalid credentials, please try again</value>
+    <comment>ErrorUsernamePassword</comment>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>friends</value>
+    <comment>Friends</comment>
+  </data>
+  <data name="LegalInformation" xml:space="preserve">
+    <value>legal information</value>
+    <comment>LegalInformation</comment>
+  </data>
+  <data name="MainSubtitleLanguage" xml:space="preserve">
+    <value>main subtitle language</value>
+    <comment>MainSubtitleLanguage</comment>
+  </data>
+  <data name="Movies" xml:space="preserve">
+    <value>movies</value>
+    <comment>Movies</comment>
+  </data>
+  <data name="NoActivitiesYet" xml:space="preserve">
+    <value>no activities yet, try to add some friends!</value>
+    <comment>NoActivitiesYet</comment>
+  </data>
+  <data name="NoLovedMovies" xml:space="preserve">
+    <value>is lonely here, this user doesn't love movies</value>
+    <comment>NoLovedMovies</comment>
+  </data>
+  <data name="NoLovedShows" xml:space="preserve">
+    <value>is lonely here, this user doesn't love shows</value>
+    <comment>NoLovedShows</comment>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>nothing :(</value>
+    <comment>Nothing</comment>
+  </data>
+  <data name="NoUserActivity" xml:space="preserve">
+    <value>is lonely here, this user don't do anything</value>
+    <comment>NoUserActivity</comment>
+  </data>
+  <data name="SearchPlaceHolder" xml:space="preserve">
+    <value>movies, shows, users</value>
+    <comment>SearchPlaceHolder</comment>
+  </data>
+  <data name="SecondarySubtitleLanguage" xml:space="preserve">
+    <value>secondary subtitle language</value>
+    <comment>SecondarySubtitleLanguage</comment>
+  </data>
+  <data name="TermsAndServices" xml:space="preserve">
+    <value>terms and services</value>
+    <comment>TermsAndServices</comment>
+  </data>
+  <data name="UsernamePasswordRequired" xml:space="preserve">
+    <value>username and password are required</value>
+    <comment>UsernamePasswordRequired</comment>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>users</value>
+    <comment>Users</comment>
+  </data>
+  <data name="ErrorCheckInTextRetry" xml:space="preserve">
+    <value>shiftv can not check in now because you are already checked in to another episode or movie, do you want to cancel the old check in and check in to this one? or you can just say NO and checkin later</value>
+    <comment>ErrorCheckInTextRetry</comment>
+  </data>
+  <data name="NoSubsSettings" xml:space="preserve">
+    <value>subtitles are disabled, if you want to use subtitles choose the languages on app settings panel</value>
+    <comment>NoSubsSettings</comment>
+  </data>
+  <data name="Animation" xml:space="preserve">
+    <value>Animation</value>
+    <comment>Animation</comment>
+  </data>
+  <data name="TopImdb" xml:space="preserve">
+    <value>Top IMDB</value>
+    <comment>TopImdb</comment>
+  </data>
+  <data name="MinutesReduced" xml:space="preserve">
+    <value>min</value>
+    <comment>MinutesReduced</comment>
+  </data>
+  <data name="MyWatchlist" xml:space="preserve">
+    <value>my watchlist</value>
+    <comment>MyWatchlist</comment>
+  </data>
+  <data name="SeenPrevious" xml:space="preserve">
+    <value>set this &amp; all previous as seen</value>
+    <comment>SeenPrevious</comment>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="DashboardErrorMessageText" xml:space="preserve">
+    <value>you can add your favorite tv shows to your dashboard adding them to watchlist</value>
+    <comment>DashboardErrorMessageText</comment>
+  </data>
+  <data name="DashboardErrorMessageTitle" xml:space="preserve">
+    <value>sorry but you don't have any show watchlisted and not even an episode as seen</value>
+    <comment>DashboardErrorMessageTitle</comment>
+  </data>
+  <data name="EpisodesAired" xml:space="preserve">
+    <value>episodes aired</value>
+    <comment>EpisodesAired</comment>
+  </data>
+  <data name="EpisodesLeftToSee" xml:space="preserve">
+    <value>episodes left to see</value>
+    <comment>EpisodesLeftToSee</comment>
+  </data>
+  <data name="LeftToSee" xml:space="preserve">
+    <value>left to see</value>
+    <comment>LeftToSee</comment>
+  </data>
+  <data name="OverallProgress" xml:space="preserve">
+    <value>overall progress</value>
+    <comment>OverallProgress</comment>
+  </data>
+  <data name="RandomEpisode" xml:space="preserve">
+    <value>random episode</value>
+    <comment>RandomEpisode</comment>
+  </data>
+  <data name="TotalSeenEpisodes" xml:space="preserve">
+    <value>total seen episodes</value>
+    <comment>TotalSeenEpisodes</comment>
+  </data>
+  <data name="YourTvShows" xml:space="preserve">
+    <value>your tv shows</value>
+    <comment>YourTvShows</comment>
+  </data>
+  <data name="NewEpisode" xml:space="preserve">
+    <value>has a new episode</value>
+    <comment>NewEpisode</comment>
+  </data>
+  <data name="PubHorizontalText" xml:space="preserve">
+    <value>one click per day please :)</value>
+    <comment>PubHorizontalText</comment>
+  </data>
+  <data name="PubVerticalText" xml:space="preserve">
+    <value>one click per day can make the difference :)</value>
+    <comment>PubVerticalText</comment>
+  </data>
+  <data name="ChangeToCinema" xml:space="preserve">
+    <value>change to cinema</value>
+    <comment>ChangeToCinema</comment>
+  </data>
+  <data name="ChangeToTvShows" xml:space="preserve">
+    <value>change to tv shows</value>
+    <comment>ChangeToTvShows</comment>
+  </data>
+  <data name="BuyFirstPageButton1" xml:space="preserve">
+    <value>remove ads</value>
+    <comment>BuyFirstPageButton1</comment>
+  </data>
+  <data name="BuyFirstPageButton2" xml:space="preserve">
+    <value>remove ads and help shiftv get new servers *</value>
+    <comment>BuyFirstPageButton2</comment>
+  </data>
+  <data name="BuyFirstPageButton3" xml:space="preserve">
+    <value>remove ads and become a main supporter of shiftv **</value>
+    <comment>BuyFirstPageButton3</comment>
+  </data>
+  <data name="BuyFirstPageExtra1" xml:space="preserve">
+    <value>* helper badge on the app (to apply the badge to your account you need to be logged)</value>
+    <comment>BuyFirstPageExtra1</comment>
+  </data>
+  <data name="BuyFirstPageExtra2" xml:space="preserve">
+    <value>** badge on the app and t-shirt (will require your email address and to apply the badge to your account you need to be logged)</value>
+    <comment>BuyFirstPageExtra2</comment>
+  </data>
+  <data name="BuyFirstPageTitle" xml:space="preserve">
+    <value>do you want to remove ads? pick one of the packs!</value>
+    <comment>BuyFirstPageTitle</comment>
+  </data>
+  <data name="BuyPack3EmailButtonText" xml:space="preserve">
+    <value>finish your purchase</value>
+    <comment>BuyPack3EmailButtonText</comment>
+  </data>
+  <data name="BuyPack3EmailError" xml:space="preserve">
+    <value>please insert a valid email address</value>
+    <comment>BuyPack3EmailError</comment>
+  </data>
+  <data name="BuyPack3EmailMessage" xml:space="preserve">
+    <value>can you fill your email and we will contact you in less than 48 hours to get more info to send the t-shirt! Thanks hero!</value>
+    <comment>BuyPack3EmailMessage</comment>
+  </data>
+  <data name="BuyPack3EmailMessage2" xml:space="preserve">
+    <value>enter your email here</value>
+    <comment>BuyPack3EmailMessage2</comment>
+  </data>
+  <data name="BuyPageAlreadyPurchased" xml:space="preserve">
+    <value>you already have purchased this pack, some problem? send email to: shiftv@gmail.com</value>
+    <comment>BuyPageAlreadyPurchased</comment>
+  </data>
+  <data name="BuyPageError" xml:space="preserve">
+    <value>sorry :( something went wrong on the purchase please, try again later</value>
+    <comment>BuyPageError</comment>
+  </data>
+  <data name="BuyPageSuccessMessage1" xml:space="preserve">
+    <value>thanks! now you will not see ads on shiftv anymore, enjoy!</value>
+    <comment>BuyPageSuccessMessage1</comment>
+  </data>
+  <data name="BuyPageSuccessMessage2" xml:space="preserve">
+    <value>thanks a lot, ads just dissapear, and you become a silver contributer. Congrats!</value>
+    <comment>BuyPageSuccessMessage2</comment>
+  </data>
+  <data name="BuyPageSuccessMessage3" xml:space="preserve">
+    <value>thanks a lot, ads just dissapear, and you become a gold contributer. Congrats!</value>
+    <comment>BuyPageSuccessMessage3</comment>
+  </data>
+  <data name="MovieReleaseMessage" xml:space="preserve">
+    <value>This movie was released less than a month ago, so probably you will not get a stream or get a CAM stream with bad quality, do you want to continue?</value>
+    <comment>MovieReleaseMessage</comment>
+  </data>
+  <data name="MovieReleaseTitle" xml:space="preserve">
+    <value>Release date less than a month ago</value>
+    <comment>MovieReleaseTitle</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="ReviewFacebook" xml:space="preserve">
+    <value>Like shiftv facebook page</value>
+    <comment>ReviewFacebook</comment>
+  </data>
+  <data name="ReviewQuestion" xml:space="preserve">
+    <value>liked to see this movie or episode? so do not forget to make a review in the store and follow the shiftv on social networks!</value>
+    <comment>ReviewQuestion</comment>
+  </data>
+  <data name="ReviewQuestion2" xml:space="preserve">
+    <value>do you loved to use shiftv until now? so do not forget to make a review in the store and follow the shiftv on social networks!</value>
+  </data>
+  <data name="ReviewStopMessage" xml:space="preserve">
+    <value>I already review shiftv on store and don't ask me again</value>
+    <comment>ReviewStopMessage</comment>
+  </data>
+  <data name="ReviewStore" xml:space="preserve">
+    <value>Rate and review on store</value>
+    <comment>ReviewStore</comment>
+  </data>
+  <data name="ReviewTwitter" xml:space="preserve">
+    <value>Follow shiftv on twitter</value>
+    <comment>ReviewTwitter</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="FirstLoginAttemptMessage" xml:space="preserve">
+    <value>Shiftv needs to have connection to the servers at least the first time that you try to login on this machine, so we sorry for this inconvinence but try again later or go by now with guest login</value>
+    <comment>FirstLoginAttemptMessage</comment>
+  </data>
+  <data name="FirstLoginAttemptTitle" xml:space="preserve">
+    <value>First time login error</value>
+    <comment>FirstLoginAttemptTitle</comment>
+  </data>
+  <data name="FlipViewBye1" xml:space="preserve">
+    <value>My job here is done, now its time to do yours!</value>
+    <comment>FlipViewBye1</comment>
+  </data>
+  <data name="FlipViewBye2" xml:space="preserve">
+    <value>Shiftv have a lot of features and it's quite big, you will learn how to use it, using it not with a big tutorial.</value>
+    <comment>FlipViewBye2</comment>
+  </data>
+  <data name="FlipViewBye3" xml:space="preserve">
+    <value>I hope you like shiftv and becomes your app number one!</value>
+    <comment>FlipViewBye3</comment>
+  </data>
+  <data name="FlipViewBye4" xml:space="preserve">
+    <value>You will see me back, sometimes i'm randomly summoned.</value>
+    <comment>FlipViewBye4</comment>
+  </data>
+  <data name="FlipViewGlobalButtons1" xml:space="preserve">
+    <value>Global app buttons and actions</value>
+    <comment>FlipViewGlobalButtons1</comment>
+  </data>
+  <data name="FlipViewGlobalButtons2" xml:space="preserve">
+    <value>You will see in different pages of the app buttons to get more options and interact with tv shows or movies</value>
+    <comment>FlipViewGlobalButtons2</comment>
+  </data>
+  <data name="FlipViewGlobalButtons3" xml:space="preserve">
+    <value>Indicates that have a navigation menu on top, or a options menu on bottom.</value>
+    <comment>FlipViewGlobalButtons3</comment>
+  </data>
+  <data name="FlipViewGlobalButtons4" xml:space="preserve">
+    <value>Add TV show or movie to your watchlist.</value>
+    <comment>FlipViewGlobalButtons4</comment>
+  </data>
+  <data name="FlipViewGlobalButtons5" xml:space="preserve">
+    <value>Set one episode or movie as seen.</value>
+    <comment>FlipViewGlobalButtons5</comment>
+  </data>
+  <data name="FlipViewGlobalButtons6" xml:space="preserve">
+    <value>Check in to an episode or movie, will be tagged as seen after seeing one episode or movie.</value>
+    <comment>FlipViewGlobalButtons6</comment>
+  </data>
+  <data name="FlipViewGlobalButtons7" xml:space="preserve">
+    <value>Love or Hate episodes, tv shows and movies.</value>
+    <comment>FlipViewGlobalButtons7</comment>
+  </data>
+  <data name="FlipViewShows1" xml:space="preserve">
+    <value>On TV shows you have a lot of pages, most of them are lists of tv shows with different context like</value>
+    <comment>FlipViewShows1</comment>
+  </data>
+  <data name="FlipViewShows2" xml:space="preserve">
+    <value>but you have some pages related to your account, like:</value>
+    <comment>FlipViewShows2</comment>
+  </data>
+  <data name="FlipViewShows3" xml:space="preserve">
+    <value>calendar with respective episodes of your watchlisted TV Shows.</value>
+    <comment>FlipViewShows3</comment>
+  </data>
+  <data name="FlipViewShows4" xml:space="preserve">
+    <value>page with all your watchlisted TV shows and episodes left to see, global statistics and random episode from your watchlist.</value>
+    <comment>FlipViewShows4</comment>
+  </data>
+  <data name="FlipViewWelcome1" xml:space="preserve">
+    <value>Hi my name is Shifty!</value>
+    <comment>FlipViewWelcome1</comment>
+  </data>
+  <data name="FlipViewWelcome2" xml:space="preserve">
+    <value>I will help you to understand how shiftv works, since is your first time using it, just swipe or click next to start the tutorial.</value>
+    <comment>FlipViewWelcome2</comment>
+  </data>
+  <data name="FlipViewWelcome3" xml:space="preserve">
+    <value>You can always quit clicking X on this page.</value>
+    <comment>FlipViewWelcome3</comment>
+  </data>
+  <data name="GlobalSettings" xml:space="preserve">
+    <value>global settings</value>
+    <comment>GlobalSettings</comment>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>or</value>
+    <comment>Or</comment>
+  </data>
+  <data name="SettingsLogInOut" xml:space="preserve">
+    <value>Sign in / Sign out</value>
+    <comment>SettingsLogInOut</comment>
+  </data>
+  <data name="OscarsMovies" xml:space="preserve">
+    <value>2016 Oscars Predictions</value>
+    <comment>OscarsMovies</comment>
+  </data>
+  <data name="OscarsNominees" xml:space="preserve">
+    <value>2016 Oscars Predictions</value>
+  </data>
+  <data name="RateShow" xml:space="preserve">
+    <value>rate show</value>
+    <comment>RateShow</comment>
+  </data>
+  <data name="RateEpisode" xml:space="preserve">
+    <value>rate episode</value>
+    <comment>RateEpisode</comment>
+  </data>
+  <data name="AddToHistory" xml:space="preserve">
+    <value>add to history</value>
+    <comment>AddToHistory</comment>
+  </data>
+  <data name="UpdateShow" xml:space="preserve">
+    <value>force update</value>
+    <comment>UpdateShow</comment>
+  </data>
+  <data name="ErrorUpdatingShowText" xml:space="preserve">
+    <value>one error ocurred while trying to update this show, please try again later</value>
+    <comment>ErrorUpdatingShowText</comment>
+  </data>
+  <data name="ErrorUpdatingShowTitle" xml:space="preserve">
+    <value>Update failed</value>
+    <comment>ErrorUpdatingShowText</comment>
+  </data>
+  <data name="RateMovie" xml:space="preserve">
+    <value>rate movie</value>
+    <comment>RateMovie</comment>
+  </data>
+  <data name="ChristmasMovies" xml:space="preserve">
+    <value>Christmas spirit</value>
+    <comment>ChristmasMovies</comment>
+  </data>
+</root>

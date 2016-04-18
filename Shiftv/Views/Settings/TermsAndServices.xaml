@@ -1,0 +1,159 @@
+﻿<SettingsFlyout
+    x:Class="Shiftv.Views.Settings.TermsAndServices"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shiftv.Views.Settings"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="ms-appx:///Assets/SmallLogo.png"
+    Title="Terms and Services"
+    RequestedTheme="Dark"
+        Width="450"
+    d:DesignWidth="346" Background="{StaticResource BackgroundColorAlmostBlack}">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="{Binding [TermsAndServices_Capital], Source={StaticResource Localized}}" />
+
+            <!-- Section 1 body -->
+                <TextBlock xml:space="preserve" Style="{StaticResource BodyTextBlockStyle}"  TextWrapping="Wrap">
+                    <TextBlock.Text  >
+By continuing to use this app, you agree to the following terms and conditions. If you do not agree to these terms and conditions, please stop using this app. The term “us” or “we” refers to the owner of the app while the term “you” refers to its user(s) or viewer(s). We reserve the right to make changes to the terms and conditions. Please check this page periodically to view any changes.
+
+1. Content
+
+While using Shiftv, you will have access to content posted by our members, including links to apps that are not affiliated with us. In addition to the information distributed by other users, you may also post text, links or other content to the app. However, it shall be your own responsibility to ensure that the information you make post is accurate.
+
+1.1 Posts under Creative Commons License
+We accept posts made under the Creative Commons Attribution-Share Alike License, which is incorporated into this pact by reference. By publishing content to the app, you agree to the terms and conditions of the Creative Commons Attribution-Share Alike License. Therefore, you grant to both Shiftv and its users an unrestricted, royalty free right to use, reproduce, modify, distribute copies and create derivative works of your post as provided in the Creative Commons Attribution-Share Alike License. Aside from other rights and restrictions, the Creative Commons Attribution-Share Alike License allows others to copy, modify and create derivative works of your post and provides that the distribution of your post or modifications thereof may be used and distributed by others as long as such uses are attributed to the appropriate author or licensors and are subject to the terms and conditions of the Creative Commons Attribution-Share Alike License. Make sure you review the terms and conditions of the Creative Commons Attribution-Share Alike License before making a post.
+
+1.2 Posting Limitations
+Shiftv encourages an open exchange of information and ideas. You accede that you are solely responsible for your use of any information or materials on this app and for any posts you make. You agree not to submit any post that is unlawful, harassing, defamatory, threatening, hateful, racially or ethnically offensive, or encourages conduct that would be considered a criminal offense or give rise to civil liability. The materials which are harmful to minors, are a falsehood or misrepresentation that could damage Shiftv or any third party, make or provide instructional information about illegal activities, such as making or buying illegal weapons or illegal substances, or violate any third party’s privacy or similar rights are also inadmissible.
+
+1.3 Intellectual Property Rights
+You agree not to submit information that is copyrighted, protected by trade secret or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from the rightful owner to post such material to the app and to spread such content under the Creative Commons Attribution-Share Alike License.
+
+1.4 User Opinions
+Users may associate tags, ratings, comments or other opinions with posts. Such comments may misrepresent your information or may be otherwise disparaging, embarrassing, defamatory or unfavorable.
+
+1.5 Placement and Distribution of Posts
+You agree that Shiftv shall have the right to include or otherwise associate advertising, promotional and other content with your posts.
+
+1.6 Access to Service
+You must be at least 13 year old to use the app.
+
+2. Shiftv Licenses and Restrictions
+
+2.1 Shiftv Licenses
+Subject to the terms and conditions of this pact and the Creative Commons Attribution-Share Alike License, Shiftv grants you a nonexclusive, nontransferable, revocable license to access the app solely for your personal, non-commercial use.
+
+2.2 Marks
+Although we make this app freely accessible, we don’t intend to give up our rights or anyone else’s rights. All Shiftv trade marks, names, service marks, logos and other marks of attribution displayed on the app are the property of Shiftv. Hereby, you may not use or display these marks without their owner’s written consent specifically approving such activity. Unauthorized use of this app may give rise to a claim for damages and/or be a criminal offense.
+
+2.3 Attribution
+This app contains material which is owned by or licensed to us. It includes, but is not limited to, the design, layout, appearance and graphics. Furthermore, you may not remove or obscure any marks of attribution or copyright notices associated with posts or other content on the app. Within the meaning of the Creative Commons Attribution-Share Alike License, multiple posts constitute a “Collection”. If you distribute a collection of posts available on Shiftv, you agree to attribute and credit our app as the location of each collection and include its URL. You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by Shiftv of your work, product or service without our express written permission.
+
+2.4 Prohibited Activities
+You may use the app in a manner that is consistent with these rules and in such a way as to ensure concordance with all applicable laws. You agree that you will not:
+
+a) distribute in any medium any part of the app, except to the extent you are permitted to copy, reproduce, adapt and distribute individual posts under the Creative Commons Attribution-Share Alike License;
+b) collect or harvest any personally identifiable information from Shiftv, including but not limited to account names or email addresses, nor use the communication systems provided by the app for any commercial solicitation purposes, such as spreading Spam;
+c) introduce any virus or any other harmful computer software code into Shiftv;
+d) launch any automated system, including without limitation, “spiders”, “robots” or “offline readers” that accesses the app in a manner that sends us more request messages in a given period of time than a human can reasonably produce in the same period by using a conventional on-line web browser;
+e) alter or modify any part of Shiftv and all its related technologies;
+f) access the content of the app through any technology or means other than the graphical user interface provided by Shiftv;
+g) create tools that enable or assist any individual in accomplishing any of the activities forbidden under this pact;
+h) employ any other individual to post or retrieve information to or from the app or engage in any of the activities suppressed under these terms and conditions.
+3. Ownership
+
+3.1 Your Posts
+For the avoidance of doubt, subject to the terms and conditions of the Creative Commons Attribution-Share Alike License, you retain all of your ownership rights in your posts and are responsible for protecting those rights.
+
+3.2 Shiftv Materials
+The materials available on the app are and remain the property of Shiftv and/or its licensors and are protected by copyright, trade mark and other intellectual property laws. Subject to your rights in the content of your posts, we will own any improvements made to the app, even if those are based on your suggestions, feedback or activities.
+
+4. Restricted Areas of the app
+
+To obtain access to certain services on the app, you may be asked to provide personal information and/or create a password-protected account. When creating your account, you must supply accurate and complete information. It is your responsibility to maintain the accuracy of any information provided to Shiftv and to preserve the confidentiality of your password as well as to notify us of any known or suspected unauthorized use of your account. Please inform Shiftv if there is a change in the information you have provided at the time of any registration by resubmitting an updated profile form. You agree that you are responsible for all activities that occur under your account, including without limitation, any debts which may be incurred under your password-protected account, whether or not you are the individual who undertakes such activities.
+
+5. Indemnification
+
+On the chance of going beyond these terms and condition, receiving claims associated with your posts and losing your screen name, account or password to another person, you will defend and indemnify Shiftv and its team from and against all claims, liabilities, demands, allegations, suits, actions, investigations, judgments, deficiencies, settlements, inquiries or other proceedings (“Claims”) made or brought by any third party against us, including without limitation reasonable legal fees and expenses. Shiftv shall provide you with prompt notice of any claim and an opportunity to defend it. More than that, we may participate at your expense in any defense and settlement discussions and we will have the right to approve any settlement agreement intending to bind Shiftv. Therefore, we may, at your expense, take full control of the defense of any claim if we believe that its outcome will prejudice Shiftv.
+
+6. Privacy Policy
+
+Your use of the app is governed by Shiftv’s Privacy Policy, which is incorporated into these terms and conditions by reference.
+
+7. Termination, Content Removal and Retention
+
+Shiftv reserves the right (but assume no obligation) to refuse or terminate service to anyone at any time without prior notice for any reason and to delete, move or edit any posts that come to our attention that we consider unacceptable or inappropriate or we reasonably believe is necessary to satisfy any applicable law, regulation, legal process or governmental request, to enforce this pact, including investigation of potential violations, to detect, prevent or otherwise address fraud, security or technical issues, to respond to our members support requests or to protect the rights, property or safety of the app, its users and the public. Shiftv will not be responsible or liable for the exercise or non-exercise of its rights under these terms and conditions.
+
+8. Third Party Interaction
+
+Shiftv provides, for your convenience, links to other third party apps that are not affiliated with us. You may enter into correspondence with, purchase goods and/or services from, or participate in promotions on such unaffiliated apps. We will not be a party to any contract or transaction entered into by you with any such third party nor will you involve us in any way in any dispute between you and such third party. A link to another app does not constitute an endorsement of that app by Shiftv. We do not endorse, represent, support, or guarantee the truthfulness, accuracy, or reliability of third party content or any post. You acknowledge that any use, access to or reliance on third party apps, posts or content is at your own risk.
+
+9. Copyrights and Copyright Agents
+
+Shiftv RESPECTS THE INTELLECTUAL PROPERTY RIGHTS OF THIRD PARTIES. ITS USERS CAN REMOVE UNAUTHORIZED CONTENT THAT BELONGS TO THEM BY SIMPLY DELETING THAT CONTENT USING THE EDIT FEATURE OR BY FLAGGING THE CONTENT FOR REMOVAL. Shiftv HAS TAKEN ALL REASONABLE MEASURES TO RESPECT THE LAWS OF U.S.
+
+YOU CAN PROVIDE SHIFTV’S COPYRIGHT AGENT WITH THE FOLLOWING INFORMATION:
+
+a) A physical or electronic signature of a person authorized to act on behalf of the owner of the copyright interest.
+b) A description of the copyrighted work that you claim has been infringed. Supposing there are multiple works, it is necessary a representative list of the works. Please note that you will be liable for damages (including costs and attorneys’ fees) if you materially misrepresent that a file infringes your copyrights.
+c) A description of the material that you claim is infringing and sufficient information to establish where it is located on the app, which should include the complete URL associated with each file, image or video. To delete files from Shiftv index, we require an accurate means by which to identify potentially infringing files.
+d) Your address, telephone number and email address.
+e) A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law and a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner’s behalf.
+SHIFTV RESERVES THE RIGHT TO REMOVE CONTENT IN ITS DISCRETION AND DELETE THE ACCOUNTS OF ITS USERS WHO REPEATEDLY INFRINGE, OR APPEAR TO INFRINGE, THE INTELLECTUAL PROPERTY OR OTHER RIGHTS OF THIRD PARTIES. Shiftv HAS IMPLEMENTED A BLACKLIST SYSTEM FOR EXTERNAL LINKS. ONCE A LINK IS REPORTED AND BLACKLISTED, ANY ATTEMPT TO PLACE SUCH CONTENT ON OUR app WILL BE BLOCKED.
+
+10. Disclaimer of Warranty
+
+YOU AGREE THAT YOUR USE OF THE APP IS AT YOUR SOLE RISK. BECAUSE OF THE NUMBER OF POSSIBLE SOURCES OF INFORMATION AVAILABLE THROUGH SHIFTV THERE MAY BE DELAYS, OMISSIONS, INACCURACIES OR OTHER PROBLEMS. WHILST WE WILL ENDEAVOUR TO MAINTAIN THE APP, WE CANNOT GUARANTEE THAT IT WILL ALWAYS BE FULLY OPERATIONAL OR ERROR-FREE. WE MAY CHANGE, RESTRICT ACCESS TO, SUSPEND OR DISCONTINUE SHIFTV AT ANY TIME. SHIFTV DOES NOT WARRANT ANY MATERIAL AVAILABLE ON THE APP OR PROVIDED TO IT BY ANY THIRD PARTY, INCLUDING BUT NOT LIMITED TO USER POSTS, THAT MATERIAL AVAILABLE ON THE APP WILL NOT INFRINGE ANY THIRD PARTY’S INTELLECTUAL PROPERTY RIGHTS OR RIGHTS OF PRIVACY, THE TRUTH, COMPLETENESS OR ACCURACY OF ANY INFORMATION OR MATERIAL ON THE app. WE DO NOT CERTIFY THAT WE CAN PREVENT UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY PERSONAL INFORMATION PROVIDED TO US, ANY TROJAN HORSES, VIRUSES, BUGS, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH THE APP BY ANY THIRD PARTY. THE DISCLAIMERS IN THIS SECTION 10 WILL APPLY EVEN IF ANY WARRANTY PROVIDED UNDER THIS PACT FAILS OF ITS ESSENTIAL PURPOSE. IF Shiftv CANNOT DISCLAIM A WARRANTY, THE DURATION AND SCOPE OF SUCH WARRANTY SHALL BE THE MINIMUM PERMISSIBLE UNDER APPLICABLE LAW.
+
+11. Disclaimer of Liability
+
+11.1 Liability Limit
+SHIFTV CLAIMS NO OWNERSHIP OR CONTROL OVER ANY POST SUBMITTED, POSTED OR DISPLAYED ON THE APP. IT DO NOT REVIEW, CONTROL OR MONITOR POSTS OR CONTENT (AND IT IS NOT OBLIGED TO DO SO UNDER ROMANIAN LAW CLAUSES) PLACED BY USERS AND HEREBY DISCLAIMS ANY LIABILITY FOR THE SAME. Shiftv, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS SHALL NOT BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DAMAGES OR LIABILITIES SUFFERED AS A RESULT OF YOUR USE OF THE APP OR YOUR DOWNLOADING, COPYING OR DISTRIBUTING ANY INFORMATION OR THIRD PARTY CONTENT, INCLUDING BUT NOT LIMITED TO USER POSTS.
+
+11.2 Consequential Damages
+UNDER NO CIRCUMSTANCES SHALL WE BE LIABLE TO YOU OR ANYONE ELSE, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR FOR BREACH OF STATUTORY DUTY OR IN ANY OTHER WAY, FOR ANY CLAIMS, LOSSES, DEMANDS OR DAMAGES ARISING DIRECTLY OR INDIRECTLY OUT OF OR IN ANY WAY CONNECTED WITH YOUR USE OF THE APP.
+
+11.3 Additional Rights
+THE LIMITATIONS IN THIS SECTION 11 WILL APPLY EVEN IF ANY CONSTRAINT ON LIABILITY PROVIDED UNDER THIS AGREEMENT FAILS OF ITS ESSENTIAL PURPOSE. CERTAIN JURISDICTIONS DO NOT ALLOW THE RESTRAINT OF CERTAIN LIABILITIES, SO SOME OF THE EXCLUSIONS SET FORTH ABOVE MAY NOT APPLY TO YOU. IF Shiftv CANNOT DISCLAIM A LIABILITY, THE DURATION AND SCOPE OF SUCH LIABILITY SHALL BE THE MINIMUM PERMISSIBLE UNDER APPLICABLE LAW.
+
+12. General
+
+12.1 Assignment
+These terms of service, in whole or in part, or your rights or obligations under this pact, may not be assigned or transferred by you without Shiftv’s prior written consent. Any attempt by you to assign these rules other than as permitted above will be null and void. However, if you think there are any errors in any material you find on the app, we invite you to bring this to our attention.
+
+12.2 Governing Law
+Any action related to this agreement will be governed by Romanian law (Romanian Civil Procedure Code), without regard to the choice or conflicts of law provisions of any jurisdiction.
+
+12.3 Severability
+If any provision of this pact is held by a court of competent jurisdiction to be contrary to law, then such clause(s) shall be construed, as nearly as possible, to reflect the intentions of the parties, with all other provisions remaining in full force and effect.
+
+12.4 Email Notification
+You hereby consent to receive notification from Shiftv of all notices to the email address that you provide to Shiftv.
+
+12.5 Cooperation
+We respect the privacy of our users. You acknowledge that Shiftv will report to law enforcement authorities any actions that may be considered illegal. When requested, Shiftv will fully cooperate with law enforcement agencies in any investigation of alleged illegal activity on the Internet.
+
+12.6 Miscellaneous
+In the event that any part of these terms of service is found to be invalid or unenforceable for any reason, such invalidity or unenforceability shall not affect the validity or enforceability of any other part of this pact, which shall remain in full force and effect. This agreement is made for the benefit of the parties and not for the benefit of any third parties. This pact will be interpreted in accordance with its terms and conditions and without any strict construction in favor of or against either party.
+                    </TextBlock.Text>
+                </TextBlock>
+          
+
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>
